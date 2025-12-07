@@ -1,0 +1,116 @@
+[2025-12-03 16:32:47] train_n200.py(124) : DEBUG_MODE: False
+[2025-12-03 16:32:47] train_n200.py(125) : USE_CUDA: False, CUDA_DEVICE_NUM: 0
+[2025-12-03 16:32:47] train_n200.py(126) : env_params{'problem_size': 200, 'pomo_size': 200}
+[2025-12-03 16:32:47] train_n200.py(126) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2025-12-03 16:32:47] train_n200.py(126) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [8001, 8051], 'gamma': 0.1}}
+[2025-12-03 16:32:47] train_n200.py(126) : trainer_params{'use_cuda': False, 'cuda_device_num': 0, 'epochs': 50, 'train_episodes': 192, 'train_batch_size': 64, 'use_saved_data': False, 'heuristic': False, 'prev_model_path': None, 'logging': {'model_save_interval': 25, 'img_save_interval': 10, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_esprctw_200.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './result/20251203_134534_train_esprctw_n200', 'epoch': 25}}
+[2025-12-03 16:32:47] train_n200.py(126) : logger_params{'log_file': {'desc': 'train_esprctw_n200', 'filename': 'run_log', 'filepath': './result/20251203_183239_train_esprctw_n200'}}
+[2025-12-03 16:32:50] ESPRCTWTrainer.py(65) : Saved Model Loaded !!
+[2025-12-03 16:32:50] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:33:26] ESPRCTWTrainer.py(163) : Epoch  26: Train  64/192(33.3%)  Score: 8.0172,  Loss: 2.5853
+[2025-12-03 16:34:01] ESPRCTWTrainer.py(163) : Epoch  26: Train 128/192(66.7%)  Score: 7.5832,  Loss: 2.4112
+[2025-12-03 16:34:29] ESPRCTWTrainer.py(163) : Epoch  26: Train 192/192(100.0%)  Score: 7.5904,  Loss: 2.3978
+[2025-12-03 16:34:29] ESPRCTWTrainer.py(168) : Epoch  26: Train (100%)  Score: 7.5904,  Loss: 2.3978
+[2025-12-03 16:34:29] ESPRCTWTrainer.py(96) : Epoch  26/ 50: Time Est.: Elapsed[1.65m], Remain[39.63m]
+[2025-12-03 16:34:29] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:34:32] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:35:52] ESPRCTWTrainer.py(168) : Epoch  27: Train (100%)  Score: 7.0345,  Loss: 2.2747
+[2025-12-03 16:35:52] ESPRCTWTrainer.py(96) : Epoch  27/ 50: Time Est.: Elapsed[3.03m], Remain[34.89m]
+[2025-12-03 16:35:52] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:35:54] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:37:17] ESPRCTWTrainer.py(168) : Epoch  28: Train (100%)  Score: 7.2432,  Loss: 2.5276
+[2025-12-03 16:37:17] ESPRCTWTrainer.py(96) : Epoch  28/ 50: Time Est.: Elapsed[4.46m], Remain[32.71m]
+[2025-12-03 16:37:17] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:37:19] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:38:46] ESPRCTWTrainer.py(168) : Epoch  29: Train (100%)  Score: 7.2684,  Loss: 2.2652
+[2025-12-03 16:38:46] ESPRCTWTrainer.py(96) : Epoch  29/ 50: Time Est.: Elapsed[5.93m], Remain[31.15m]
+[2025-12-03 16:38:46] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:38:48] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:40:05] ESPRCTWTrainer.py(168) : Epoch  30: Train (100%)  Score: 8.1404,  Loss: 2.3593
+[2025-12-03 16:40:05] ESPRCTWTrainer.py(96) : Epoch  30/ 50: Time Est.: Elapsed[7.25m], Remain[29.02m]
+[2025-12-03 16:40:05] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:40:08] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:42:16] ESPRCTWTrainer.py(168) : Epoch  31: Train (100%)  Score: 7.4896,  Loss: 2.1579
+[2025-12-03 16:42:16] ESPRCTWTrainer.py(96) : Epoch  31/ 50: Time Est.: Elapsed[9.44m], Remain[29.91m]
+[2025-12-03 16:42:16] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:42:19] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:44:27] ESPRCTWTrainer.py(168) : Epoch  32: Train (100%)  Score: 7.7419,  Loss: 2.3071
+[2025-12-03 16:44:27] ESPRCTWTrainer.py(96) : Epoch  32/ 50: Time Est.: Elapsed[11.63m], Remain[29.90m]
+[2025-12-03 16:44:27] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:44:30] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:46:11] ESPRCTWTrainer.py(168) : Epoch  33: Train (100%)  Score: 7.2127,  Loss: 2.0131
+[2025-12-03 16:46:11] ESPRCTWTrainer.py(96) : Epoch  33/ 50: Time Est.: Elapsed[13.36m], Remain[28.39m]
+[2025-12-03 16:46:11] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:46:14] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:47:48] ESPRCTWTrainer.py(168) : Epoch  34: Train (100%)  Score: 7.4433,  Loss: 2.2217
+[2025-12-03 16:47:48] ESPRCTWTrainer.py(96) : Epoch  34/ 50: Time Est.: Elapsed[14.98m], Remain[26.62m]
+[2025-12-03 16:47:48] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:47:50] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:49:17] ESPRCTWTrainer.py(168) : Epoch  35: Train (100%)  Score: 7.4043,  Loss: 2.0980
+[2025-12-03 16:49:17] ESPRCTWTrainer.py(96) : Epoch  35/ 50: Time Est.: Elapsed[16.45m], Remain[24.67m]
+[2025-12-03 16:49:17] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:49:19] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:50:46] ESPRCTWTrainer.py(168) : Epoch  36: Train (100%)  Score: 7.3278,  Loss: 1.9941
+[2025-12-03 16:50:46] ESPRCTWTrainer.py(96) : Epoch  36/ 50: Time Est.: Elapsed[17.93m], Remain[22.82m]
+[2025-12-03 16:50:46] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:50:48] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:52:34] ESPRCTWTrainer.py(168) : Epoch  37: Train (100%)  Score: 7.9430,  Loss: 2.1103
+[2025-12-03 16:52:34] ESPRCTWTrainer.py(96) : Epoch  37/ 50: Time Est.: Elapsed[19.73m], Remain[21.38m]
+[2025-12-03 16:52:34] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:52:38] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:55:26] ESPRCTWTrainer.py(168) : Epoch  38: Train (100%)  Score: 7.4513,  Loss: 1.8767
+[2025-12-03 16:55:26] ESPRCTWTrainer.py(96) : Epoch  38/ 50: Time Est.: Elapsed[22.61m], Remain[20.87m]
+[2025-12-03 16:55:26] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:55:38] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 16:58:04] ESPRCTWTrainer.py(168) : Epoch  39: Train (100%)  Score: 7.7707,  Loss: 1.9599
+[2025-12-03 16:58:04] ESPRCTWTrainer.py(96) : Epoch  39/ 50: Time Est.: Elapsed[25.24m], Remain[19.83m]
+[2025-12-03 16:58:04] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 16:58:08] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:00:12] ESPRCTWTrainer.py(168) : Epoch  40: Train (100%)  Score: 7.5100,  Loss: 1.9950
+[2025-12-03 17:00:12] ESPRCTWTrainer.py(96) : Epoch  40/ 50: Time Est.: Elapsed[27.37m], Remain[18.25m]
+[2025-12-03 17:00:12] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:00:22] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:02:02] ESPRCTWTrainer.py(168) : Epoch  41: Train (100%)  Score: 7.4215,  Loss: 1.7669
+[2025-12-03 17:02:02] ESPRCTWTrainer.py(96) : Epoch  41/ 50: Time Est.: Elapsed[29.20m], Remain[16.43m]
+[2025-12-03 17:02:02] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:02:04] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:03:35] ESPRCTWTrainer.py(168) : Epoch  42: Train (100%)  Score: 8.0550,  Loss: 2.0440
+[2025-12-03 17:03:35] ESPRCTWTrainer.py(96) : Epoch  42/ 50: Time Est.: Elapsed[30.75m], Remain[14.47m]
+[2025-12-03 17:03:35] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:03:37] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:05:08] ESPRCTWTrainer.py(168) : Epoch  43: Train (100%)  Score: 7.8350,  Loss: 1.8352
+[2025-12-03 17:05:08] ESPRCTWTrainer.py(96) : Epoch  43/ 50: Time Est.: Elapsed[32.31m], Remain[12.57m]
+[2025-12-03 17:05:08] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:05:11] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:06:38] ESPRCTWTrainer.py(168) : Epoch  44: Train (100%)  Score: 7.9829,  Loss: 1.9044
+[2025-12-03 17:06:38] ESPRCTWTrainer.py(96) : Epoch  44/ 50: Time Est.: Elapsed[33.80m], Remain[10.67m]
+[2025-12-03 17:06:38] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:06:40] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:08:16] ESPRCTWTrainer.py(168) : Epoch  45: Train (100%)  Score: 7.5824,  Loss: 1.8105
+[2025-12-03 17:08:16] ESPRCTWTrainer.py(96) : Epoch  45/ 50: Time Est.: Elapsed[35.45m], Remain[8.86m]
+[2025-12-03 17:08:16] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:08:19] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:09:57] ESPRCTWTrainer.py(168) : Epoch  46: Train (100%)  Score: 7.5614,  Loss: 1.7703
+[2025-12-03 17:09:57] ESPRCTWTrainer.py(96) : Epoch  46/ 50: Time Est.: Elapsed[37.12m], Remain[7.07m]
+[2025-12-03 17:09:57] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:09:59] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:11:26] ESPRCTWTrainer.py(168) : Epoch  47: Train (100%)  Score: 7.8825,  Loss: 1.8179
+[2025-12-03 17:11:26] ESPRCTWTrainer.py(96) : Epoch  47/ 50: Time Est.: Elapsed[38.60m], Remain[5.26m]
+[2025-12-03 17:11:26] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:11:28] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:12:56] ESPRCTWTrainer.py(168) : Epoch  48: Train (100%)  Score: 7.7203,  Loss: 1.6437
+[2025-12-03 17:12:56] ESPRCTWTrainer.py(96) : Epoch  48/ 50: Time Est.: Elapsed[40.11m], Remain[3.49m]
+[2025-12-03 17:12:56] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:13:00] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:14:26] ESPRCTWTrainer.py(168) : Epoch  49: Train (100%)  Score: 7.9576,  Loss: 1.7191
+[2025-12-03 17:14:26] ESPRCTWTrainer.py(96) : Epoch  49/ 50: Time Est.: Elapsed[41.60m], Remain[1.73m]
+[2025-12-03 17:14:26] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:14:28] ESPRCTWTrainer.py(82) : =================================================================
+[2025-12-03 17:16:05] ESPRCTWTrainer.py(168) : Epoch  50: Train (100%)  Score: 7.0487,  Loss: 1.5300
+[2025-12-03 17:16:05] ESPRCTWTrainer.py(96) : Epoch  50/ 50: Time Est.: Elapsed[43.25m], Remain[0.00m]
+[2025-12-03 17:16:05] ESPRCTWTrainer.py(106) : Saving log_image
+[2025-12-03 17:16:07] ESPRCTWTrainer.py(115) : Saving trained_model
+[2025-12-03 17:16:08] ESPRCTWTrainer.py(136) :  *** Training Done *** 
+[2025-12-03 17:16:08] ESPRCTWTrainer.py(137) : Now, printing log array...
+[2025-12-03 17:16:08] utils.py(236) : train_score_list = [0.6656038959821066, 1.8865512212117512, 2.80910595258077, 3.267463763554891, 3.298672358194987, 3.395339012145996, 4.21211314201355, 4.910729090372722, 5.548191070556641, 5.5623369216918945, 5.606675148010254, 6.1120100021362305, 6.474043687184651, 6.617003281911214, 6.425632794698079, 6.622011025746663, 6.502705891927083, 6.15120283762614, 6.603864987691243, 6.890211582183838, 6.524287064870198, 6.881797631581624, 6.7335662841796875, 6.86028512318929, 7.159042994181315, 7.590383847554524, 7.03454605738322, 7.24323034286499, 7.268393834431966, 8.140351136525473, 7.4895955721537275, 7.7419047355651855, 7.2126515706380205, 7.443286259969075, 7.404339790344238, 7.327831904093425, 7.942951679229736, 7.451289176940918, 7.770730177561442, 7.510004043579102, 7.421526908874512, 8.05504576365153, 7.835038344065349, 7.982892831166585, 7.582422574361165, 7.561373869578044, 7.882508754730225, 7.720297018686931, 7.957558631896973, 7.048667271931966]
+[2025-12-03 17:16:08] utils.py(236) : train_loss_list = [-2.1599398454030356, 2.3959254225095115, 8.465731938680014, 10.32021458943685, 8.657116572062174, 7.522391637166341, 4.2195515632629395, 3.2275882562001548, 3.0069660345713296, 2.8457210063934326, 2.7499282360076904, 3.0163779258728027, 2.8274702231089273, 2.7794878482818604, 2.74241574605306, 2.7676228682200112, 2.6759755611419678, 2.366932471593221, 2.512988805770874, 2.557525714238485, 2.5218706130981445, 2.43993870417277, 2.3606884479522705, 2.347543160120646, 2.6132126649220786, 2.3978308041890464, 2.2746681372324624, 2.5275885264078775, 2.265207529067993, 2.359297752380371, 2.1579407453536987, 2.3070788383483887, 2.0131017764409385, 2.2217036883036294, 2.097969174385071, 1.9941027561823528, 2.1103413899739585, 1.876664121945699, 1.9598925511042278, 1.9950484434763591, 1.7668638626734416, 2.0439518292744956, 1.835173527399699, 1.9044282833735149, 1.8105362256368, 1.770312984784444, 1.817873239517212, 1.6436668634414673, 1.7190540234247844, 1.5299909512201946]

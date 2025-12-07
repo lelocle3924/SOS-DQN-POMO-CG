@@ -1,0 +1,7 @@
+[2025-12-07 13:07:45] train_n200.py(124) : DEBUG_MODE: False
+[2025-12-07 13:07:45] train_n200.py(125) : USE_CUDA: False, CUDA_DEVICE_NUM: 0
+[2025-12-07 13:07:45] train_n200.py(126) : env_params{'problem_size': 200, 'pomo_size': 200}
+[2025-12-07 13:07:45] train_n200.py(126) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2025-12-07 13:07:45] train_n200.py(126) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [8001, 8051], 'gamma': 0.1}}
+[2025-12-07 13:07:45] train_n200.py(126) : trainer_params{'use_cuda': False, 'cuda_device_num': 0, 'epochs': 100, 'train_episodes': 192, 'train_batch_size': 64, 'use_saved_data': False, 'heuristic': False, 'prev_model_path': None, 'logging': {'model_save_interval': 25, 'img_save_interval': 10, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_esprctw_200.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './result/20251203_183229_train_esprctw_n200', 'epoch': 50}}
+[2025-12-07 13:07:45] train_n200.py(126) : logger_params{'log_file': {'desc': 'train_esprctw_n200', 'filename': 'run_log', 'filepath': './result/20251207_150731_train_esprctw_n200'}}
