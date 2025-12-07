@@ -1,0 +1,30 @@
+#QUESTIONS
+GNN cần có cơ chế thêm node và edges vào. cụ thể nó hoạt động như thế nào vậy
+trong bài abouelrous, dynamic features bao gồm (load, time consumed, mask). các thông số này được xử lý ở đâu
+for idx, route in enumerate(all_routes): kém hiệu quả, sửa như thế nào
+trong config không có number of epoch hay episodes, vậy dựa vào đâu để biết train bao nhiêu?
+thêm progress tracker
+tạo 1 phiên bản troubleshoot của toàn bộ code. tôi cần biết mỗi bước tốn bao nhiêu thời gian
+
+#NOTES
+vào gnn_selector thêm layer nếu muốn deep hơn
+sắp xếp lại config theo cách sắp xếp folder để dễ tìm
+lý do không có normalize distance hoặc coordinate là vì đổi hết ra time trước rồi
+các features của node trong GNN được engineered ở đâu -> trong vrp_gym.py
+
+3 cái chính
+ - RMP
+ - POMO: đọc file checkpoint, nạp weight vào hệ thống POMO
+ - DQN: tạo graph, đọc graph, đưa ra actionz
+    có 2 cái chính: 
+    - sampling: chạy select_action và store_transition, lưu buffer
+    - training: lưu đủ trong buffer r, lấy ra sample để train main network và target network
+
+RMP -> duals
+duals -> POMO Pricing -> candidate routes
+candidate routes -> calculate reduced cost
+
+
+Lý do nào khiến POMO không thể tìm candidate routes?
+- train chưa đủ lâu
+- không tương thích data (normalization)
