@@ -1,192 +1,271 @@
-import os
-import torch
-import numpy as np
+"""Main entry-point for the Branch-&-Price SD-VRPTW solver."""
+
+import argparse
 import logging
-from datetime import datetime
-import json
+import os
+import sys
+import time
+from typing import Tuple
+from pathlib import Path
 
-from configs import main_config as cfg
-from envs.vrp_gym import VRPCGEnv
-from agents.dqn_learner import DQNAgent
-from utils.utils import create_logger, parse_args, visualize_solution, save_checkpoint, get_checkpoint_path
+import torch
+import yaml
 
-def train_process(args):
-    # Setup Logger
-    logger = create_logger(cfg.LOG_FILE_TRAIN)
-    logger.info(">>> START TRAINING SESSION <<<")
-    logger.info(f"Episodes: {args.episodes}")
-    
-    # Env & Agent
-    env = VRPCGEnv() # Auto load default train file config
-    
-    # Init Agent
-    agent = DQNAgent()
-    
-    # Load previous training checkpoint if needed
-    if args.model_path and os.path.exists(args.model_path):
-        agent.load(args.model_path)
-    
-    # Main Loop
-    global_step = 0
-    best_train_reward = -float('inf')
-    
-    for episode in range(1, args.episodes + 1):
-        try:
-            obs = env.reset()
-        except RuntimeError as e:
-            logger.error(f"Episode {episode} reset failed: {e}")
-            continue
-            
-        episode_reward = 0
-        done = False
-        steps = 0
-        
-        while not done and steps < cfg.DQN_MAX_STEPS_PER_EPISODE:
-            global_step += 1
-            steps += 1
-            
-            # Training=True để bật Epsilon Greedy
-            action_idx = agent.select_action(obs, training=True)
-            
-            if action_idx is None:
-                logger.info(">> No valid action/candidates selected. Ending episode early.")
+PROJECT_ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.utils import fix_all_seeds
+from src.data_loader import ProblemData, load_problem
+from src.column_pool import ColumnPool
+from src.branch_and_bound import branch_and_price
+from src.pomo_model import POMOModel
+from src.column_selection.factory import build_column_selector
+from src.pricing_orchestrator import PricingOrchestrator
+from src.run_manager import (
+    append_to_master_csv,
+    create_run_folder,
+    save_raw_output,
+    setup_logging,
+    shadow_copy_config,
+)
+
+logger = logging.getLogger(__name__)
+
+
+# ======================================================================
+# Greedy initial routes  (seeds the RMP)
+# ======================================================================
+
+def build_initial_routes(problem: ProblemData,
+                         column_pool: ColumnPool) -> None:
+    """Nearest-neighbour heuristic per vehicle type to warm-start the RMP."""
+    for v_idx, vtype in enumerate(problem.vehicle_types):
+        capacity = problem.vehicle_capacity[vtype]
+        fixed_cost = problem.vehicle_fixed_cost[vtype]
+        cost_per_km = problem.vehicle_cost_per_km[vtype]
+        cost_per_hour = problem.vehicle_cost_per_hour[vtype]
+        tt_mat = problem.travel_time_matrices[vtype]
+        dist_km = problem.distance_matrix_meters / 1000.0
+
+        accessible = [
+            c for c in range(problem.num_customers)
+            if problem.site_dependency[c, v_idx]
+        ]
+        unserved = set(accessible)
+
+        while unserved:
+            route_customers = []
+            cur_node = 0
+            rem_cap = capacity
+            cur_time = problem.depot_tw_start
+            total_dist = 0.0
+
+            while True:
+                best, best_arr = None, float("inf")
+                for c in unserved:
+                    node = c + 1
+                    arr = cur_time + tt_mat[cur_node, node]
+                    if problem.demands[c] > rem_cap:
+                        continue
+                    if arr > problem.tw_end[c]:
+                        continue
+                    svc_start = max(arr, problem.tw_start[c])
+                    depart = svc_start + problem.service_times[c]
+                    if depart + tt_mat[node, 0] > problem.depot_tw_end:
+                        continue
+                    if arr < best_arr:
+                        best_arr = arr
+                        best = c
+
+                if best is None:
+                    break
+
+                node = best + 1
+                total_dist += dist_km[cur_node, node]
+                arr = cur_time + tt_mat[cur_node, node]
+                cur_time = max(arr, problem.tw_start[best]) + problem.service_times[best]
+                rem_cap -= problem.demands[best]
+                cur_node = node
+                route_customers.append(best)
+                unserved.discard(best)
+
+            if not route_customers:
                 break
-                
-            next_obs, reward, done, _, info = env.step(action_idx)
-            
-            # Chỉ lưu memory khi có action hợp lệ
-            if action_idx is not None:
-                # --- FIX: Gọi agent.store và agent.train ---
-                agent.store_transition(obs, action_idx, reward, next_obs, done)
-                
-                loss = agent.train_step()
-                if loss:
-                    # Optional: Log loss
-                    pass
-            
-            obs = next_obs
-            episode_reward += reward
-              
-            if done:
-                logger.info(f"Ep {episode}: Done in {steps} steps. Rwd: {episode_reward:.2f}. Obj: {info.get('obj', 0):.2f}")
-                break
-        
-        # Save checkpoint periodically
-        if episode % 10 == 0:
-            ckpt_path = get_checkpoint_path(cfg.DIR_DQN_OUTPUT, "dqn_ckpt", episode)
-            agent.save(ckpt_path)
-            
-    # Final save
-    final_path = get_checkpoint_path(cfg.DIR_DQN_OUTPUT, "dqn_final", args.episodes)
-    agent.save(final_path)
-    logger.info("TRAINING COMPLETED.")
 
-    
+            total_dist += dist_km[cur_node, 0]
+            total_time = cur_time - problem.depot_tw_start + tt_mat[cur_node, 0]
+            total_cost = fixed_cost + cost_per_km * total_dist + cost_per_hour * total_time
 
-def test_process(args):
-    # --- 1. SETUP RESULT DIR ---
-    # outputs/vrp_results/result_ddmm_hhmm/
-    timestamp = datetime.now().strftime("%d%m_%H%M")
-    result_folder = os.path.join(cfg.DIR_VRP_RESULTS, f"inference_{timestamp}")
-    os.makedirs(result_folder, exist_ok=True)
-    
-    log_file = os.path.join(result_folder, "inference_log.txt")
-    logger = create_logger(log_file)
-    
-    logger.info(f">>> START TESTING SESSION [{timestamp}] <<<")
-    logger.info(f"Instance: {args.test_file}")
-    
-    if args.model_path and os.path.exists(args.model_path):
-        logger.info(f"Loading DQN Model: {args.model_path}")
+            column_pool.add_route(
+                vehicle_type=vtype,
+                customer_indices=route_customers,
+                total_cost=total_cost,
+                total_distance_km=total_dist,
+                total_time_hours=total_time,
+            )
+
+    logger.info("Greedy warm-start: %d initial routes.", column_pool.num_routes)
+
+
+# ======================================================================
+# POMO model loader
+# ======================================================================
+
+def load_pomo_model(config: dict) -> Tuple[POMOModel, torch.device]:
+    import torch
+
+    device_name = config["solver"]["device"]
+    if device_name == "cuda" and not torch.cuda.is_available():
+        device_name = "cpu"
+        logger.warning("CUDA unavailable — falling back to CPU.")
+    device = torch.device(device_name)
+
+    model = POMOModel(
+        node_feature_dim=config["pomo"]["node_feature_dim"],
+        embedding_dim=config["pomo"]["embedding_dim"],
+        num_heads=config["pomo"]["num_heads"],
+        num_encoder_layers=config["pomo"]["num_encoder_layers"],
+        ff_dim=config["pomo"]["feedforward_dim"],
+    ).to(device)
+
+    pretrained = config["training"].get("pretrained_model")
+    if pretrained and os.path.isfile(pretrained):
+        import torch
+        state_dict = torch.load(pretrained, map_location=device, weights_only=True)
+        model.load_state_dict(state_dict)
+        logger.info("Loaded pretrained model from %s", pretrained)
     else:
-        logger.info("No DQN Model loaded")
+        logger.info("No pretrained model — using random initialisation.")
 
-    # Override config instance file để Env load file test này
-    # (Vì VRPCGEnv init load từ cfg.INSTANCE_FILE)
-    # Hack tạm thời:
-    cfg.TEST_INSTANCE_FILE = args.test_file
-    
-    # --- 2. INIT & SOLVE ---
-    import time
-    start_time = time.time()
-    
-    env = VRPCGEnv()
-    agent = DQNAgent()
-    
-    # Load Model if available
-    if args.model_path:
-        agent.load(args.model_path)
-    # Test thì epsilon = 0 (Greedy)
-    agent.epsilon = 0.0 
-    
-    obs = env.reset()
-    init_obj = env.init_obj
-    logger.info(f"Initial Obj (Dummy Solution): {init_obj:.2f}")
-    
-    done = False
-    steps = 0
-    final_obj = init_obj
-    
-    while not done and steps < 50: # Max test steps hardcap
-        steps += 1
-        
-        action_idx = agent.select_action(obs, training=False)
-        next_obs, reward, done, _, info = env.step(action_idx)
-        
-        current_obj = info.get('obj', final_obj)
-        logger.info(f"Step {steps}: Action {action_idx}. Obj: {current_obj:.2f} (Reward {reward:.2f})")
-        
-        final_obj = current_obj
-        obs = next_obs
-        
-        if done:
-            logger.info("Converged (Done).")
+    return model, device
 
-    solve_time = time.time() - start_time
-    improvement = (init_obj - final_obj) / init_obj * 100.0
+
+# ======================================================================
+# Main
+# ======================================================================
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Branch & Price SD-VRPTW Solver")
+    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--run-name", default="bp_run")
+    args = parser.parse_args()
+
+    with open(args.config, encoding="utf-8") as fh:
+        config = yaml.safe_load(fh)
+
+    # First executable line: fix all seeds
+    fix_all_seeds(config["solver"]["seed"])
+
+    # Run-folder infrastructure
+    results_dir = config["logging"]["results_dir"]
+    os.makedirs(results_dir, exist_ok=True)
+    run_folder = create_run_folder(results_dir, args.run_name)
+    run_id = os.path.basename(run_folder)
+    shadow_copy_config(args.config, run_folder)
+    setup_logging(run_folder, config["logging"]["log_level"])
+
+    logger.info("Run folder : %s", run_folder)
+    logger.info("Config     : %s", args.config)
+
+    wall_start = time.time()
+
+    # Load problem
+    problem = load_problem(
+        orders_path=os.path.join(PROJECT_ROOT, config["problem"]["orders_file"]),
+        trucks_path=os.path.join(PROJECT_ROOT, config["problem"]["trucks_file"]),
+        distance_matrix_path=os.path.join(PROJECT_ROOT, config["problem"]["distance_matrix_file"]),
+        depot_id=config["problem"]["depot_id"],
+    )
+    distance_matrix_path = (PROJECT_ROOT / config["problem"]["distance_matrix_file"]).resolve()
+    geometry_path = distance_matrix_path.parent / f"geometry_{config['problem']['depot_id']}.json"
+    if geometry_path.is_file():
+        logger.info("Geometry file detected: %s", geometry_path)
+    else:
+        logger.info(
+            "Geometry file not found next to distance matrix (expected: %s).",
+            geometry_path,
+        )
+    logger.info(
+        "Problem loaded: %d customers, %d vehicle types",
+        problem.num_customers, len(problem.vehicle_types),
+    )
+
+    # Warm-start RMP
+    column_pool = ColumnPool()
+    build_initial_routes(problem, column_pool)
+    print(column_pool)
+
+    # Load POMO model
+    model, device = load_pomo_model(config)
     
-    # --- 3. FINAL LOG & METRICS ---
-    logger.info("\n=== FINAL REPORT ===")
-    logger.info(f"Initial Cost: {init_obj:.2f}")
-    logger.info(f"Final Cost:   {final_obj:.2f}")
-    logger.info(f"Improvement:  {improvement:.2f} %")
-    logger.info(f"CG Iterations:{steps}")
-    logger.info(f"Time Taken:   {solve_time:.2f} sec")
-    
-    # Dump Summary JSON
-    summary = {
-        "instance": args.test_file,
-        "init_obj": init_obj,
-        "final_obj": final_obj,
-        "improvement_pct": improvement,
-        "iterations": steps,
-        "solve_time": solve_time,
-        "date": timestamp,
-        "routes_count": len(env.rmp_service.routes_data)
+    # Initialize Pricing Orchestrator
+    orchestrator = PricingOrchestrator(model, device, config)
+    column_selector = build_column_selector(config, device)
+
+    # Branch & Price
+    solution = branch_and_price(
+        problem,
+        orchestrator,
+        column_pool,
+        config,
+        column_selector=column_selector,
+    )
+
+    elapsed = time.time() - wall_start
+
+    # ---- Report ----
+    logger.info("\n" + "=" * 60)
+    logger.info("SOLUTION SUMMARY")
+    logger.info("=" * 60)
+    logger.info("Total cost          : %.4f", solution["total_cost"])
+    logger.info("Number of routes    : %d", len(solution["routes"]))
+    logger.info("B&B nodes explored  : %d", solution["nodes_explored"])
+    logger.info("Total columns       : %d", solution["total_columns"])
+    logger.info("Wall-clock time (s) : %.2f", elapsed)
+
+    for route in solution["routes"]:
+        cust_names = [problem.customer_ids[c] for c in route.customer_indices]
+        logger.info(
+            "  Route %d [%s] : %s  cost=%.2f",
+            route.route_id, route.vehicle_type, cust_names, route.total_cost,
+        )
+
+    # ---- Persist ----
+    raw = {
+        "total_cost": solution["total_cost"],
+        "num_routes": len(solution["routes"]),
+        "nodes_explored": solution["nodes_explored"],
+        "total_columns": solution["total_columns"],
+        "cpu_time_seconds": elapsed,
+        "distance_matrix_file": str(distance_matrix_path),
+        "geometry_file": str(geometry_path) if geometry_path.is_file() else "",
+        "forbidden_arcs": solution.get("forbidden_arcs", []),
+        "enforced_arcs": solution.get("enforced_arcs", []),
+        "routes": [
+            {
+                "route_id": r.route_id,
+                "vehicle_type": r.vehicle_type,
+                "customer_indices": r.customer_indices,
+                "customer_ids": [problem.customer_ids[c] for c in r.customer_indices],
+                "total_cost": r.total_cost,
+                "distance_km": r.total_distance_km,
+                "time_hours": r.total_time_hours,
+            }
+            for r in solution["routes"]
+        ],
     }
-    with open(os.path.join(result_folder, "summary.json"), 'w') as f:
-        json.dump(summary, f, indent=4)
-        
-    # --- 4. VISUALIZATION ---
-    # Get all active routes (Variable in basis)
-    # Lấy solution basis từ RMP (các biến > 0)
-    # Chạy lại solve 1 lần cuối để lấy biến số chính xác
-    _, _, basis_vals = env.rmp_service.solve()
-    
-    active_routes = []
-    # RMP Vars là object ORTools, routes_data là list lưu tương ứng index
-    for idx, val in basis_vals.items():
-        if val > 0.9: # Integer solution approximation
-            route = env.rmp_service.routes_data[idx]
-            active_routes.append(route)
-            
-    # Visualize
-    visualize_solution(active_routes, env.locations_df, result_folder)
-    logger.info(f"Visualizations saved to: {result_folder}")
+    save_raw_output(raw, run_folder)
+
+    append_to_master_csv(results_dir, run_id, {
+        "total_cost": solution["total_cost"],
+        "num_routes": len(solution["routes"]),
+        "bb_nodes": solution["nodes_explored"],
+        "total_columns": solution["total_columns"],
+        "cpu_time_s": round(elapsed, 2),
+    })
+
+    logger.info("Results saved to %s", run_folder)
+
 
 if __name__ == "__main__":
-    args = parse_args()
-    if args.mode == "train":
-        train_process(args)
-    else:
-        test_process(args)
+    main()

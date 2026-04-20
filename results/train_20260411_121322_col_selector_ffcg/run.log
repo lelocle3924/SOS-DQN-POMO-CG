@@ -1,0 +1,1618 @@
+2026-04-11 12:13:22 [INFO] __main__: Run folder: /content/drive/MyDrive/SOS_0408/results/train_20260411_121322_col_selector_ffcg
+2026-04-11 12:13:30 [INFO] __main__: TensorBoard logging enabled at: /content/drive/MyDrive/SOS_0408/results/train_20260411_121322_col_selector_ffcg/tensorboard
+2026-04-11 12:13:58 [INFO] src.master_problem: RMP LP solved — obj=1000000.0000, active_cols=0
+2026-04-11 12:14:00 [INFO] src.master_problem: RMP LP solved — obj=200997.9905, active_cols=1
+2026-04-11 12:14:02 [INFO] src.master_problem: RMP LP solved — obj=2276.6710, active_cols=2
+2026-04-11 12:14:03 [INFO] src.master_problem: RMP LP solved — obj=2276.6710, active_cols=2
+2026-04-11 12:14:05 [INFO] src.master_problem: RMP LP solved — obj=2276.6710, active_cols=2
+2026-04-11 12:14:07 [INFO] src.master_problem: RMP LP solved — obj=2276.6710, active_cols=2
+2026-04-11 12:14:09 [INFO] src.master_problem: RMP LP solved — obj=2215.6667, active_cols=6
+2026-04-11 12:14:10 [INFO] src.master_problem: RMP LP solved — obj=2123.6514, active_cols=7
+2026-04-11 12:14:12 [INFO] src.master_problem: RMP LP solved — obj=2102.0659, active_cols=7
+2026-04-11 12:14:14 [INFO] src.master_problem: RMP LP solved — obj=2020.3394, active_cols=6
+2026-04-11 12:14:15 [INFO] src.master_problem: RMP LP solved — obj=2020.3394, active_cols=6
+2026-04-11 12:14:17 [INFO] src.master_problem: RMP LP solved — obj=2020.3394, active_cols=6
+2026-04-11 12:14:19 [INFO] src.master_problem: RMP LP solved — obj=2010.4792, active_cols=6
+2026-04-11 12:14:21 [INFO] src.master_problem: RMP LP solved — obj=1990.0844, active_cols=7
+2026-04-11 12:14:22 [INFO] src.master_problem: RMP LP solved — obj=1972.8295, active_cols=8
+2026-04-11 12:14:24 [INFO] src.master_problem: RMP LP solved — obj=1968.9070, active_cols=9
+2026-04-11 12:14:25 [INFO] src.master_problem: RMP LP solved — obj=1945.1109, active_cols=10
+2026-04-11 12:14:27 [INFO] src.master_problem: RMP LP solved — obj=1939.2525, active_cols=9
+2026-04-11 12:14:28 [INFO] src.master_problem: RMP LP solved — obj=1936.2615, active_cols=10
+2026-04-11 12:14:30 [INFO] src.master_problem: RMP LP solved — obj=1936.2615, active_cols=10
+2026-04-11 12:14:31 [INFO] src.master_problem: RMP LP solved — obj=1932.2439, active_cols=9
+2026-04-11 12:14:34 [INFO] src.master_problem: RMP LP solved — obj=1904.8886, active_cols=6
+2026-04-11 12:14:35 [INFO] src.master_problem: RMP LP solved — obj=1904.8886, active_cols=6
+2026-04-11 12:14:37 [INFO] __main__: FFCG sample collection: 1/26 problems (3.8%)  samples=45  eta=966.9s
+2026-04-11 12:14:37 [INFO] src.master_problem: RMP LP solved — obj=5500000.0000, active_cols=0
+2026-04-11 12:14:39 [INFO] src.master_problem: RMP LP solved — obj=2506167.2288, active_cols=4
+2026-04-11 12:14:41 [INFO] src.master_problem: RMP LP solved — obj=414067.5151, active_cols=8
+2026-04-11 12:14:43 [INFO] src.master_problem: RMP LP solved — obj=16248.0290, active_cols=10
+2026-04-11 12:14:45 [INFO] src.master_problem: RMP LP solved — obj=14005.4050, active_cols=15
+2026-04-11 12:14:48 [INFO] src.master_problem: RMP LP solved — obj=13080.4785, active_cols=17
+2026-04-11 12:14:50 [INFO] src.master_problem: RMP LP solved — obj=12007.3153, active_cols=20
+2026-04-11 12:14:52 [INFO] src.master_problem: RMP LP solved — obj=11463.7365, active_cols=20
+2026-04-11 12:14:54 [INFO] src.master_problem: RMP LP solved — obj=10873.4863, active_cols=27
+2026-04-11 12:14:56 [INFO] src.master_problem: RMP LP solved — obj=10555.2653, active_cols=29
+2026-04-11 12:14:58 [INFO] src.master_problem: RMP LP solved — obj=10111.5697, active_cols=28
+2026-04-11 12:15:00 [INFO] src.master_problem: RMP LP solved — obj=9826.0056, active_cols=30
+2026-04-11 12:15:03 [INFO] src.master_problem: RMP LP solved — obj=9664.1392, active_cols=35
+2026-04-11 12:15:05 [INFO] src.master_problem: RMP LP solved — obj=9394.3779, active_cols=34
+2026-04-11 12:15:07 [INFO] src.master_problem: RMP LP solved — obj=9261.4793, active_cols=33
+2026-04-11 12:15:09 [INFO] src.master_problem: RMP LP solved — obj=9038.7101, active_cols=33
+2026-04-11 12:15:11 [INFO] src.master_problem: RMP LP solved — obj=8943.5578, active_cols=33
+2026-04-11 12:15:13 [INFO] src.master_problem: RMP LP solved — obj=8752.0927, active_cols=36
+2026-04-11 12:15:16 [INFO] src.master_problem: RMP LP solved — obj=8675.1523, active_cols=32
+2026-04-11 12:15:18 [INFO] src.master_problem: RMP LP solved — obj=8608.9914, active_cols=35
+2026-04-11 12:15:20 [INFO] src.master_problem: RMP LP solved — obj=8567.9144, active_cols=37
+2026-04-11 12:15:22 [INFO] src.master_problem: RMP LP solved — obj=8396.8016, active_cols=38
+2026-04-11 12:15:24 [INFO] src.master_problem: RMP LP solved — obj=8294.5911, active_cols=40
+2026-04-11 12:15:26 [INFO] src.master_problem: RMP LP solved — obj=8242.9104, active_cols=43
+2026-04-11 12:15:29 [INFO] src.master_problem: RMP LP solved — obj=8210.1124, active_cols=40
+2026-04-11 12:15:31 [INFO] src.master_problem: RMP LP solved — obj=8191.2103, active_cols=41
+2026-04-11 12:15:33 [INFO] src.master_problem: RMP LP solved — obj=8159.8967, active_cols=42
+2026-04-11 12:15:35 [INFO] src.master_problem: RMP LP solved — obj=8129.0995, active_cols=44
+2026-04-11 12:15:37 [INFO] src.master_problem: RMP LP solved — obj=8073.0580, active_cols=39
+2026-04-11 12:15:39 [INFO] src.master_problem: RMP LP solved — obj=8030.9614, active_cols=42
+2026-04-11 12:15:42 [INFO] src.master_problem: RMP LP solved — obj=8023.7637, active_cols=44
+2026-04-11 12:15:44 [INFO] src.master_problem: RMP LP solved — obj=8010.7781, active_cols=42
+2026-04-11 12:15:46 [INFO] src.master_problem: RMP LP solved — obj=7997.4504, active_cols=45
+2026-04-11 12:15:48 [INFO] src.master_problem: RMP LP solved — obj=7984.4064, active_cols=45
+2026-04-11 12:15:50 [INFO] src.master_problem: RMP LP solved — obj=7973.4538, active_cols=44
+2026-04-11 12:15:52 [INFO] src.master_problem: RMP LP solved — obj=7953.8086, active_cols=44
+2026-04-11 12:15:55 [INFO] src.master_problem: RMP LP solved — obj=7930.0392, active_cols=47
+2026-04-11 12:15:57 [INFO] src.master_problem: RMP LP solved — obj=7903.6460, active_cols=46
+2026-04-11 12:15:59 [INFO] src.master_problem: RMP LP solved — obj=7878.7798, active_cols=47
+2026-04-11 12:16:01 [INFO] src.master_problem: RMP LP solved — obj=7873.0529, active_cols=47
+2026-04-11 12:16:03 [INFO] src.master_problem: RMP LP solved — obj=7854.7617, active_cols=50
+2026-04-11 12:16:05 [INFO] src.master_problem: RMP LP solved — obj=7841.4403, active_cols=50
+2026-04-11 12:16:07 [INFO] src.master_problem: RMP LP solved — obj=7826.9863, active_cols=49
+2026-04-11 12:16:10 [INFO] src.master_problem: RMP LP solved — obj=7809.8070, active_cols=49
+2026-04-11 12:16:13 [INFO] src.master_problem: RMP LP solved — obj=7793.7269, active_cols=51
+2026-04-11 12:16:15 [INFO] src.master_problem: RMP LP solved — obj=7786.6629, active_cols=51
+2026-04-11 12:16:17 [INFO] src.master_problem: RMP LP solved — obj=7766.4624, active_cols=49
+2026-04-11 12:16:19 [INFO] src.master_problem: RMP LP solved — obj=7752.0742, active_cols=50
+2026-04-11 12:16:21 [INFO] src.master_problem: RMP LP solved — obj=7740.7055, active_cols=50
+2026-04-11 12:16:24 [INFO] src.master_problem: RMP LP solved — obj=7722.9647, active_cols=54
+2026-04-11 12:16:26 [INFO] src.master_problem: RMP LP solved — obj=7696.6408, active_cols=50
+2026-04-11 12:16:28 [INFO] src.master_problem: RMP LP solved — obj=7690.0684, active_cols=51
+2026-04-11 12:16:30 [INFO] src.master_problem: RMP LP solved — obj=7678.4757, active_cols=52
+2026-04-11 12:16:32 [INFO] src.master_problem: RMP LP solved — obj=7670.4449, active_cols=50
+2026-04-11 12:16:34 [INFO] src.master_problem: RMP LP solved — obj=7663.8352, active_cols=51
+2026-04-11 12:16:37 [INFO] src.master_problem: RMP LP solved — obj=7654.0205, active_cols=51
+2026-04-11 12:16:39 [INFO] src.master_problem: RMP LP solved — obj=7639.1248, active_cols=52
+2026-04-11 12:16:41 [INFO] src.master_problem: RMP LP solved — obj=7635.6968, active_cols=51
+2026-04-11 12:16:43 [INFO] src.master_problem: RMP LP solved — obj=7631.4246, active_cols=48
+2026-04-11 12:16:45 [INFO] src.master_problem: RMP LP solved — obj=7619.1714, active_cols=51
+2026-04-11 12:16:47 [INFO] src.master_problem: RMP LP solved — obj=7611.8259, active_cols=50
+2026-04-11 12:16:50 [INFO] src.master_problem: RMP LP solved — obj=7595.7439, active_cols=53
+2026-04-11 12:16:53 [INFO] src.master_problem: RMP LP solved — obj=7590.5661, active_cols=53
+2026-04-11 12:16:55 [INFO] src.master_problem: RMP LP solved — obj=7577.3992, active_cols=53
+2026-04-11 12:16:57 [INFO] __main__: FFCG sample collection: 2/26 problems (7.7%)  samples=267  eta=2147.3s
+2026-04-11 12:16:57 [INFO] src.master_problem: RMP LP solved — obj=4000000.0000, active_cols=0
+2026-04-11 12:16:59 [INFO] src.master_problem: RMP LP solved — obj=1408785.6958, active_cols=4
+2026-04-11 12:17:02 [INFO] src.master_problem: RMP LP solved — obj=116879.9217, active_cols=8
+2026-04-11 12:17:04 [INFO] src.master_problem: RMP LP solved — obj=13704.1176, active_cols=7
+2026-04-11 12:17:07 [INFO] src.master_problem: RMP LP solved — obj=12924.7135, active_cols=9
+2026-04-11 12:17:09 [INFO] src.master_problem: RMP LP solved — obj=11937.0492, active_cols=9
+2026-04-11 12:17:11 [INFO] src.master_problem: RMP LP solved — obj=11139.5327, active_cols=13
+2026-04-11 12:17:13 [INFO] src.master_problem: RMP LP solved — obj=10984.8123, active_cols=22
+2026-04-11 12:17:15 [INFO] src.master_problem: RMP LP solved — obj=10700.1745, active_cols=20
+2026-04-11 12:17:18 [INFO] src.master_problem: RMP LP solved — obj=10442.6261, active_cols=23
+2026-04-11 12:17:21 [INFO] src.master_problem: RMP LP solved — obj=10271.7656, active_cols=26
+2026-04-11 12:17:23 [INFO] src.master_problem: RMP LP solved — obj=10130.8467, active_cols=22
+2026-04-11 12:17:25 [INFO] src.master_problem: RMP LP solved — obj=9964.6770, active_cols=26
+2026-04-11 12:17:27 [INFO] src.master_problem: RMP LP solved — obj=9894.9946, active_cols=28
+2026-04-11 12:17:30 [INFO] src.master_problem: RMP LP solved — obj=9842.1424, active_cols=29
+2026-04-11 12:17:33 [INFO] src.master_problem: RMP LP solved — obj=9702.9616, active_cols=30
+2026-04-11 12:17:35 [INFO] src.master_problem: RMP LP solved — obj=9526.3947, active_cols=32
+2026-04-11 12:17:37 [INFO] src.master_problem: RMP LP solved — obj=9404.2907, active_cols=30
+2026-04-11 12:17:39 [INFO] src.master_problem: RMP LP solved — obj=9277.3957, active_cols=32
+2026-04-11 12:17:42 [INFO] src.master_problem: RMP LP solved — obj=9247.6157, active_cols=33
+2026-04-11 12:17:44 [INFO] src.master_problem: RMP LP solved — obj=9132.9755, active_cols=34
+2026-04-11 12:17:47 [INFO] src.master_problem: RMP LP solved — obj=9059.0418, active_cols=33
+2026-04-11 12:17:49 [INFO] src.master_problem: RMP LP solved — obj=8776.1900, active_cols=32
+2026-04-11 12:17:51 [INFO] src.master_problem: RMP LP solved — obj=8634.0179, active_cols=32
+2026-04-11 12:17:53 [INFO] src.master_problem: RMP LP solved — obj=8585.1977, active_cols=30
+2026-04-11 12:17:56 [INFO] src.master_problem: RMP LP solved — obj=8458.2533, active_cols=37
+2026-04-11 12:17:58 [INFO] src.master_problem: RMP LP solved — obj=8407.5309, active_cols=34
+2026-04-11 12:18:01 [INFO] src.master_problem: RMP LP solved — obj=8356.5392, active_cols=34
+2026-04-11 12:18:03 [INFO] src.master_problem: RMP LP solved — obj=8333.6254, active_cols=32
+2026-04-11 12:18:06 [INFO] src.master_problem: RMP LP solved — obj=8294.4025, active_cols=33
+2026-04-11 12:18:08 [INFO] src.master_problem: RMP LP solved — obj=8198.2604, active_cols=33
+2026-04-11 12:18:10 [INFO] src.master_problem: RMP LP solved — obj=8091.9003, active_cols=33
+2026-04-11 12:18:13 [INFO] src.master_problem: RMP LP solved — obj=8043.5152, active_cols=35
+2026-04-11 12:18:15 [INFO] src.master_problem: RMP LP solved — obj=8012.3561, active_cols=33
+2026-04-11 12:18:18 [INFO] src.master_problem: RMP LP solved — obj=7897.8452, active_cols=34
+2026-04-11 12:18:20 [INFO] src.master_problem: RMP LP solved — obj=7884.1485, active_cols=35
+2026-04-11 12:18:22 [INFO] src.master_problem: RMP LP solved — obj=7783.8551, active_cols=33
+2026-04-11 12:18:24 [INFO] src.master_problem: RMP LP solved — obj=7750.9544, active_cols=34
+2026-04-11 12:18:27 [INFO] src.master_problem: RMP LP solved — obj=7723.7779, active_cols=33
+2026-04-11 12:18:30 [INFO] src.master_problem: RMP LP solved — obj=7717.0250, active_cols=36
+2026-04-11 12:18:32 [INFO] src.master_problem: RMP LP solved — obj=7706.1848, active_cols=36
+2026-04-11 12:18:34 [INFO] src.master_problem: RMP LP solved — obj=7699.1631, active_cols=34
+2026-04-11 12:18:36 [INFO] src.master_problem: RMP LP solved — obj=7684.7298, active_cols=37
+2026-04-11 12:18:38 [INFO] src.master_problem: RMP LP solved — obj=7680.9097, active_cols=36
+2026-04-11 12:18:42 [INFO] src.master_problem: RMP LP solved — obj=7678.9727, active_cols=37
+2026-04-11 12:18:44 [INFO] src.master_problem: RMP LP solved — obj=7667.0784, active_cols=33
+2026-04-11 12:18:46 [INFO] src.master_problem: RMP LP solved — obj=7657.0841, active_cols=34
+2026-04-11 12:18:48 [INFO] src.master_problem: RMP LP solved — obj=7647.9456, active_cols=36
+2026-04-11 12:18:50 [INFO] src.master_problem: RMP LP solved — obj=7612.4573, active_cols=35
+2026-04-11 12:18:53 [INFO] src.master_problem: RMP LP solved — obj=7527.8576, active_cols=35
+2026-04-11 12:18:56 [INFO] src.master_problem: RMP LP solved — obj=7507.7634, active_cols=34
+2026-04-11 12:18:58 [INFO] src.master_problem: RMP LP solved — obj=7492.6637, active_cols=32
+2026-04-11 12:19:00 [INFO] src.master_problem: RMP LP solved — obj=7477.5462, active_cols=34
+2026-04-11 12:19:02 [INFO] src.master_problem: RMP LP solved — obj=7448.3443, active_cols=38
+2026-04-11 12:19:04 [INFO] src.master_problem: RMP LP solved — obj=7419.3397, active_cols=36
+2026-04-11 12:19:07 [INFO] src.master_problem: RMP LP solved — obj=7403.3544, active_cols=36
+2026-04-11 12:19:10 [INFO] src.master_problem: RMP LP solved — obj=7379.9546, active_cols=35
+2026-04-11 12:19:12 [INFO] src.master_problem: RMP LP solved — obj=7368.7856, active_cols=33
+2026-04-11 12:19:14 [INFO] src.master_problem: RMP LP solved — obj=7365.8266, active_cols=38
+2026-04-11 12:19:16 [INFO] src.master_problem: RMP LP solved — obj=7354.8628, active_cols=33
+2026-04-11 12:19:18 [INFO] src.master_problem: RMP LP solved — obj=7350.3800, active_cols=37
+2026-04-11 12:19:21 [INFO] src.master_problem: RMP LP solved — obj=7343.5156, active_cols=36
+2026-04-11 12:19:24 [INFO] src.master_problem: RMP LP solved — obj=7340.5752, active_cols=37
+2026-04-11 12:19:26 [INFO] src.master_problem: RMP LP solved — obj=7337.2737, active_cols=37
+2026-04-11 12:19:28 [INFO] __main__: FFCG sample collection: 3/26 problems (11.5%)  samples=469  eta=2530.5s
+2026-04-11 12:19:28 [INFO] src.master_problem: RMP LP solved — obj=700000.0000, active_cols=0
+2026-04-11 12:19:30 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:31 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:33 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:35 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:37 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:39 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:41 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:42 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:44 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:46 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:48 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:50 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:51 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:53 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:54 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:56 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:57 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:19:59 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:01 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:03 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:05 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:06 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:08 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:09 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:11 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:12 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:14 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:16 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:18 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:19 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:21 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:22 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:24 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:26 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:27 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:29 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:31 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:33 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:34 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:36 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:37 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:39 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:40 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:42 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:44 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:46 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:47 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:49 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:50 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:52 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:53 [INFO] src.master_problem: RMP LP solved — obj=1352.1087, active_cols=1
+2026-04-11 12:20:55 [INFO] __main__: FFCG sample collection: 4/26 problems (15.4%)  samples=548  eta=2291.7s
+2026-04-11 12:20:55 [INFO] src.master_problem: RMP LP solved — obj=3200000.0000, active_cols=0
+2026-04-11 12:20:58 [INFO] src.master_problem: RMP LP solved — obj=1102040.2024, active_cols=4
+2026-04-11 12:21:00 [INFO] src.master_problem: RMP LP solved — obj=202533.3884, active_cols=5
+2026-04-11 12:21:02 [INFO] src.master_problem: RMP LP solved — obj=2946.8643, active_cols=6
+2026-04-11 12:21:03 [INFO] src.master_problem: RMP LP solved — obj=2211.6226, active_cols=5
+2026-04-11 12:21:05 [INFO] src.master_problem: RMP LP solved — obj=2211.6226, active_cols=5
+2026-04-11 12:21:07 [INFO] src.master_problem: RMP LP solved — obj=2173.3646, active_cols=14
+2026-04-11 12:21:09 [INFO] src.master_problem: RMP LP solved — obj=2117.1734, active_cols=15
+2026-04-11 12:21:12 [INFO] src.master_problem: RMP LP solved — obj=2031.7204, active_cols=18
+2026-04-11 12:21:14 [INFO] src.master_problem: RMP LP solved — obj=1898.4325, active_cols=18
+2026-04-11 12:21:16 [INFO] src.master_problem: RMP LP solved — obj=1827.1217, active_cols=17
+2026-04-11 12:21:17 [INFO] src.master_problem: RMP LP solved — obj=1787.8285, active_cols=12
+2026-04-11 12:21:19 [INFO] src.master_problem: RMP LP solved — obj=1776.6206, active_cols=21
+2026-04-11 12:21:21 [INFO] src.master_problem: RMP LP solved — obj=1711.3267, active_cols=19
+2026-04-11 12:21:23 [INFO] src.master_problem: RMP LP solved — obj=1669.4399, active_cols=14
+2026-04-11 12:21:26 [INFO] src.master_problem: RMP LP solved — obj=1654.9827, active_cols=20
+2026-04-11 12:21:27 [INFO] src.master_problem: RMP LP solved — obj=1633.3525, active_cols=22
+2026-04-11 12:21:29 [INFO] src.master_problem: RMP LP solved — obj=1613.8311, active_cols=22
+2026-04-11 12:21:31 [INFO] src.master_problem: RMP LP solved — obj=1590.8691, active_cols=22
+2026-04-11 12:21:33 [INFO] src.master_problem: RMP LP solved — obj=1573.8379, active_cols=22
+2026-04-11 12:21:35 [INFO] src.master_problem: RMP LP solved — obj=1569.2385, active_cols=25
+2026-04-11 12:21:37 [INFO] src.master_problem: RMP LP solved — obj=1564.7493, active_cols=25
+2026-04-11 12:21:40 [INFO] src.master_problem: RMP LP solved — obj=1529.8333, active_cols=23
+2026-04-11 12:21:42 [INFO] src.master_problem: RMP LP solved — obj=1481.2336, active_cols=22
+2026-04-11 12:21:43 [INFO] src.master_problem: RMP LP solved — obj=1472.6694, active_cols=22
+2026-04-11 12:21:45 [INFO] src.master_problem: RMP LP solved — obj=1454.0451, active_cols=14
+2026-04-11 12:21:47 [INFO] src.master_problem: RMP LP solved — obj=1454.0451, active_cols=14
+2026-04-11 12:21:49 [INFO] src.master_problem: RMP LP solved — obj=1434.2065, active_cols=23
+2026-04-11 12:21:51 [INFO] src.master_problem: RMP LP solved — obj=1428.2633, active_cols=23
+2026-04-11 12:21:53 [INFO] src.master_problem: RMP LP solved — obj=1423.1058, active_cols=23
+2026-04-11 12:21:55 [INFO] src.master_problem: RMP LP solved — obj=1422.3079, active_cols=22
+2026-04-11 12:21:57 [INFO] src.master_problem: RMP LP solved — obj=1415.8566, active_cols=24
+2026-04-11 12:21:58 [INFO] src.master_problem: RMP LP solved — obj=1401.1568, active_cols=23
+2026-04-11 12:22:00 [INFO] src.master_problem: RMP LP solved — obj=1395.0555, active_cols=23
+2026-04-11 12:22:02 [INFO] src.master_problem: RMP LP solved — obj=1389.3722, active_cols=22
+2026-04-11 12:22:04 [INFO] src.master_problem: RMP LP solved — obj=1389.3722, active_cols=22
+2026-04-11 12:22:07 [INFO] src.master_problem: RMP LP solved — obj=1384.4798, active_cols=25
+2026-04-11 12:22:08 [INFO] src.master_problem: RMP LP solved — obj=1381.8862, active_cols=24
+2026-04-11 12:22:10 [INFO] src.master_problem: RMP LP solved — obj=1378.8174, active_cols=26
+2026-04-11 12:22:12 [INFO] src.master_problem: RMP LP solved — obj=1377.4489, active_cols=25
+2026-04-11 12:22:13 [INFO] src.master_problem: RMP LP solved — obj=1375.5115, active_cols=26
+2026-04-11 12:22:15 [INFO] src.master_problem: RMP LP solved — obj=1374.2554, active_cols=26
+2026-04-11 12:22:17 [INFO] src.master_problem: RMP LP solved — obj=1374.0697, active_cols=27
+2026-04-11 12:22:19 [INFO] src.master_problem: RMP LP solved — obj=1371.7110, active_cols=24
+2026-04-11 12:22:21 [INFO] src.master_problem: RMP LP solved — obj=1370.5475, active_cols=25
+2026-04-11 12:22:23 [INFO] src.master_problem: RMP LP solved — obj=1368.4701, active_cols=26
+2026-04-11 12:22:25 [INFO] src.master_problem: RMP LP solved — obj=1368.3467, active_cols=26
+2026-04-11 12:22:26 [INFO] src.master_problem: RMP LP solved — obj=1368.2964, active_cols=26
+2026-04-11 12:22:28 [INFO] src.master_problem: RMP LP solved — obj=1361.3295, active_cols=24
+2026-04-11 12:22:30 [INFO] src.master_problem: RMP LP solved — obj=1351.6397, active_cols=24
+2026-04-11 12:22:32 [INFO] src.master_problem: RMP LP solved — obj=1345.9027, active_cols=27
+2026-04-11 12:22:34 [INFO] src.master_problem: RMP LP solved — obj=1342.3220, active_cols=24
+2026-04-11 12:22:36 [INFO] src.master_problem: RMP LP solved — obj=1342.1069, active_cols=29
+2026-04-11 12:22:38 [INFO] src.master_problem: RMP LP solved — obj=1340.9783, active_cols=24
+2026-04-11 12:22:39 [INFO] src.master_problem: RMP LP solved — obj=1340.7497, active_cols=26
+2026-04-11 12:22:41 [INFO] src.master_problem: RMP LP solved — obj=1339.4381, active_cols=28
+2026-04-11 12:22:43 [INFO] src.master_problem: RMP LP solved — obj=1329.1929, active_cols=22
+2026-04-11 12:22:45 [INFO] src.master_problem: RMP LP solved — obj=1329.1868, active_cols=25
+2026-04-11 12:22:47 [INFO] src.master_problem: RMP LP solved — obj=1327.3946, active_cols=24
+2026-04-11 12:22:49 [INFO] src.master_problem: RMP LP solved — obj=1326.1577, active_cols=26
+2026-04-11 12:22:51 [INFO] src.master_problem: RMP LP solved — obj=1325.2696, active_cols=27
+2026-04-11 12:22:52 [INFO] src.master_problem: RMP LP solved — obj=1317.7383, active_cols=27
+2026-04-11 12:22:54 [INFO] src.master_problem: RMP LP solved — obj=1316.7689, active_cols=27
+2026-04-11 12:22:56 [INFO] src.master_problem: RMP LP solved — obj=1309.7684, active_cols=4
+2026-04-11 12:22:57 [INFO] __main__: FFCG sample collection: 5/26 problems (19.2%)  samples=694  eta=2265.2s
+2026-04-11 12:22:57 [INFO] src.master_problem: RMP LP solved — obj=3800000.0000, active_cols=0
+2026-04-11 12:23:00 [INFO] src.master_problem: RMP LP solved — obj=2401959.1615, active_cols=3
+2026-04-11 12:23:03 [INFO] src.master_problem: RMP LP solved — obj=804065.3563, active_cols=6
+2026-04-11 12:23:05 [INFO] src.master_problem: RMP LP solved — obj=7321.6208, active_cols=7
+2026-04-11 12:23:07 [INFO] src.master_problem: RMP LP solved — obj=5058.0032, active_cols=6
+2026-04-11 12:23:09 [INFO] src.master_problem: RMP LP solved — obj=4720.0497, active_cols=12
+2026-04-11 12:23:12 [INFO] src.master_problem: RMP LP solved — obj=4092.3107, active_cols=18
+2026-04-11 12:23:15 [INFO] src.master_problem: RMP LP solved — obj=3905.5563, active_cols=18
+2026-04-11 12:23:17 [INFO] src.master_problem: RMP LP solved — obj=3808.5434, active_cols=19
+2026-04-11 12:23:19 [INFO] src.master_problem: RMP LP solved — obj=3759.8817, active_cols=17
+2026-04-11 12:23:21 [INFO] src.master_problem: RMP LP solved — obj=3726.9515, active_cols=20
+2026-04-11 12:23:23 [INFO] src.master_problem: RMP LP solved — obj=3611.1160, active_cols=19
+2026-04-11 12:23:26 [INFO] src.master_problem: RMP LP solved — obj=3593.1041, active_cols=25
+2026-04-11 12:23:29 [INFO] src.master_problem: RMP LP solved — obj=3545.5620, active_cols=23
+2026-04-11 12:23:31 [INFO] src.master_problem: RMP LP solved — obj=3536.1106, active_cols=25
+2026-04-11 12:23:33 [INFO] src.master_problem: RMP LP solved — obj=3524.4988, active_cols=25
+2026-04-11 12:23:35 [INFO] src.master_problem: RMP LP solved — obj=3507.7355, active_cols=32
+2026-04-11 12:23:37 [INFO] src.master_problem: RMP LP solved — obj=3495.8209, active_cols=27
+2026-04-11 12:23:40 [INFO] src.master_problem: RMP LP solved — obj=3481.8058, active_cols=29
+2026-04-11 12:23:43 [INFO] src.master_problem: RMP LP solved — obj=3465.2251, active_cols=28
+2026-04-11 12:23:45 [INFO] src.master_problem: RMP LP solved — obj=3458.6753, active_cols=28
+2026-04-11 12:23:47 [INFO] src.master_problem: RMP LP solved — obj=3433.7779, active_cols=27
+2026-04-11 12:23:49 [INFO] src.master_problem: RMP LP solved — obj=3407.0216, active_cols=28
+2026-04-11 12:23:52 [INFO] src.master_problem: RMP LP solved — obj=3385.7176, active_cols=28
+2026-04-11 12:23:54 [INFO] src.master_problem: RMP LP solved — obj=3374.3344, active_cols=28
+2026-04-11 12:23:57 [INFO] src.master_problem: RMP LP solved — obj=3371.2992, active_cols=32
+2026-04-11 12:23:59 [INFO] src.master_problem: RMP LP solved — obj=3363.0968, active_cols=31
+2026-04-11 12:24:01 [INFO] src.master_problem: RMP LP solved — obj=3311.6351, active_cols=26
+2026-04-11 12:24:03 [INFO] src.master_problem: RMP LP solved — obj=3273.0868, active_cols=27
+2026-04-11 12:24:05 [INFO] src.master_problem: RMP LP solved — obj=3270.2386, active_cols=26
+2026-04-11 12:24:08 [INFO] src.master_problem: RMP LP solved — obj=3239.9951, active_cols=26
+2026-04-11 12:24:11 [INFO] src.master_problem: RMP LP solved — obj=3209.4797, active_cols=25
+2026-04-11 12:24:13 [INFO] src.master_problem: RMP LP solved — obj=3204.4657, active_cols=27
+2026-04-11 12:24:15 [INFO] src.master_problem: RMP LP solved — obj=3163.9777, active_cols=25
+2026-04-11 12:24:17 [INFO] src.master_problem: RMP LP solved — obj=3127.6417, active_cols=27
+2026-04-11 12:24:19 [INFO] src.master_problem: RMP LP solved — obj=3106.8417, active_cols=28
+2026-04-11 12:24:22 [INFO] src.master_problem: RMP LP solved — obj=3095.9498, active_cols=28
+2026-04-11 12:24:25 [INFO] src.master_problem: RMP LP solved — obj=3084.2608, active_cols=29
+2026-04-11 12:24:27 [INFO] src.master_problem: RMP LP solved — obj=3071.9175, active_cols=31
+2026-04-11 12:24:29 [INFO] src.master_problem: RMP LP solved — obj=3057.8643, active_cols=27
+2026-04-11 12:24:31 [INFO] src.master_problem: RMP LP solved — obj=3044.3635, active_cols=31
+2026-04-11 12:24:33 [INFO] src.master_problem: RMP LP solved — obj=3035.5916, active_cols=30
+2026-04-11 12:24:36 [INFO] src.master_problem: RMP LP solved — obj=3023.1651, active_cols=29
+2026-04-11 12:24:39 [INFO] src.master_problem: RMP LP solved — obj=3017.3552, active_cols=32
+2026-04-11 12:24:41 [INFO] src.master_problem: RMP LP solved — obj=3013.4551, active_cols=32
+2026-04-11 12:24:43 [INFO] src.master_problem: RMP LP solved — obj=3010.4700, active_cols=30
+2026-04-11 12:24:45 [INFO] src.master_problem: RMP LP solved — obj=2984.4393, active_cols=29
+2026-04-11 12:24:47 [INFO] src.master_problem: RMP LP solved — obj=2967.3425, active_cols=32
+2026-04-11 12:24:50 [INFO] src.master_problem: RMP LP solved — obj=2964.9191, active_cols=28
+2026-04-11 12:24:52 [INFO] src.master_problem: RMP LP solved — obj=2953.2528, active_cols=28
+2026-04-11 12:24:55 [INFO] src.master_problem: RMP LP solved — obj=2947.9717, active_cols=27
+2026-04-11 12:24:57 [INFO] src.master_problem: RMP LP solved — obj=2926.2354, active_cols=28
+2026-04-11 12:24:59 [INFO] src.master_problem: RMP LP solved — obj=2922.1960, active_cols=25
+2026-04-11 12:25:01 [INFO] src.master_problem: RMP LP solved — obj=2917.4313, active_cols=26
+2026-04-11 12:25:03 [INFO] src.master_problem: RMP LP solved — obj=2914.7161, active_cols=28
+2026-04-11 12:25:06 [INFO] src.master_problem: RMP LP solved — obj=2904.6128, active_cols=32
+2026-04-11 12:25:08 [INFO] src.master_problem: RMP LP solved — obj=2899.0310, active_cols=27
+2026-04-11 12:25:10 [INFO] src.master_problem: RMP LP solved — obj=2891.5606, active_cols=31
+2026-04-11 12:25:12 [INFO] src.master_problem: RMP LP solved — obj=2884.1523, active_cols=23
+2026-04-11 12:25:14 [INFO] src.master_problem: RMP LP solved — obj=2883.5876, active_cols=24
+2026-04-11 12:25:17 [INFO] src.master_problem: RMP LP solved — obj=2883.5876, active_cols=24
+2026-04-11 12:25:20 [INFO] src.master_problem: RMP LP solved — obj=2872.5341, active_cols=26
+2026-04-11 12:25:22 [INFO] src.master_problem: RMP LP solved — obj=2872.5341, active_cols=26
+2026-04-11 12:25:24 [INFO] src.master_problem: RMP LP solved — obj=2866.7848, active_cols=25
+2026-04-11 12:25:26 [INFO] __main__: FFCG sample collection: 6/26 problems (23.1%)  samples=878  eta=2292.4s
+2026-04-11 12:25:26 [INFO] src.master_problem: RMP LP solved — obj=300000.0000, active_cols=0
+2026-04-11 12:25:27 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:29 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:31 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:33 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:34 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:36 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:37 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:39 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:40 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:41 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:43 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:45 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:47 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:48 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:50 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:51 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:53 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:54 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:56 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:57 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:25:59 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:01 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:02 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:04 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:05 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:07 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:08 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:10 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:12 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:14 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:15 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:17 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:18 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:19 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:21 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:22 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:24 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:26 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:28 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:29 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:30 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:32 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:33 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:35 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:36 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:38 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:40 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:42 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:43 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:45 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:46 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:47 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:49 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:50 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:52 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:54 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:56 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:57 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:26:59 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:27:00 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:27:02 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:27:03 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:27:05 [INFO] src.master_problem: RMP LP solved — obj=789.7005, active_cols=1
+2026-04-11 12:27:07 [INFO] __main__: FFCG sample collection: 7/26 problems (26.9%)  samples=948  eta=2140.1s
+2026-04-11 12:27:07 [INFO] src.master_problem: RMP LP solved — obj=14100000.0000, active_cols=0
+2026-04-11 12:27:10 [INFO] src.master_problem: RMP LP solved — obj=10901961.7189, active_cols=2
+2026-04-11 12:27:13 [INFO] src.master_problem: RMP LP solved — obj=6411430.3229, active_cols=7
+2026-04-11 12:27:16 [INFO] src.master_problem: RMP LP solved — obj=3519072.8221, active_cols=12
+2026-04-11 12:27:19 [INFO] src.master_problem: RMP LP solved — obj=1329396.6166, active_cols=16
+2026-04-11 12:27:23 [INFO] src.master_problem: RMP LP solved — obj=436456.6325, active_cols=19
+2026-04-11 12:27:26 [INFO] src.master_problem: RMP LP solved — obj=37615.5828, active_cols=20
+2026-04-11 12:27:29 [INFO] src.master_problem: RMP LP solved — obj=33951.3993, active_cols=24
+2026-04-11 12:27:32 [INFO] src.master_problem: RMP LP solved — obj=32145.4741, active_cols=27
+2026-04-11 12:27:36 [INFO] src.master_problem: RMP LP solved — obj=30609.8589, active_cols=26
+2026-04-11 12:27:39 [INFO] src.master_problem: RMP LP solved — obj=29966.9141, active_cols=34
+2026-04-11 12:27:42 [INFO] src.master_problem: RMP LP solved — obj=29086.5152, active_cols=36
+2026-04-11 12:27:45 [INFO] src.master_problem: RMP LP solved — obj=28494.0454, active_cols=44
+2026-04-11 12:27:48 [INFO] src.master_problem: RMP LP solved — obj=27801.6497, active_cols=46
+2026-04-11 12:27:52 [INFO] src.master_problem: RMP LP solved — obj=27180.0019, active_cols=53
+2026-04-11 12:27:55 [INFO] src.master_problem: RMP LP solved — obj=26250.4239, active_cols=52
+2026-04-11 12:27:58 [INFO] src.master_problem: RMP LP solved — obj=24867.6360, active_cols=48
+2026-04-11 12:28:01 [INFO] src.master_problem: RMP LP solved — obj=24359.7252, active_cols=58
+2026-04-11 12:28:04 [INFO] src.master_problem: RMP LP solved — obj=23568.6813, active_cols=53
+2026-04-11 12:28:07 [INFO] src.master_problem: RMP LP solved — obj=22899.9180, active_cols=58
+2026-04-11 12:28:10 [INFO] src.master_problem: RMP LP solved — obj=22720.1826, active_cols=60
+2026-04-11 12:28:13 [INFO] src.master_problem: RMP LP solved — obj=22439.7097, active_cols=60
+2026-04-11 12:28:17 [INFO] src.master_problem: RMP LP solved — obj=21868.4554, active_cols=65
+2026-04-11 12:28:20 [INFO] src.master_problem: RMP LP solved — obj=21546.0857, active_cols=66
+2026-04-11 12:28:23 [INFO] src.master_problem: RMP LP solved — obj=21314.5969, active_cols=69
+2026-04-11 12:28:25 [INFO] src.master_problem: RMP LP solved — obj=21156.6283, active_cols=65
+2026-04-11 12:28:29 [INFO] src.master_problem: RMP LP solved — obj=20996.0106, active_cols=66
+2026-04-11 12:28:32 [INFO] src.master_problem: RMP LP solved — obj=20869.4518, active_cols=67
+2026-04-11 12:28:35 [INFO] src.master_problem: RMP LP solved — obj=20614.1479, active_cols=78
+2026-04-11 12:28:38 [INFO] src.master_problem: RMP LP solved — obj=20425.6935, active_cols=76
+2026-04-11 12:28:41 [INFO] src.master_problem: RMP LP solved — obj=20287.6619, active_cols=75
+2026-04-11 12:28:45 [INFO] src.master_problem: RMP LP solved — obj=20203.4979, active_cols=79
+2026-04-11 12:28:48 [INFO] src.master_problem: RMP LP solved — obj=20078.8231, active_cols=76
+2026-04-11 12:28:51 [INFO] src.master_problem: RMP LP solved — obj=19889.4811, active_cols=80
+2026-04-11 12:28:54 [INFO] src.master_problem: RMP LP solved — obj=19681.5477, active_cols=78
+2026-04-11 12:28:57 [INFO] src.master_problem: RMP LP solved — obj=19500.8912, active_cols=78
+2026-04-11 12:29:01 [INFO] src.master_problem: RMP LP solved — obj=19429.4567, active_cols=82
+2026-04-11 12:29:03 [INFO] src.master_problem: RMP LP solved — obj=19241.4472, active_cols=87
+2026-04-11 12:29:06 [INFO] src.master_problem: RMP LP solved — obj=19162.7674, active_cols=86
+2026-04-11 12:29:09 [INFO] src.master_problem: RMP LP solved — obj=19034.3122, active_cols=78
+2026-04-11 12:29:13 [INFO] src.master_problem: RMP LP solved — obj=18891.5031, active_cols=84
+2026-04-11 12:29:16 [INFO] src.master_problem: RMP LP solved — obj=18818.9035, active_cols=87
+2026-04-11 12:29:19 [INFO] src.master_problem: RMP LP solved — obj=18624.2231, active_cols=82
+2026-04-11 12:29:22 [INFO] src.master_problem: RMP LP solved — obj=18554.9136, active_cols=81
+2026-04-11 12:29:26 [INFO] src.master_problem: RMP LP solved — obj=18413.7653, active_cols=89
+2026-04-11 12:29:28 [INFO] src.master_problem: RMP LP solved — obj=18280.1652, active_cols=86
+2026-04-11 12:29:31 [INFO] src.master_problem: RMP LP solved — obj=18097.9576, active_cols=78
+2026-04-11 12:29:34 [INFO] src.master_problem: RMP LP solved — obj=17868.6087, active_cols=81
+2026-04-11 12:29:37 [INFO] src.master_problem: RMP LP solved — obj=17681.4077, active_cols=78
+2026-04-11 12:29:41 [INFO] src.master_problem: RMP LP solved — obj=17546.8764, active_cols=77
+2026-04-11 12:29:44 [INFO] src.master_problem: RMP LP solved — obj=17301.8043, active_cols=75
+2026-04-11 12:29:47 [INFO] src.master_problem: RMP LP solved — obj=17283.0203, active_cols=77
+2026-04-11 12:29:49 [INFO] src.master_problem: RMP LP solved — obj=17236.6953, active_cols=77
+2026-04-11 12:29:53 [INFO] src.master_problem: RMP LP solved — obj=17135.3112, active_cols=83
+2026-04-11 12:29:56 [INFO] src.master_problem: RMP LP solved — obj=17046.7948, active_cols=85
+2026-04-11 12:29:59 [INFO] src.master_problem: RMP LP solved — obj=16862.5230, active_cols=84
+2026-04-11 12:30:02 [INFO] src.master_problem: RMP LP solved — obj=16835.0431, active_cols=83
+2026-04-11 12:30:05 [INFO] src.master_problem: RMP LP solved — obj=16783.9760, active_cols=79
+2026-04-11 12:30:09 [INFO] src.master_problem: RMP LP solved — obj=16727.5809, active_cols=78
+2026-04-11 12:30:12 [INFO] src.master_problem: RMP LP solved — obj=16640.1740, active_cols=87
+2026-04-11 12:30:15 [INFO] src.master_problem: RMP LP solved — obj=16630.8158, active_cols=88
+2026-04-11 12:30:17 [INFO] src.master_problem: RMP LP solved — obj=16592.8694, active_cols=91
+2026-04-11 12:30:21 [INFO] src.master_problem: RMP LP solved — obj=16583.9731, active_cols=90
+2026-04-11 12:30:24 [INFO] src.master_problem: RMP LP solved — obj=16515.4806, active_cols=84
+2026-04-11 12:30:27 [INFO] __main__: FFCG sample collection: 8/26 problems (30.8%)  samples=1232  eta=2224.9s
+2026-04-11 12:30:27 [INFO] src.master_problem: RMP LP solved — obj=2600000.0000, active_cols=0
+2026-04-11 12:30:29 [INFO] src.master_problem: RMP LP solved — obj=305425.3567, active_cols=3
+2026-04-11 12:30:31 [INFO] src.master_problem: RMP LP solved — obj=6819.9821, active_cols=4
+2026-04-11 12:30:34 [INFO] src.master_problem: RMP LP solved — obj=6819.9821, active_cols=4
+2026-04-11 12:30:37 [INFO] src.master_problem: RMP LP solved — obj=6592.8046, active_cols=6
+2026-04-11 12:30:39 [INFO] src.master_problem: RMP LP solved — obj=6068.8071, active_cols=10
+2026-04-11 12:30:41 [INFO] src.master_problem: RMP LP solved — obj=5866.0646, active_cols=8
+2026-04-11 12:30:43 [INFO] src.master_problem: RMP LP solved — obj=5834.9972, active_cols=9
+2026-04-11 12:30:45 [INFO] src.master_problem: RMP LP solved — obj=5785.3267, active_cols=12
+2026-04-11 12:30:48 [INFO] src.master_problem: RMP LP solved — obj=5758.9783, active_cols=14
+2026-04-11 12:30:50 [INFO] src.master_problem: RMP LP solved — obj=5682.9199, active_cols=13
+2026-04-11 12:30:52 [INFO] src.master_problem: RMP LP solved — obj=5622.4196, active_cols=15
+2026-04-11 12:30:55 [INFO] src.master_problem: RMP LP solved — obj=5499.6557, active_cols=13
+2026-04-11 12:30:57 [INFO] src.master_problem: RMP LP solved — obj=5497.3170, active_cols=14
+2026-04-11 12:30:58 [INFO] src.master_problem: RMP LP solved — obj=5389.7919, active_cols=12
+2026-04-11 12:31:01 [INFO] src.master_problem: RMP LP solved — obj=5354.1516, active_cols=15
+2026-04-11 12:31:04 [INFO] src.master_problem: RMP LP solved — obj=5324.1323, active_cols=17
+2026-04-11 12:31:06 [INFO] src.master_problem: RMP LP solved — obj=5306.9365, active_cols=19
+2026-04-11 12:31:08 [INFO] src.master_problem: RMP LP solved — obj=5234.7267, active_cols=15
+2026-04-11 12:31:10 [INFO] src.master_problem: RMP LP solved — obj=5175.3616, active_cols=17
+2026-04-11 12:31:12 [INFO] src.master_problem: RMP LP solved — obj=5170.3877, active_cols=17
+2026-04-11 12:31:14 [INFO] src.master_problem: RMP LP solved — obj=5112.4950, active_cols=17
+2026-04-11 12:31:17 [INFO] src.master_problem: RMP LP solved — obj=5064.5094, active_cols=16
+2026-04-11 12:31:19 [INFO] src.master_problem: RMP LP solved — obj=5050.3381, active_cols=17
+2026-04-11 12:31:21 [INFO] src.master_problem: RMP LP solved — obj=4998.7748, active_cols=9
+2026-04-11 12:31:23 [INFO] src.master_problem: RMP LP solved — obj=4998.7748, active_cols=9
+2026-04-11 12:31:25 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:27 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:29 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:31 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:33 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:35 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:37 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:39 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:42 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:44 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:46 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:48 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:50 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:52 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:54 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:57 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:31:59 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:01 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:03 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:05 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:07 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:09 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:12 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:13 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:15 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:17 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:19 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:21 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:24 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:26 [INFO] src.master_problem: RMP LP solved — obj=4667.5941, active_cols=3
+2026-04-11 12:32:28 [INFO] __main__: FFCG sample collection: 9/26 problems (34.6%)  samples=1394  eta=2096.4s
+2026-04-11 12:32:28 [INFO] src.master_problem: RMP LP solved — obj=2200000.0000, active_cols=0
+2026-04-11 12:32:30 [INFO] src.master_problem: RMP LP solved — obj=403426.7590, active_cols=2
+2026-04-11 12:32:32 [INFO] src.master_problem: RMP LP solved — obj=2929.0319, active_cols=2
+2026-04-11 12:32:33 [INFO] src.master_problem: RMP LP solved — obj=2929.0319, active_cols=2
+2026-04-11 12:32:35 [INFO] src.master_problem: RMP LP solved — obj=2929.0319, active_cols=2
+2026-04-11 12:32:38 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:40 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:42 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:43 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:45 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:47 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:48 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:51 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:53 [INFO] src.master_problem: RMP LP solved — obj=2872.8548, active_cols=3
+2026-04-11 12:32:55 [INFO] src.master_problem: RMP LP solved — obj=2828.9411, active_cols=8
+2026-04-11 12:32:56 [INFO] src.master_problem: RMP LP solved — obj=2816.5157, active_cols=13
+2026-04-11 12:32:58 [INFO] src.master_problem: RMP LP solved — obj=2716.5265, active_cols=11
+2026-04-11 12:33:00 [INFO] src.master_problem: RMP LP solved — obj=2706.9978, active_cols=12
+2026-04-11 12:33:01 [INFO] src.master_problem: RMP LP solved — obj=2671.5579, active_cols=12
+2026-04-11 12:33:03 [INFO] src.master_problem: RMP LP solved — obj=2669.6005, active_cols=12
+2026-04-11 12:33:06 [INFO] src.master_problem: RMP LP solved — obj=2669.5244, active_cols=13
+2026-04-11 12:33:07 [INFO] src.master_problem: RMP LP solved — obj=2663.4164, active_cols=13
+2026-04-11 12:33:09 [INFO] src.master_problem: RMP LP solved — obj=2657.3760, active_cols=12
+2026-04-11 12:33:11 [INFO] src.master_problem: RMP LP solved — obj=2655.3690, active_cols=13
+2026-04-11 12:33:12 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:14 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:16 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:18 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:20 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:22 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:23 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:25 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:27 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:28 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:30 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:33 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:35 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:36 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:38 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:40 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:41 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:43 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:46 [INFO] src.master_problem: RMP LP solved — obj=2445.8209, active_cols=2
+2026-04-11 12:33:48 [INFO] __main__: FFCG sample collection: 10/26 problems (38.5%)  samples=1497  eta=1903.4s
+2026-04-11 12:33:48 [INFO] src.master_problem: RMP LP solved — obj=1600000.0000, active_cols=0
+2026-04-11 12:33:50 [INFO] src.master_problem: RMP LP solved — obj=203513.7850, active_cols=2
+2026-04-11 12:33:51 [INFO] src.master_problem: RMP LP solved — obj=4079.5072, active_cols=3
+2026-04-11 12:33:53 [INFO] src.master_problem: RMP LP solved — obj=3659.1420, active_cols=5
+2026-04-11 12:33:55 [INFO] src.master_problem: RMP LP solved — obj=3439.0801, active_cols=3
+2026-04-11 12:33:56 [INFO] src.master_problem: RMP LP solved — obj=3439.0801, active_cols=3
+2026-04-11 12:33:59 [INFO] src.master_problem: RMP LP solved — obj=3203.0328, active_cols=9
+2026-04-11 12:34:01 [INFO] src.master_problem: RMP LP solved — obj=3087.6054, active_cols=9
+2026-04-11 12:34:03 [INFO] src.master_problem: RMP LP solved — obj=2958.4539, active_cols=8
+2026-04-11 12:34:04 [INFO] src.master_problem: RMP LP solved — obj=2928.3030, active_cols=5
+2026-04-11 12:34:06 [INFO] src.master_problem: RMP LP solved — obj=2838.3589, active_cols=8
+2026-04-11 12:34:08 [INFO] src.master_problem: RMP LP solved — obj=2809.2070, active_cols=11
+2026-04-11 12:34:10 [INFO] src.master_problem: RMP LP solved — obj=2741.1141, active_cols=10
+2026-04-11 12:34:12 [INFO] src.master_problem: RMP LP solved — obj=2691.6228, active_cols=7
+2026-04-11 12:34:14 [INFO] src.master_problem: RMP LP solved — obj=2656.7981, active_cols=8
+2026-04-11 12:34:16 [INFO] src.master_problem: RMP LP solved — obj=2644.7363, active_cols=11
+2026-04-11 12:34:18 [INFO] src.master_problem: RMP LP solved — obj=2640.9780, active_cols=11
+2026-04-11 12:34:19 [INFO] src.master_problem: RMP LP solved — obj=2638.4142, active_cols=12
+2026-04-11 12:34:21 [INFO] src.master_problem: RMP LP solved — obj=2631.4409, active_cols=11
+2026-04-11 12:34:23 [INFO] src.master_problem: RMP LP solved — obj=2626.0423, active_cols=10
+2026-04-11 12:34:25 [INFO] src.master_problem: RMP LP solved — obj=2609.5734, active_cols=11
+2026-04-11 12:34:27 [INFO] src.master_problem: RMP LP solved — obj=2599.7042, active_cols=13
+2026-04-11 12:34:29 [INFO] src.master_problem: RMP LP solved — obj=2597.4429, active_cols=13
+2026-04-11 12:34:31 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:32 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:34 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:36 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:37 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:40 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:42 [INFO] src.master_problem: RMP LP solved — obj=2569.6297, active_cols=5
+2026-04-11 12:34:43 [INFO] src.master_problem: RMP LP solved — obj=2544.8401, active_cols=7
+2026-04-11 12:34:45 [INFO] src.master_problem: RMP LP solved — obj=2509.8129, active_cols=8
+2026-04-11 12:34:47 [INFO] src.master_problem: RMP LP solved — obj=2467.1008, active_cols=12
+2026-04-11 12:34:48 [INFO] src.master_problem: RMP LP solved — obj=2466.7070, active_cols=12
+2026-04-11 12:34:50 [INFO] src.master_problem: RMP LP solved — obj=2457.7713, active_cols=10
+2026-04-11 12:34:52 [INFO] src.master_problem: RMP LP solved — obj=2449.9780, active_cols=6
+2026-04-11 12:34:55 [INFO] src.master_problem: RMP LP solved — obj=2443.1297, active_cols=12
+2026-04-11 12:34:57 [INFO] src.master_problem: RMP LP solved — obj=2437.4897, active_cols=9
+2026-04-11 12:34:58 [INFO] src.master_problem: RMP LP solved — obj=2437.4897, active_cols=9
+2026-04-11 12:35:00 [INFO] src.master_problem: RMP LP solved — obj=2436.1370, active_cols=10
+2026-04-11 12:35:02 [INFO] src.master_problem: RMP LP solved — obj=2436.1370, active_cols=10
+2026-04-11 12:35:04 [INFO] src.master_problem: RMP LP solved — obj=2431.9033, active_cols=11
+2026-04-11 12:35:05 [INFO] src.master_problem: RMP LP solved — obj=2431.9033, active_cols=11
+2026-04-11 12:35:08 [INFO] src.master_problem: RMP LP solved — obj=2431.9033, active_cols=11
+2026-04-11 12:35:10 [INFO] src.master_problem: RMP LP solved — obj=2430.7750, active_cols=11
+2026-04-11 12:35:11 [INFO] src.master_problem: RMP LP solved — obj=2417.2851, active_cols=7
+2026-04-11 12:35:13 [INFO] src.master_problem: RMP LP solved — obj=2417.2851, active_cols=7
+2026-04-11 12:35:15 [INFO] src.master_problem: RMP LP solved — obj=2417.2851, active_cols=7
+2026-04-11 12:35:16 [INFO] __main__: FFCG sample collection: 11/26 problems (42.3%)  samples=1602  eta=1743.0s
+2026-04-11 12:35:16 [INFO] src.master_problem: RMP LP solved — obj=11800000.0000, active_cols=0
+2026-04-11 12:35:19 [INFO] src.master_problem: RMP LP solved — obj=7904126.6045, active_cols=4
+2026-04-11 12:35:23 [INFO] src.master_problem: RMP LP solved — obj=3913345.8660, active_cols=9
+2026-04-11 12:35:25 [INFO] src.master_problem: RMP LP solved — obj=1520672.5347, active_cols=13
+2026-04-11 12:35:28 [INFO] src.master_problem: RMP LP solved — obj=426141.9401, active_cols=16
+2026-04-11 12:35:30 [INFO] src.master_problem: RMP LP solved — obj=25735.7838, active_cols=17
+2026-04-11 12:35:33 [INFO] src.master_problem: RMP LP solved — obj=25374.7587, active_cols=20
+2026-04-11 12:35:37 [INFO] src.master_problem: RMP LP solved — obj=24719.6330, active_cols=15
+2026-04-11 12:35:39 [INFO] src.master_problem: RMP LP solved — obj=22995.0215, active_cols=15
+2026-04-11 12:35:42 [INFO] src.master_problem: RMP LP solved — obj=21390.2976, active_cols=18
+2026-04-11 12:35:44 [INFO] src.master_problem: RMP LP solved — obj=21011.0160, active_cols=27
+2026-04-11 12:35:46 [INFO] src.master_problem: RMP LP solved — obj=20627.7079, active_cols=37
+2026-04-11 12:35:50 [INFO] src.master_problem: RMP LP solved — obj=20305.0891, active_cols=42
+2026-04-11 12:35:52 [INFO] src.master_problem: RMP LP solved — obj=19728.6939, active_cols=45
+2026-04-11 12:35:55 [INFO] src.master_problem: RMP LP solved — obj=18989.7813, active_cols=40
+2026-04-11 12:35:57 [INFO] src.master_problem: RMP LP solved — obj=18371.7632, active_cols=45
+2026-04-11 12:36:00 [INFO] src.master_problem: RMP LP solved — obj=17799.0115, active_cols=47
+2026-04-11 12:36:03 [INFO] src.master_problem: RMP LP solved — obj=17595.5592, active_cols=50
+2026-04-11 12:36:06 [INFO] src.master_problem: RMP LP solved — obj=17470.2868, active_cols=53
+2026-04-11 12:36:08 [INFO] src.master_problem: RMP LP solved — obj=17432.4994, active_cols=57
+2026-04-11 12:36:10 [INFO] src.master_problem: RMP LP solved — obj=17129.8259, active_cols=55
+2026-04-11 12:36:12 [INFO] src.master_problem: RMP LP solved — obj=16917.7505, active_cols=55
+2026-04-11 12:36:15 [INFO] src.master_problem: RMP LP solved — obj=16797.8371, active_cols=57
+2026-04-11 12:36:18 [INFO] src.master_problem: RMP LP solved — obj=16565.5665, active_cols=54
+2026-04-11 12:36:21 [INFO] src.master_problem: RMP LP solved — obj=16341.0585, active_cols=51
+2026-04-11 12:36:23 [INFO] src.master_problem: RMP LP solved — obj=16229.0367, active_cols=55
+2026-04-11 12:36:26 [INFO] src.master_problem: RMP LP solved — obj=16130.9310, active_cols=60
+2026-04-11 12:36:29 [INFO] src.master_problem: RMP LP solved — obj=15844.8926, active_cols=59
+2026-04-11 12:36:32 [INFO] src.master_problem: RMP LP solved — obj=15750.1943, active_cols=65
+2026-04-11 12:36:34 [INFO] src.master_problem: RMP LP solved — obj=15504.2669, active_cols=60
+2026-04-11 12:36:37 [INFO] src.master_problem: RMP LP solved — obj=15365.0301, active_cols=63
+2026-04-11 12:36:40 [INFO] src.master_problem: RMP LP solved — obj=15254.7253, active_cols=63
+2026-04-11 12:36:42 [INFO] src.master_problem: RMP LP solved — obj=15068.4593, active_cols=62
+2026-04-11 12:36:46 [INFO] src.master_problem: RMP LP solved — obj=14757.6802, active_cols=61
+2026-04-11 12:36:48 [INFO] src.master_problem: RMP LP solved — obj=14570.3782, active_cols=65
+2026-04-11 12:36:51 [INFO] src.master_problem: RMP LP solved — obj=14266.4868, active_cols=58
+2026-04-11 12:36:53 [INFO] src.master_problem: RMP LP solved — obj=14160.0278, active_cols=60
+2026-04-11 12:36:56 [INFO] src.master_problem: RMP LP solved — obj=14103.2792, active_cols=64
+2026-04-11 12:36:59 [INFO] src.master_problem: RMP LP solved — obj=14064.5513, active_cols=64
+2026-04-11 12:37:02 [INFO] src.master_problem: RMP LP solved — obj=13789.8311, active_cols=61
+2026-04-11 12:37:04 [INFO] src.master_problem: RMP LP solved — obj=13627.9568, active_cols=63
+2026-04-11 12:37:06 [INFO] src.master_problem: RMP LP solved — obj=13594.7326, active_cols=64
+2026-04-11 12:37:09 [INFO] src.master_problem: RMP LP solved — obj=13503.3043, active_cols=66
+2026-04-11 12:37:12 [INFO] src.master_problem: RMP LP solved — obj=13413.4966, active_cols=62
+2026-04-11 12:37:15 [INFO] src.master_problem: RMP LP solved — obj=13351.8194, active_cols=62
+2026-04-11 12:37:17 [INFO] src.master_problem: RMP LP solved — obj=13253.7605, active_cols=65
+2026-04-11 12:37:20 [INFO] src.master_problem: RMP LP solved — obj=13180.2994, active_cols=68
+2026-04-11 12:37:22 [INFO] src.master_problem: RMP LP solved — obj=13128.5970, active_cols=70
+2026-04-11 12:37:25 [INFO] src.master_problem: RMP LP solved — obj=13117.4715, active_cols=68
+2026-04-11 12:37:28 [INFO] src.master_problem: RMP LP solved — obj=13078.1594, active_cols=68
+2026-04-11 12:37:31 [INFO] src.master_problem: RMP LP solved — obj=13053.4816, active_cols=67
+2026-04-11 12:37:33 [INFO] src.master_problem: RMP LP solved — obj=12984.3589, active_cols=70
+2026-04-11 12:37:35 [INFO] src.master_problem: RMP LP solved — obj=12934.6739, active_cols=72
+2026-04-11 12:37:38 [INFO] src.master_problem: RMP LP solved — obj=12888.4691, active_cols=68
+2026-04-11 12:37:41 [INFO] src.master_problem: RMP LP solved — obj=12860.3212, active_cols=71
+2026-04-11 12:37:43 [INFO] src.master_problem: RMP LP solved — obj=12855.0204, active_cols=72
+2026-04-11 12:37:46 [INFO] src.master_problem: RMP LP solved — obj=12837.6912, active_cols=72
+2026-04-11 12:37:48 [INFO] src.master_problem: RMP LP solved — obj=12804.0474, active_cols=70
+2026-04-11 12:37:50 [INFO] src.master_problem: RMP LP solved — obj=12713.9321, active_cols=73
+2026-04-11 12:37:53 [INFO] src.master_problem: RMP LP solved — obj=12710.4788, active_cols=73
+2026-04-11 12:37:56 [INFO] src.master_problem: RMP LP solved — obj=12689.7583, active_cols=76
+2026-04-11 12:37:58 [INFO] src.master_problem: RMP LP solved — obj=12669.0095, active_cols=73
+2026-04-11 12:38:01 [INFO] src.master_problem: RMP LP solved — obj=12657.8961, active_cols=75
+2026-04-11 12:38:03 [INFO] src.master_problem: RMP LP solved — obj=12643.9658, active_cols=78
+2026-04-11 12:38:05 [INFO] __main__: FFCG sample collection: 12/26 problems (46.2%)  samples=1868  eta=1688.3s
+2026-04-11 12:38:05 [INFO] src.master_problem: RMP LP solved — obj=6200000.0000, active_cols=0
+2026-04-11 12:38:07 [INFO] src.master_problem: RMP LP solved — obj=4102777.8858, active_cols=3
+2026-04-11 12:38:09 [INFO] src.master_problem: RMP LP solved — obj=1806833.5187, active_cols=6
+2026-04-11 12:38:10 [INFO] src.master_problem: RMP LP solved — obj=611111.5250, active_cols=8
+2026-04-11 12:38:12 [INFO] src.master_problem: RMP LP solved — obj=311364.4643, active_cols=8
+2026-04-11 12:38:13 [INFO] src.master_problem: RMP LP solved — obj=13419.3607, active_cols=9
+2026-04-11 12:38:14 [INFO] src.master_problem: RMP LP solved — obj=12306.5494, active_cols=13
+2026-04-11 12:38:16 [INFO] src.master_problem: RMP LP solved — obj=12109.0009, active_cols=14
+2026-04-11 12:38:17 [INFO] src.master_problem: RMP LP solved — obj=11952.4417, active_cols=16
+2026-04-11 12:38:18 [INFO] src.master_problem: RMP LP solved — obj=11952.4417, active_cols=16
+2026-04-11 12:38:20 [INFO] src.master_problem: RMP LP solved — obj=11798.2085, active_cols=18
+2026-04-11 12:38:22 [INFO] src.master_problem: RMP LP solved — obj=11474.5695, active_cols=18
+2026-04-11 12:38:23 [INFO] src.master_problem: RMP LP solved — obj=11426.1034, active_cols=23
+2026-04-11 12:38:25 [INFO] src.master_problem: RMP LP solved — obj=11053.3520, active_cols=22
+2026-04-11 12:38:26 [INFO] src.master_problem: RMP LP solved — obj=10686.5861, active_cols=23
+2026-04-11 12:38:27 [INFO] src.master_problem: RMP LP solved — obj=10374.3572, active_cols=25
+2026-04-11 12:38:29 [INFO] src.master_problem: RMP LP solved — obj=10266.2149, active_cols=24
+2026-04-11 12:38:30 [INFO] src.master_problem: RMP LP solved — obj=10130.2373, active_cols=25
+2026-04-11 12:38:31 [INFO] src.master_problem: RMP LP solved — obj=9980.0361, active_cols=28
+2026-04-11 12:38:33 [INFO] src.master_problem: RMP LP solved — obj=9882.4121, active_cols=26
+2026-04-11 12:38:35 [INFO] src.master_problem: RMP LP solved — obj=9777.2270, active_cols=32
+2026-04-11 12:38:36 [INFO] src.master_problem: RMP LP solved — obj=9723.0366, active_cols=30
+2026-04-11 12:38:38 [INFO] src.master_problem: RMP LP solved — obj=9703.7919, active_cols=31
+2026-04-11 12:38:39 [INFO] src.master_problem: RMP LP solved — obj=9516.5298, active_cols=32
+2026-04-11 12:38:40 [INFO] src.master_problem: RMP LP solved — obj=9101.1017, active_cols=30
+2026-04-11 12:38:42 [INFO] src.master_problem: RMP LP solved — obj=9009.5488, active_cols=34
+2026-04-11 12:38:43 [INFO] src.master_problem: RMP LP solved — obj=8939.9913, active_cols=34
+2026-04-11 12:38:44 [INFO] src.master_problem: RMP LP solved — obj=8849.5857, active_cols=31
+2026-04-11 12:38:46 [INFO] src.master_problem: RMP LP solved — obj=8790.2621, active_cols=32
+2026-04-11 12:38:47 [INFO] src.master_problem: RMP LP solved — obj=8787.5143, active_cols=34
+2026-04-11 12:38:49 [INFO] src.master_problem: RMP LP solved — obj=8766.8616, active_cols=34
+2026-04-11 12:38:50 [INFO] src.master_problem: RMP LP solved — obj=8716.9479, active_cols=37
+2026-04-11 12:38:52 [INFO] src.master_problem: RMP LP solved — obj=8710.2004, active_cols=39
+2026-04-11 12:38:53 [INFO] src.master_problem: RMP LP solved — obj=8668.5626, active_cols=38
+2026-04-11 12:38:54 [INFO] src.master_problem: RMP LP solved — obj=8645.1776, active_cols=39
+2026-04-11 12:38:56 [INFO] src.master_problem: RMP LP solved — obj=8549.3497, active_cols=39
+2026-04-11 12:38:57 [INFO] src.master_problem: RMP LP solved — obj=8480.8014, active_cols=36
+2026-04-11 12:38:58 [INFO] src.master_problem: RMP LP solved — obj=8432.2688, active_cols=35
+2026-04-11 12:38:59 [INFO] src.master_problem: RMP LP solved — obj=8404.5591, active_cols=38
+2026-04-11 12:39:01 [INFO] src.master_problem: RMP LP solved — obj=8397.6584, active_cols=38
+2026-04-11 12:39:03 [INFO] src.master_problem: RMP LP solved — obj=8337.6185, active_cols=41
+2026-04-11 12:39:04 [INFO] src.master_problem: RMP LP solved — obj=8305.6249, active_cols=40
+2026-04-11 12:39:05 [INFO] src.master_problem: RMP LP solved — obj=8280.7388, active_cols=42
+2026-04-11 12:39:07 [INFO] src.master_problem: RMP LP solved — obj=8273.5099, active_cols=42
+2026-04-11 12:39:08 [INFO] src.master_problem: RMP LP solved — obj=8272.9771, active_cols=44
+2026-04-11 12:39:09 [INFO] src.master_problem: RMP LP solved — obj=8251.0470, active_cols=42
+2026-04-11 12:39:11 [INFO] src.master_problem: RMP LP solved — obj=8237.7881, active_cols=41
+2026-04-11 12:39:12 [INFO] src.master_problem: RMP LP solved — obj=8213.7190, active_cols=42
+2026-04-11 12:39:13 [INFO] src.master_problem: RMP LP solved — obj=8191.7017, active_cols=42
+2026-04-11 12:39:15 [INFO] src.master_problem: RMP LP solved — obj=8180.6935, active_cols=43
+2026-04-11 12:39:17 [INFO] src.master_problem: RMP LP solved — obj=8139.6441, active_cols=46
+2026-04-11 12:39:18 [INFO] src.master_problem: RMP LP solved — obj=8135.0125, active_cols=45
+2026-04-11 12:39:19 [INFO] src.master_problem: RMP LP solved — obj=8113.5700, active_cols=43
+2026-04-11 12:39:21 [INFO] src.master_problem: RMP LP solved — obj=8098.3882, active_cols=44
+2026-04-11 12:39:22 [INFO] src.master_problem: RMP LP solved — obj=8042.6137, active_cols=45
+2026-04-11 12:39:23 [INFO] src.master_problem: RMP LP solved — obj=8034.7440, active_cols=45
+2026-04-11 12:39:24 [INFO] src.master_problem: RMP LP solved — obj=7995.3817, active_cols=46
+2026-04-11 12:39:25 [INFO] src.master_problem: RMP LP solved — obj=7979.0216, active_cols=46
+2026-04-11 12:39:27 [INFO] src.master_problem: RMP LP solved — obj=7968.2120, active_cols=46
+2026-04-11 12:39:28 [INFO] src.master_problem: RMP LP solved — obj=7927.3970, active_cols=44
+2026-04-11 12:39:30 [INFO] src.master_problem: RMP LP solved — obj=7915.4101, active_cols=48
+2026-04-11 12:39:32 [INFO] src.master_problem: RMP LP solved — obj=7913.4293, active_cols=47
+2026-04-11 12:39:33 [INFO] src.master_problem: RMP LP solved — obj=7907.4232, active_cols=49
+2026-04-11 12:39:34 [INFO] src.master_problem: RMP LP solved — obj=7898.4956, active_cols=49
+2026-04-11 12:39:36 [INFO] __main__: FFCG sample collection: 13/26 problems (50.0%)  samples=2015  eta=1537.4s
+2026-04-11 12:39:36 [INFO] src.master_problem: RMP LP solved — obj=700000.0000, active_cols=0
+2026-04-11 12:39:37 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:38 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:39 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:40 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:41 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:42 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:44 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:45 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:46 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:47 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:48 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:49 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:50 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:51 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:52 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:53 [INFO] src.master_problem: RMP LP solved — obj=1742.1453, active_cols=1
+2026-04-11 12:39:54 [INFO] __main__: FFCG sample collection: 14/26 problems (53.8%)  samples=2039  eta=1334.0s
+2026-04-11 12:39:54 [INFO] src.master_problem: RMP LP solved — obj=600000.0000, active_cols=0
+2026-04-11 12:39:56 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:39:57 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:39:58 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:00 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:01 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:02 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:03 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:04 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:05 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:06 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:07 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:08 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:09 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:10 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:12 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:13 [INFO] src.master_problem: RMP LP solved — obj=1182.9619, active_cols=1
+2026-04-11 12:40:14 [INFO] __main__: FFCG sample collection: 15/26 problems (57.7%)  samples=2064  eta=1155.5s
+2026-04-11 12:40:14 [INFO] src.master_problem: RMP LP solved — obj=10600000.0000, active_cols=0
+2026-04-11 12:40:15 [INFO] src.master_problem: RMP LP solved — obj=7203276.8978, active_cols=3
+2026-04-11 12:40:17 [INFO] src.master_problem: RMP LP solved — obj=4108871.4771, active_cols=6
+2026-04-11 12:40:19 [INFO] src.master_problem: RMP LP solved — obj=2515411.9675, active_cols=9
+2026-04-11 12:40:20 [INFO] src.master_problem: RMP LP solved — obj=920807.1361, active_cols=12
+2026-04-11 12:40:22 [INFO] src.master_problem: RMP LP solved — obj=226209.1879, active_cols=14
+2026-04-11 12:40:24 [INFO] src.master_problem: RMP LP solved — obj=29942.5700, active_cols=16
+2026-04-11 12:40:26 [INFO] src.master_problem: RMP LP solved — obj=28362.7532, active_cols=16
+2026-04-11 12:40:27 [INFO] src.master_problem: RMP LP solved — obj=25962.5268, active_cols=15
+2026-04-11 12:40:29 [INFO] src.master_problem: RMP LP solved — obj=25094.2025, active_cols=15
+2026-04-11 12:40:30 [INFO] src.master_problem: RMP LP solved — obj=24738.1601, active_cols=21
+2026-04-11 12:40:32 [INFO] src.master_problem: RMP LP solved — obj=23238.3603, active_cols=29
+2026-04-11 12:40:33 [INFO] src.master_problem: RMP LP solved — obj=21811.9190, active_cols=28
+2026-04-11 12:40:35 [INFO] src.master_problem: RMP LP solved — obj=21235.2720, active_cols=29
+2026-04-11 12:40:37 [INFO] src.master_problem: RMP LP solved — obj=20735.9780, active_cols=30
+2026-04-11 12:40:39 [INFO] src.master_problem: RMP LP solved — obj=20034.8344, active_cols=34
+2026-04-11 12:40:41 [INFO] src.master_problem: RMP LP solved — obj=19467.0089, active_cols=37
+2026-04-11 12:40:42 [INFO] src.master_problem: RMP LP solved — obj=18964.7486, active_cols=38
+2026-04-11 12:40:44 [INFO] src.master_problem: RMP LP solved — obj=18587.7362, active_cols=37
+2026-04-11 12:40:45 [INFO] src.master_problem: RMP LP solved — obj=18306.2807, active_cols=41
+2026-04-11 12:40:46 [INFO] src.master_problem: RMP LP solved — obj=18058.6481, active_cols=39
+2026-04-11 12:40:48 [INFO] src.master_problem: RMP LP solved — obj=17795.9091, active_cols=40
+2026-04-11 12:40:50 [INFO] src.master_problem: RMP LP solved — obj=17617.9726, active_cols=40
+2026-04-11 12:40:52 [INFO] src.master_problem: RMP LP solved — obj=17447.2640, active_cols=46
+2026-04-11 12:40:54 [INFO] src.master_problem: RMP LP solved — obj=17366.8776, active_cols=46
+2026-04-11 12:40:55 [INFO] src.master_problem: RMP LP solved — obj=17253.9398, active_cols=49
+2026-04-11 12:40:57 [INFO] src.master_problem: RMP LP solved — obj=17004.2501, active_cols=51
+2026-04-11 12:40:58 [INFO] src.master_problem: RMP LP solved — obj=16910.1034, active_cols=50
+2026-04-11 12:40:59 [INFO] src.master_problem: RMP LP solved — obj=16756.4410, active_cols=53
+2026-04-11 12:41:01 [INFO] src.master_problem: RMP LP solved — obj=16519.9020, active_cols=51
+2026-04-11 12:41:02 [INFO] src.master_problem: RMP LP solved — obj=16436.6389, active_cols=54
+2026-04-11 12:41:04 [INFO] src.master_problem: RMP LP solved — obj=16370.9104, active_cols=57
+2026-04-11 12:41:07 [INFO] src.master_problem: RMP LP solved — obj=16279.6619, active_cols=55
+2026-04-11 12:41:08 [INFO] src.master_problem: RMP LP solved — obj=15827.1020, active_cols=54
+2026-04-11 12:41:10 [INFO] src.master_problem: RMP LP solved — obj=15633.1973, active_cols=54
+2026-04-11 12:41:11 [INFO] src.master_problem: RMP LP solved — obj=15566.1431, active_cols=57
+2026-04-11 12:41:13 [INFO] src.master_problem: RMP LP solved — obj=15399.7188, active_cols=53
+2026-04-11 12:41:14 [INFO] src.master_problem: RMP LP solved — obj=15316.0225, active_cols=56
+2026-04-11 12:41:16 [INFO] src.master_problem: RMP LP solved — obj=15248.0033, active_cols=53
+2026-04-11 12:41:17 [INFO] src.master_problem: RMP LP solved — obj=15185.3608, active_cols=57
+2026-04-11 12:41:19 [INFO] src.master_problem: RMP LP solved — obj=15152.8044, active_cols=58
+2026-04-11 12:41:21 [INFO] src.master_problem: RMP LP solved — obj=15014.1462, active_cols=61
+2026-04-11 12:41:22 [INFO] src.master_problem: RMP LP solved — obj=14961.2002, active_cols=57
+2026-04-11 12:41:24 [INFO] src.master_problem: RMP LP solved — obj=14876.9941, active_cols=59
+2026-04-11 12:41:25 [INFO] src.master_problem: RMP LP solved — obj=14670.8914, active_cols=62
+2026-04-11 12:41:27 [INFO] src.master_problem: RMP LP solved — obj=14592.5134, active_cols=61
+2026-04-11 12:41:28 [INFO] src.master_problem: RMP LP solved — obj=14431.2396, active_cols=62
+2026-04-11 12:41:30 [INFO] src.master_problem: RMP LP solved — obj=14379.8223, active_cols=65
+2026-04-11 12:41:32 [INFO] src.master_problem: RMP LP solved — obj=14293.1212, active_cols=65
+2026-04-11 12:41:34 [INFO] src.master_problem: RMP LP solved — obj=14158.3514, active_cols=56
+2026-04-11 12:41:35 [INFO] src.master_problem: RMP LP solved — obj=14139.5112, active_cols=61
+2026-04-11 12:41:37 [INFO] src.master_problem: RMP LP solved — obj=14005.4016, active_cols=58
+2026-04-11 12:41:38 [INFO] src.master_problem: RMP LP solved — obj=13948.4447, active_cols=57
+2026-04-11 12:41:40 [INFO] src.master_problem: RMP LP solved — obj=13933.0382, active_cols=57
+2026-04-11 12:41:41 [INFO] src.master_problem: RMP LP solved — obj=13880.2926, active_cols=62
+2026-04-11 12:41:43 [INFO] src.master_problem: RMP LP solved — obj=13844.6098, active_cols=63
+2026-04-11 12:41:44 [INFO] src.master_problem: RMP LP solved — obj=13830.0727, active_cols=65
+2026-04-11 12:41:46 [INFO] src.master_problem: RMP LP solved — obj=13817.9074, active_cols=63
+2026-04-11 12:41:48 [INFO] src.master_problem: RMP LP solved — obj=13780.3353, active_cols=67
+2026-04-11 12:41:50 [INFO] src.master_problem: RMP LP solved — obj=13752.1216, active_cols=65
+2026-04-11 12:41:51 [INFO] src.master_problem: RMP LP solved — obj=13708.1548, active_cols=69
+2026-04-11 12:41:53 [INFO] src.master_problem: RMP LP solved — obj=13683.3471, active_cols=69
+2026-04-11 12:41:54 [INFO] src.master_problem: RMP LP solved — obj=13560.5150, active_cols=62
+2026-04-11 12:41:55 [INFO] src.master_problem: RMP LP solved — obj=13506.3063, active_cols=66
+2026-04-11 12:41:57 [INFO] __main__: FFCG sample collection: 16/26 problems (61.5%)  samples=2238  eta=1049.2s
+2026-04-11 12:41:57 [INFO] src.master_problem: RMP LP solved — obj=14600000.0000, active_cols=0
+2026-04-11 12:41:59 [INFO] src.master_problem: RMP LP solved — obj=10703962.0370, active_cols=3
+2026-04-11 12:42:01 [INFO] src.master_problem: RMP LP solved — obj=7308235.5022, active_cols=6
+2026-04-11 12:42:03 [INFO] src.master_problem: RMP LP solved — obj=4913898.8621, active_cols=9
+2026-04-11 12:42:05 [INFO] src.master_problem: RMP LP solved — obj=2719217.5317, active_cols=12
+2026-04-11 12:42:07 [INFO] src.master_problem: RMP LP solved — obj=1424489.3257, active_cols=15
+2026-04-11 12:42:08 [INFO] src.master_problem: RMP LP solved — obj=229802.2259, active_cols=18
+2026-04-11 12:42:10 [INFO] src.master_problem: RMP LP solved — obj=31437.6042, active_cols=19
+2026-04-11 12:42:12 [INFO] src.master_problem: RMP LP solved — obj=31437.6042, active_cols=19
+2026-04-11 12:42:14 [INFO] src.master_problem: RMP LP solved — obj=31437.6042, active_cols=19
+2026-04-11 12:42:16 [INFO] src.master_problem: RMP LP solved — obj=29610.8100, active_cols=22
+2026-04-11 12:42:18 [INFO] src.master_problem: RMP LP solved — obj=29559.1175, active_cols=24
+2026-04-11 12:42:20 [INFO] src.master_problem: RMP LP solved — obj=28469.9760, active_cols=28
+2026-04-11 12:42:21 [INFO] src.master_problem: RMP LP solved — obj=27700.6622, active_cols=31
+2026-04-11 12:42:23 [INFO] src.master_problem: RMP LP solved — obj=27397.6361, active_cols=35
+2026-04-11 12:42:25 [INFO] src.master_problem: RMP LP solved — obj=26573.2405, active_cols=37
+2026-04-11 12:42:27 [INFO] src.master_problem: RMP LP solved — obj=26155.4403, active_cols=39
+2026-04-11 12:42:29 [INFO] src.master_problem: RMP LP solved — obj=25076.8012, active_cols=39
+2026-04-11 12:42:31 [INFO] src.master_problem: RMP LP solved — obj=24792.9396, active_cols=46
+2026-04-11 12:42:32 [INFO] src.master_problem: RMP LP solved — obj=24608.2099, active_cols=45
+2026-04-11 12:42:34 [INFO] src.master_problem: RMP LP solved — obj=24468.9647, active_cols=46
+2026-04-11 12:42:36 [INFO] src.master_problem: RMP LP solved — obj=24152.7967, active_cols=48
+2026-04-11 12:42:37 [INFO] src.master_problem: RMP LP solved — obj=24004.7430, active_cols=52
+2026-04-11 12:42:39 [INFO] src.master_problem: RMP LP solved — obj=23604.3315, active_cols=52
+2026-04-11 12:42:41 [INFO] src.master_problem: RMP LP solved — obj=23432.4244, active_cols=54
+2026-04-11 12:42:43 [INFO] src.master_problem: RMP LP solved — obj=23388.5536, active_cols=54
+2026-04-11 12:42:45 [INFO] src.master_problem: RMP LP solved — obj=23272.5125, active_cols=56
+2026-04-11 12:42:47 [INFO] src.master_problem: RMP LP solved — obj=23204.8983, active_cols=60
+2026-04-11 12:42:49 [INFO] src.master_problem: RMP LP solved — obj=23111.9241, active_cols=63
+2026-04-11 12:42:50 [INFO] src.master_problem: RMP LP solved — obj=23018.7338, active_cols=61
+2026-04-11 12:42:52 [INFO] src.master_problem: RMP LP solved — obj=22807.3629, active_cols=64
+2026-04-11 12:42:54 [INFO] src.master_problem: RMP LP solved — obj=22682.1806, active_cols=63
+2026-04-11 12:42:56 [INFO] src.master_problem: RMP LP solved — obj=22586.0046, active_cols=60
+2026-04-11 12:42:58 [INFO] src.master_problem: RMP LP solved — obj=22530.6213, active_cols=64
+2026-04-11 12:43:00 [INFO] src.master_problem: RMP LP solved — obj=22459.3428, active_cols=65
+2026-04-11 12:43:01 [INFO] src.master_problem: RMP LP solved — obj=22363.8378, active_cols=67
+2026-04-11 12:43:03 [INFO] src.master_problem: RMP LP solved — obj=22314.5186, active_cols=69
+2026-04-11 12:43:05 [INFO] src.master_problem: RMP LP solved — obj=22159.5807, active_cols=71
+2026-04-11 12:43:06 [INFO] src.master_problem: RMP LP solved — obj=21981.9692, active_cols=70
+2026-04-11 12:43:09 [INFO] src.master_problem: RMP LP solved — obj=21925.7109, active_cols=68
+2026-04-11 12:43:11 [INFO] src.master_problem: RMP LP solved — obj=21886.1725, active_cols=68
+2026-04-11 12:43:13 [INFO] src.master_problem: RMP LP solved — obj=21788.8589, active_cols=72
+2026-04-11 12:43:14 [INFO] src.master_problem: RMP LP solved — obj=21664.8283, active_cols=74
+2026-04-11 12:43:16 [INFO] src.master_problem: RMP LP solved — obj=21610.9539, active_cols=72
+2026-04-11 12:43:18 [INFO] src.master_problem: RMP LP solved — obj=21512.8312, active_cols=73
+2026-04-11 12:43:20 [INFO] src.master_problem: RMP LP solved — obj=21461.8837, active_cols=74
+2026-04-11 12:43:21 [INFO] src.master_problem: RMP LP solved — obj=21435.0617, active_cols=77
+2026-04-11 12:43:24 [INFO] src.master_problem: RMP LP solved — obj=21356.6416, active_cols=74
+2026-04-11 12:43:26 [INFO] src.master_problem: RMP LP solved — obj=21301.7188, active_cols=74
+2026-04-11 12:43:27 [INFO] src.master_problem: RMP LP solved — obj=21142.2455, active_cols=75
+2026-04-11 12:43:29 [INFO] src.master_problem: RMP LP solved — obj=21129.1837, active_cols=77
+2026-04-11 12:43:31 [INFO] src.master_problem: RMP LP solved — obj=21083.2958, active_cols=78
+2026-04-11 12:43:32 [INFO] src.master_problem: RMP LP solved — obj=20991.9055, active_cols=76
+2026-04-11 12:43:34 [INFO] src.master_problem: RMP LP solved — obj=20883.6702, active_cols=78
+2026-04-11 12:43:36 [INFO] src.master_problem: RMP LP solved — obj=20831.7920, active_cols=86
+2026-04-11 12:43:38 [INFO] src.master_problem: RMP LP solved — obj=20758.6024, active_cols=84
+2026-04-11 12:43:40 [INFO] src.master_problem: RMP LP solved — obj=20643.1080, active_cols=82
+2026-04-11 12:43:42 [INFO] src.master_problem: RMP LP solved — obj=20522.4682, active_cols=82
+2026-04-11 12:43:44 [INFO] src.master_problem: RMP LP solved — obj=20364.1670, active_cols=90
+2026-04-11 12:43:45 [INFO] src.master_problem: RMP LP solved — obj=20251.3440, active_cols=82
+2026-04-11 12:43:47 [INFO] src.master_problem: RMP LP solved — obj=20198.3747, active_cols=86
+2026-04-11 12:43:49 [INFO] src.master_problem: RMP LP solved — obj=20132.0339, active_cols=84
+2026-04-11 12:43:51 [INFO] src.master_problem: RMP LP solved — obj=20073.7407, active_cols=90
+2026-04-11 12:43:53 [INFO] src.master_problem: RMP LP solved — obj=19987.6613, active_cols=84
+2026-04-11 12:43:55 [INFO] __main__: FFCG sample collection: 17/26 problems (65.4%)  samples=2427  eta=951.1s
+2026-04-11 12:43:55 [INFO] src.master_problem: RMP LP solved — obj=300000.0000, active_cols=0
+2026-04-11 12:43:56 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:43:58 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:43:59 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:01 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:02 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:04 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:06 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:07 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:09 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:10 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:12 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:13 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:15 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:16 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:18 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:20 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:21 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:23 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:24 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:26 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:27 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:29 [INFO] src.master_problem: RMP LP solved — obj=1291.2619, active_cols=1
+2026-04-11 12:44:30 [INFO] __main__: FFCG sample collection: 18/26 problems (69.2%)  samples=2453  eta=814.3s
+2026-04-11 12:44:30 [INFO] src.master_problem: RMP LP solved — obj=1300000.0000, active_cols=0
+2026-04-11 12:44:33 [INFO] src.master_problem: RMP LP solved — obj=500896.2675, active_cols=1
+2026-04-11 12:44:35 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:36 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:38 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:40 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:41 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:43 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:45 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:47 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:49 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:51 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:52 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:54 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:55 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:57 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:44:59 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:01 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:03 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:05 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:06 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:08 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:09 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:11 [INFO] src.master_problem: RMP LP solved — obj=2176.4769, active_cols=2
+2026-04-11 12:45:13 [INFO] src.master_problem: RMP LP solved — obj=2155.4466, active_cols=12
+2026-04-11 12:45:15 [INFO] src.master_problem: RMP LP solved — obj=2149.8436, active_cols=12
+2026-04-11 12:45:17 [INFO] src.master_problem: RMP LP solved — obj=2128.4644, active_cols=8
+2026-04-11 12:45:18 [INFO] src.master_problem: RMP LP solved — obj=2105.0580, active_cols=10
+2026-04-11 12:45:20 [INFO] src.master_problem: RMP LP solved — obj=2085.2500, active_cols=10
+2026-04-11 12:45:21 [INFO] src.master_problem: RMP LP solved — obj=2085.2500, active_cols=10
+2026-04-11 12:45:23 [INFO] src.master_problem: RMP LP solved — obj=2058.8001, active_cols=8
+2026-04-11 12:45:25 [INFO] src.master_problem: RMP LP solved — obj=2058.8001, active_cols=8
+2026-04-11 12:45:27 [INFO] src.master_problem: RMP LP solved — obj=2058.8001, active_cols=8
+2026-04-11 12:45:29 [INFO] src.master_problem: RMP LP solved — obj=2055.4560, active_cols=9
+2026-04-11 12:45:30 [INFO] src.master_problem: RMP LP solved — obj=2055.4560, active_cols=9
+2026-04-11 12:45:32 [INFO] src.master_problem: RMP LP solved — obj=2048.7887, active_cols=8
+2026-04-11 12:45:33 [INFO] src.master_problem: RMP LP solved — obj=2044.5623, active_cols=8
+2026-04-11 12:45:35 [INFO] src.master_problem: RMP LP solved — obj=2044.5623, active_cols=8
+2026-04-11 12:45:36 [INFO] __main__: FFCG sample collection: 19/26 problems (73.1%)  samples=2538  eta=699.4s
+2026-04-11 12:45:36 [INFO] src.master_problem: RMP LP solved — obj=2600000.0000, active_cols=0
+2026-04-11 12:45:39 [INFO] src.master_problem: RMP LP solved — obj=703254.7440, active_cols=3
+2026-04-11 12:45:41 [INFO] src.master_problem: RMP LP solved — obj=4264.3211, active_cols=4
+2026-04-11 12:45:43 [INFO] src.master_problem: RMP LP solved — obj=4264.3211, active_cols=4
+2026-04-11 12:45:45 [INFO] src.master_problem: RMP LP solved — obj=3886.6227, active_cols=4
+2026-04-11 12:45:47 [INFO] src.master_problem: RMP LP solved — obj=3623.3111, active_cols=8
+2026-04-11 12:45:49 [INFO] src.master_problem: RMP LP solved — obj=3435.3140, active_cols=12
+2026-04-11 12:45:51 [INFO] src.master_problem: RMP LP solved — obj=3273.4389, active_cols=13
+2026-04-11 12:45:54 [INFO] src.master_problem: RMP LP solved — obj=3050.0427, active_cols=9
+2026-04-11 12:45:56 [INFO] src.master_problem: RMP LP solved — obj=3016.5766, active_cols=14
+2026-04-11 12:45:58 [INFO] src.master_problem: RMP LP solved — obj=2916.8083, active_cols=12
+2026-04-11 12:46:00 [INFO] src.master_problem: RMP LP solved — obj=2905.4983, active_cols=16
+2026-04-11 12:46:02 [INFO] src.master_problem: RMP LP solved — obj=2870.8142, active_cols=18
+2026-04-11 12:46:03 [INFO] src.master_problem: RMP LP solved — obj=2842.8749, active_cols=19
+2026-04-11 12:46:06 [INFO] src.master_problem: RMP LP solved — obj=2829.5081, active_cols=17
+2026-04-11 12:46:08 [INFO] src.master_problem: RMP LP solved — obj=2818.2447, active_cols=20
+2026-04-11 12:46:10 [INFO] src.master_problem: RMP LP solved — obj=2809.7260, active_cols=20
+2026-04-11 12:46:12 [INFO] src.master_problem: RMP LP solved — obj=2803.9482, active_cols=22
+2026-04-11 12:46:14 [INFO] src.master_problem: RMP LP solved — obj=2795.0155, active_cols=20
+2026-04-11 12:46:16 [INFO] src.master_problem: RMP LP solved — obj=2775.2621, active_cols=21
+2026-04-11 12:46:18 [INFO] src.master_problem: RMP LP solved — obj=2753.3766, active_cols=21
+2026-04-11 12:46:20 [INFO] src.master_problem: RMP LP solved — obj=2747.3936, active_cols=23
+2026-04-11 12:46:23 [INFO] src.master_problem: RMP LP solved — obj=2740.4057, active_cols=22
+2026-04-11 12:46:25 [INFO] src.master_problem: RMP LP solved — obj=2728.5719, active_cols=23
+2026-04-11 12:46:27 [INFO] src.master_problem: RMP LP solved — obj=2708.4278, active_cols=21
+2026-04-11 12:46:28 [INFO] src.master_problem: RMP LP solved — obj=2696.7048, active_cols=22
+2026-04-11 12:46:30 [INFO] src.master_problem: RMP LP solved — obj=2679.4594, active_cols=24
+2026-04-11 12:46:32 [INFO] src.master_problem: RMP LP solved — obj=2676.4125, active_cols=24
+2026-04-11 12:46:35 [INFO] src.master_problem: RMP LP solved — obj=2667.6843, active_cols=21
+2026-04-11 12:46:37 [INFO] src.master_problem: RMP LP solved — obj=2659.5316, active_cols=24
+2026-04-11 12:46:39 [INFO] src.master_problem: RMP LP solved — obj=2649.0238, active_cols=23
+2026-04-11 12:46:41 [INFO] src.master_problem: RMP LP solved — obj=2638.3497, active_cols=22
+2026-04-11 12:46:43 [INFO] src.master_problem: RMP LP solved — obj=2630.7178, active_cols=24
+2026-04-11 12:46:45 [INFO] src.master_problem: RMP LP solved — obj=2624.6706, active_cols=24
+2026-04-11 12:46:47 [INFO] src.master_problem: RMP LP solved — obj=2611.7893, active_cols=24
+2026-04-11 12:46:50 [INFO] src.master_problem: RMP LP solved — obj=2602.1876, active_cols=24
+2026-04-11 12:46:52 [INFO] src.master_problem: RMP LP solved — obj=2602.0550, active_cols=25
+2026-04-11 12:46:54 [INFO] src.master_problem: RMP LP solved — obj=2599.6541, active_cols=25
+2026-04-11 12:46:55 [INFO] src.master_problem: RMP LP solved — obj=2593.1894, active_cols=25
+2026-04-11 12:46:57 [INFO] src.master_problem: RMP LP solved — obj=2592.5042, active_cols=26
+2026-04-11 12:46:59 [INFO] src.master_problem: RMP LP solved — obj=2591.7225, active_cols=25
+2026-04-11 12:47:02 [INFO] src.master_problem: RMP LP solved — obj=2588.1114, active_cols=26
+2026-04-11 12:47:04 [INFO] src.master_problem: RMP LP solved — obj=2583.0165, active_cols=26
+2026-04-11 12:47:06 [INFO] src.master_problem: RMP LP solved — obj=2580.7980, active_cols=26
+2026-04-11 12:47:08 [INFO] src.master_problem: RMP LP solved — obj=2579.2796, active_cols=26
+2026-04-11 12:47:10 [INFO] src.master_problem: RMP LP solved — obj=2578.0560, active_cols=26
+2026-04-11 12:47:12 [INFO] src.master_problem: RMP LP solved — obj=2574.8993, active_cols=26
+2026-04-11 12:47:13 [INFO] src.master_problem: RMP LP solved — obj=2574.0201, active_cols=26
+2026-04-11 12:47:16 [INFO] src.master_problem: RMP LP solved — obj=2570.5130, active_cols=26
+2026-04-11 12:47:18 [INFO] src.master_problem: RMP LP solved — obj=2569.3730, active_cols=25
+2026-04-11 12:47:20 [INFO] __main__: FFCG sample collection: 20/26 problems (76.9%)  samples=2671  eta=600.7s
+2026-04-11 12:47:20 [INFO] src.master_problem: RMP LP solved — obj=3500000.0000, active_cols=0
+2026-04-11 12:47:23 [INFO] src.master_problem: RMP LP solved — obj=1408289.0634, active_cols=5
+2026-04-11 12:47:25 [INFO] src.master_problem: RMP LP solved — obj=215794.1865, active_cols=8
+2026-04-11 12:47:27 [INFO] src.master_problem: RMP LP solved — obj=13609.4453, active_cols=7
+2026-04-11 12:47:30 [INFO] src.master_problem: RMP LP solved — obj=10467.8996, active_cols=9
+2026-04-11 12:47:32 [INFO] src.master_problem: RMP LP solved — obj=8966.4987, active_cols=13
+2026-04-11 12:47:34 [INFO] src.master_problem: RMP LP solved — obj=8060.1205, active_cols=11
+2026-04-11 12:47:37 [INFO] src.master_problem: RMP LP solved — obj=7851.6510, active_cols=19
+2026-04-11 12:47:39 [INFO] src.master_problem: RMP LP solved — obj=7517.8158, active_cols=19
+2026-04-11 12:47:41 [INFO] src.master_problem: RMP LP solved — obj=7199.2968, active_cols=21
+2026-04-11 12:47:44 [INFO] src.master_problem: RMP LP solved — obj=7179.0350, active_cols=22
+2026-04-11 12:47:46 [INFO] src.master_problem: RMP LP solved — obj=7113.9609, active_cols=20
+2026-04-11 12:47:48 [INFO] src.master_problem: RMP LP solved — obj=7006.8032, active_cols=23
+2026-04-11 12:47:51 [INFO] src.master_problem: RMP LP solved — obj=6792.8744, active_cols=25
+2026-04-11 12:47:53 [INFO] src.master_problem: RMP LP solved — obj=6676.7828, active_cols=28
+2026-04-11 12:47:55 [INFO] src.master_problem: RMP LP solved — obj=6583.2789, active_cols=25
+2026-04-11 12:47:58 [INFO] src.master_problem: RMP LP solved — obj=6551.7950, active_cols=27
+2026-04-11 12:48:00 [INFO] src.master_problem: RMP LP solved — obj=6456.8911, active_cols=27
+2026-04-11 12:48:03 [INFO] src.master_problem: RMP LP solved — obj=6429.6396, active_cols=27
+2026-04-11 12:48:05 [INFO] src.master_problem: RMP LP solved — obj=6406.4137, active_cols=27
+2026-04-11 12:48:07 [INFO] src.master_problem: RMP LP solved — obj=6346.1624, active_cols=29
+2026-04-11 12:48:09 [INFO] src.master_problem: RMP LP solved — obj=6310.7371, active_cols=28
+2026-04-11 12:48:12 [INFO] src.master_problem: RMP LP solved — obj=6269.9002, active_cols=31
+2026-04-11 12:48:14 [INFO] src.master_problem: RMP LP solved — obj=6236.3544, active_cols=33
+2026-04-11 12:48:16 [INFO] src.master_problem: RMP LP solved — obj=6200.5365, active_cols=31
+2026-04-11 12:48:18 [INFO] src.master_problem: RMP LP solved — obj=6154.9292, active_cols=30
+2026-04-11 12:48:21 [INFO] src.master_problem: RMP LP solved — obj=6136.8082, active_cols=32
+2026-04-11 12:48:23 [INFO] src.master_problem: RMP LP solved — obj=6094.8197, active_cols=32
+2026-04-11 12:48:26 [INFO] src.master_problem: RMP LP solved — obj=6067.5336, active_cols=34
+2026-04-11 12:48:28 [INFO] src.master_problem: RMP LP solved — obj=6044.8701, active_cols=33
+2026-04-11 12:48:30 [INFO] src.master_problem: RMP LP solved — obj=5977.5551, active_cols=33
+2026-04-11 12:48:33 [INFO] src.master_problem: RMP LP solved — obj=5940.6032, active_cols=32
+2026-04-11 12:48:35 [INFO] src.master_problem: RMP LP solved — obj=5867.0647, active_cols=29
+2026-04-11 12:48:37 [INFO] src.master_problem: RMP LP solved — obj=5839.2185, active_cols=31
+2026-04-11 12:48:40 [INFO] src.master_problem: RMP LP solved — obj=5826.7237, active_cols=28
+2026-04-11 12:48:42 [INFO] src.master_problem: RMP LP solved — obj=5810.8914, active_cols=32
+2026-04-11 12:48:44 [INFO] src.master_problem: RMP LP solved — obj=5809.2382, active_cols=31
+2026-04-11 12:48:47 [INFO] src.master_problem: RMP LP solved — obj=5796.2171, active_cols=34
+2026-04-11 12:48:49 [INFO] src.master_problem: RMP LP solved — obj=5793.0969, active_cols=32
+2026-04-11 12:48:52 [INFO] src.master_problem: RMP LP solved — obj=5791.6339, active_cols=31
+2026-04-11 12:48:54 [INFO] src.master_problem: RMP LP solved — obj=5755.6019, active_cols=33
+2026-04-11 12:48:56 [INFO] src.master_problem: RMP LP solved — obj=5744.0062, active_cols=31
+2026-04-11 12:48:59 [INFO] src.master_problem: RMP LP solved — obj=5732.7845, active_cols=33
+2026-04-11 12:49:01 [INFO] src.master_problem: RMP LP solved — obj=5704.7608, active_cols=33
+2026-04-11 12:49:03 [INFO] src.master_problem: RMP LP solved — obj=5692.2846, active_cols=32
+2026-04-11 12:49:06 [INFO] src.master_problem: RMP LP solved — obj=5690.9938, active_cols=33
+2026-04-11 12:49:08 [INFO] src.master_problem: RMP LP solved — obj=5605.6900, active_cols=30
+2026-04-11 12:49:10 [INFO] src.master_problem: RMP LP solved — obj=5561.2247, active_cols=31
+2026-04-11 12:49:12 [INFO] src.master_problem: RMP LP solved — obj=5560.4798, active_cols=32
+2026-04-11 12:49:15 [INFO] src.master_problem: RMP LP solved — obj=5552.6800, active_cols=33
+2026-04-11 12:49:17 [INFO] src.master_problem: RMP LP solved — obj=5541.6276, active_cols=31
+2026-04-11 12:49:20 [INFO] src.master_problem: RMP LP solved — obj=5540.6817, active_cols=33
+2026-04-11 12:49:22 [INFO] src.master_problem: RMP LP solved — obj=5523.6672, active_cols=30
+2026-04-11 12:49:25 [INFO] src.master_problem: RMP LP solved — obj=5508.9848, active_cols=30
+2026-04-11 12:49:27 [INFO] src.master_problem: RMP LP solved — obj=5499.9928, active_cols=32
+2026-04-11 12:49:29 [INFO] src.master_problem: RMP LP solved — obj=5495.3804, active_cols=30
+2026-04-11 12:49:31 [INFO] src.master_problem: RMP LP solved — obj=5491.1770, active_cols=30
+2026-04-11 12:49:34 [INFO] src.master_problem: RMP LP solved — obj=5483.1086, active_cols=29
+2026-04-11 12:49:36 [INFO] src.master_problem: RMP LP solved — obj=5460.4436, active_cols=33
+2026-04-11 12:49:39 [INFO] src.master_problem: RMP LP solved — obj=5455.0749, active_cols=34
+2026-04-11 12:49:41 [INFO] src.master_problem: RMP LP solved — obj=5448.2078, active_cols=35
+2026-04-11 12:49:43 [INFO] src.master_problem: RMP LP solved — obj=5441.8382, active_cols=35
+2026-04-11 12:49:45 [INFO] src.master_problem: RMP LP solved — obj=5434.1776, active_cols=33
+2026-04-11 12:49:48 [INFO] src.master_problem: RMP LP solved — obj=5410.8045, active_cols=33
+2026-04-11 12:49:50 [INFO] __main__: FFCG sample collection: 21/26 problems (80.8%)  samples=2849  eta=512.4s
+2026-04-11 12:49:50 [INFO] src.master_problem: RMP LP solved — obj=3200000.0000, active_cols=0
+2026-04-11 12:49:52 [INFO] src.master_problem: RMP LP solved — obj=1403957.5535, active_cols=3
+2026-04-11 12:49:54 [INFO] src.master_problem: RMP LP solved — obj=107030.1483, active_cols=5
+2026-04-11 12:49:56 [INFO] src.master_problem: RMP LP solved — obj=5604.3768, active_cols=6
+2026-04-11 12:49:58 [INFO] src.master_problem: RMP LP solved — obj=5207.9311, active_cols=11
+2026-04-11 12:50:01 [INFO] src.master_problem: RMP LP solved — obj=4948.6926, active_cols=13
+2026-04-11 12:50:03 [INFO] src.master_problem: RMP LP solved — obj=4550.6512, active_cols=12
+2026-04-11 12:50:05 [INFO] src.master_problem: RMP LP solved — obj=4388.3700, active_cols=13
+2026-04-11 12:50:07 [INFO] src.master_problem: RMP LP solved — obj=4116.0651, active_cols=16
+2026-04-11 12:50:09 [INFO] src.master_problem: RMP LP solved — obj=3925.6678, active_cols=15
+2026-04-11 12:50:11 [INFO] src.master_problem: RMP LP solved — obj=3814.5291, active_cols=16
+2026-04-11 12:50:14 [INFO] src.master_problem: RMP LP solved — obj=3771.8445, active_cols=17
+2026-04-11 12:50:16 [INFO] src.master_problem: RMP LP solved — obj=3727.4141, active_cols=21
+2026-04-11 12:50:18 [INFO] src.master_problem: RMP LP solved — obj=3683.2243, active_cols=18
+2026-04-11 12:50:20 [INFO] src.master_problem: RMP LP solved — obj=3668.4618, active_cols=19
+2026-04-11 12:50:22 [INFO] src.master_problem: RMP LP solved — obj=3663.4471, active_cols=19
+2026-04-11 12:50:24 [INFO] src.master_problem: RMP LP solved — obj=3645.9631, active_cols=23
+2026-04-11 12:50:26 [INFO] src.master_problem: RMP LP solved — obj=3625.3103, active_cols=24
+2026-04-11 12:50:29 [INFO] src.master_problem: RMP LP solved — obj=3614.8102, active_cols=25
+2026-04-11 12:50:31 [INFO] src.master_problem: RMP LP solved — obj=3605.4290, active_cols=28
+2026-04-11 12:50:33 [INFO] src.master_problem: RMP LP solved — obj=3599.0560, active_cols=27
+2026-04-11 12:50:35 [INFO] src.master_problem: RMP LP solved — obj=3595.4499, active_cols=30
+2026-04-11 12:50:37 [INFO] src.master_problem: RMP LP solved — obj=3580.5803, active_cols=28
+2026-04-11 12:50:39 [INFO] src.master_problem: RMP LP solved — obj=3574.1415, active_cols=28
+2026-04-11 12:50:42 [INFO] src.master_problem: RMP LP solved — obj=3527.3773, active_cols=24
+2026-04-11 12:50:44 [INFO] src.master_problem: RMP LP solved — obj=3520.3586, active_cols=27
+2026-04-11 12:50:46 [INFO] src.master_problem: RMP LP solved — obj=3517.2224, active_cols=28
+2026-04-11 12:50:48 [INFO] src.master_problem: RMP LP solved — obj=3514.8058, active_cols=29
+2026-04-11 12:50:50 [INFO] src.master_problem: RMP LP solved — obj=3510.7916, active_cols=29
+2026-04-11 12:50:52 [INFO] src.master_problem: RMP LP solved — obj=3498.3715, active_cols=29
+2026-04-11 12:50:55 [INFO] src.master_problem: RMP LP solved — obj=3472.5466, active_cols=29
+2026-04-11 12:50:58 [INFO] src.master_problem: RMP LP solved — obj=3433.1146, active_cols=28
+2026-04-11 12:51:00 [INFO] src.master_problem: RMP LP solved — obj=3423.7010, active_cols=26
+2026-04-11 12:51:02 [INFO] src.master_problem: RMP LP solved — obj=3409.7123, active_cols=29
+2026-04-11 12:51:04 [INFO] src.master_problem: RMP LP solved — obj=3403.2725, active_cols=31
+2026-04-11 12:51:06 [INFO] src.master_problem: RMP LP solved — obj=3398.9064, active_cols=30
+2026-04-11 12:51:08 [INFO] src.master_problem: RMP LP solved — obj=3383.8537, active_cols=31
+2026-04-11 12:51:11 [INFO] src.master_problem: RMP LP solved — obj=3377.2261, active_cols=31
+2026-04-11 12:51:13 [INFO] src.master_problem: RMP LP solved — obj=3372.6569, active_cols=31
+2026-04-11 12:51:15 [INFO] src.master_problem: RMP LP solved — obj=3367.8408, active_cols=29
+2026-04-11 12:51:17 [INFO] src.master_problem: RMP LP solved — obj=3357.3830, active_cols=31
+2026-04-11 12:51:19 [INFO] src.master_problem: RMP LP solved — obj=3356.0983, active_cols=32
+2026-04-11 12:51:21 [INFO] src.master_problem: RMP LP solved — obj=3355.0773, active_cols=31
+2026-04-11 12:51:24 [INFO] src.master_problem: RMP LP solved — obj=3340.6903, active_cols=32
+2026-04-11 12:51:26 [INFO] src.master_problem: RMP LP solved — obj=3333.2049, active_cols=32
+2026-04-11 12:51:28 [INFO] src.master_problem: RMP LP solved — obj=3331.1236, active_cols=32
+2026-04-11 12:51:30 [INFO] src.master_problem: RMP LP solved — obj=3327.8656, active_cols=32
+2026-04-11 12:51:32 [INFO] src.master_problem: RMP LP solved — obj=3326.4952, active_cols=32
+2026-04-11 12:51:34 [INFO] src.master_problem: RMP LP solved — obj=3322.4966, active_cols=32
+2026-04-11 12:51:37 [INFO] src.master_problem: RMP LP solved — obj=3322.2860, active_cols=32
+2026-04-11 12:51:39 [INFO] src.master_problem: RMP LP solved — obj=3320.1321, active_cols=32
+2026-04-11 12:51:41 [INFO] src.master_problem: RMP LP solved — obj=3312.5772, active_cols=32
+2026-04-11 12:51:43 [INFO] src.master_problem: RMP LP solved — obj=3303.4945, active_cols=31
+2026-04-11 12:51:45 [INFO] src.master_problem: RMP LP solved — obj=3295.7339, active_cols=31
+2026-04-11 12:51:47 [INFO] src.master_problem: RMP LP solved — obj=3289.0363, active_cols=32
+2026-04-11 12:51:50 [INFO] src.master_problem: RMP LP solved — obj=3284.4638, active_cols=32
+2026-04-11 12:51:52 [INFO] src.master_problem: RMP LP solved — obj=3283.8434, active_cols=32
+2026-04-11 12:51:54 [INFO] src.master_problem: RMP LP solved — obj=3280.3931, active_cols=32
+2026-04-11 12:51:56 [INFO] src.master_problem: RMP LP solved — obj=3275.6809, active_cols=30
+2026-04-11 12:51:58 [INFO] src.master_problem: RMP LP solved — obj=3254.8962, active_cols=32
+2026-04-11 12:52:00 [INFO] src.master_problem: RMP LP solved — obj=3245.5107, active_cols=31
+2026-04-11 12:52:02 [INFO] src.master_problem: RMP LP solved — obj=3240.1482, active_cols=29
+2026-04-11 12:52:05 [INFO] src.master_problem: RMP LP solved — obj=3239.1497, active_cols=30
+2026-04-11 12:52:07 [INFO] src.master_problem: RMP LP solved — obj=3238.4043, active_cols=31
+2026-04-11 12:52:09 [INFO] __main__: FFCG sample collection: 22/26 problems (84.6%)  samples=3020  eta=416.5s
+2026-04-11 12:52:09 [INFO] src.master_problem: RMP LP solved — obj=3500000.0000, active_cols=0
+2026-04-11 12:52:11 [INFO] src.master_problem: RMP LP solved — obj=1704630.2938, active_cols=3
+2026-04-11 12:52:13 [INFO] src.master_problem: RMP LP solved — obj=210723.9189, active_cols=6
+2026-04-11 12:52:16 [INFO] src.master_problem: RMP LP solved — obj=10711.4210, active_cols=6
+2026-04-11 12:52:19 [INFO] src.master_problem: RMP LP solved — obj=10577.1367, active_cols=9
+2026-04-11 12:52:21 [INFO] src.master_problem: RMP LP solved — obj=8937.7956, active_cols=12
+2026-04-11 12:52:23 [INFO] src.master_problem: RMP LP solved — obj=8588.3525, active_cols=13
+2026-04-11 12:52:26 [INFO] src.master_problem: RMP LP solved — obj=7856.2479, active_cols=20
+2026-04-11 12:52:28 [INFO] src.master_problem: RMP LP solved — obj=7271.5053, active_cols=19
+2026-04-11 12:52:30 [INFO] src.master_problem: RMP LP solved — obj=7068.9923, active_cols=16
+2026-04-11 12:52:33 [INFO] src.master_problem: RMP LP solved — obj=6982.3647, active_cols=21
+2026-04-11 12:52:36 [INFO] src.master_problem: RMP LP solved — obj=6863.1136, active_cols=22
+2026-04-11 12:52:38 [INFO] src.master_problem: RMP LP solved — obj=6722.1404, active_cols=24
+2026-04-11 12:52:40 [INFO] src.master_problem: RMP LP solved — obj=6647.1125, active_cols=20
+2026-04-11 12:52:42 [INFO] src.master_problem: RMP LP solved — obj=6549.1401, active_cols=24
+2026-04-11 12:52:45 [INFO] src.master_problem: RMP LP solved — obj=6426.2160, active_cols=24
+2026-04-11 12:52:48 [INFO] src.master_problem: RMP LP solved — obj=6353.7215, active_cols=27
+2026-04-11 12:52:50 [INFO] src.master_problem: RMP LP solved — obj=6329.8428, active_cols=29
+2026-04-11 12:52:52 [INFO] src.master_problem: RMP LP solved — obj=6316.2215, active_cols=27
+2026-04-11 12:52:54 [INFO] src.master_problem: RMP LP solved — obj=6287.6491, active_cols=29
+2026-04-11 12:52:57 [INFO] src.master_problem: RMP LP solved — obj=6255.5232, active_cols=28
+2026-04-11 12:53:00 [INFO] src.master_problem: RMP LP solved — obj=6163.3496, active_cols=26
+2026-04-11 12:53:02 [INFO] src.master_problem: RMP LP solved — obj=6143.1300, active_cols=30
+2026-04-11 12:53:04 [INFO] src.master_problem: RMP LP solved — obj=6130.4138, active_cols=28
+2026-04-11 12:53:07 [INFO] src.master_problem: RMP LP solved — obj=6111.1907, active_cols=28
+2026-04-11 12:53:09 [INFO] src.master_problem: RMP LP solved — obj=6084.2974, active_cols=29
+2026-04-11 12:53:12 [INFO] src.master_problem: RMP LP solved — obj=6070.2207, active_cols=30
+2026-04-11 12:53:14 [INFO] src.master_problem: RMP LP solved — obj=6053.1860, active_cols=30
+2026-04-11 12:53:17 [INFO] src.master_problem: RMP LP solved — obj=6038.8982, active_cols=32
+2026-04-11 12:53:19 [INFO] src.master_problem: RMP LP solved — obj=6030.4791, active_cols=33
+2026-04-11 12:53:21 [INFO] src.master_problem: RMP LP solved — obj=6015.6504, active_cols=33
+2026-04-11 12:53:24 [INFO] src.master_problem: RMP LP solved — obj=5996.7856, active_cols=30
+2026-04-11 12:53:27 [INFO] src.master_problem: RMP LP solved — obj=5943.2829, active_cols=31
+2026-04-11 12:53:29 [INFO] src.master_problem: RMP LP solved — obj=5910.6887, active_cols=32
+2026-04-11 12:53:32 [INFO] src.master_problem: RMP LP solved — obj=5904.1896, active_cols=32
+2026-04-11 12:53:34 [INFO] src.master_problem: RMP LP solved — obj=5869.9564, active_cols=32
+2026-04-11 12:53:36 [INFO] src.master_problem: RMP LP solved — obj=5842.9124, active_cols=30
+2026-04-11 12:53:39 [INFO] src.master_problem: RMP LP solved — obj=5801.0765, active_cols=30
+2026-04-11 12:53:42 [INFO] src.master_problem: RMP LP solved — obj=5751.8315, active_cols=28
+2026-04-11 12:53:45 [INFO] src.master_problem: RMP LP solved — obj=5728.6961, active_cols=30
+2026-04-11 12:53:47 [INFO] src.master_problem: RMP LP solved — obj=5696.2726, active_cols=30
+2026-04-11 12:53:49 [INFO] src.master_problem: RMP LP solved — obj=5655.8287, active_cols=30
+2026-04-11 12:53:52 [INFO] src.master_problem: RMP LP solved — obj=5620.1964, active_cols=31
+2026-04-11 12:53:55 [INFO] src.master_problem: RMP LP solved — obj=5609.2690, active_cols=32
+2026-04-11 12:53:57 [INFO] src.master_problem: RMP LP solved — obj=5603.6949, active_cols=30
+2026-04-11 12:54:00 [INFO] src.master_problem: RMP LP solved — obj=5588.0351, active_cols=32
+2026-04-11 12:54:02 [INFO] src.master_problem: RMP LP solved — obj=5570.6117, active_cols=33
+2026-04-11 12:54:04 [INFO] src.master_problem: RMP LP solved — obj=5538.6161, active_cols=31
+2026-04-11 12:54:07 [INFO] src.master_problem: RMP LP solved — obj=5513.9397, active_cols=31
+2026-04-11 12:54:10 [INFO] src.master_problem: RMP LP solved — obj=5501.6027, active_cols=31
+2026-04-11 12:54:12 [INFO] src.master_problem: RMP LP solved — obj=5479.1523, active_cols=32
+2026-04-11 12:54:15 [INFO] src.master_problem: RMP LP solved — obj=5469.3195, active_cols=31
+2026-04-11 12:54:17 [INFO] src.master_problem: RMP LP solved — obj=5466.2651, active_cols=33
+2026-04-11 12:54:19 [INFO] src.master_problem: RMP LP solved — obj=5464.7705, active_cols=34
+2026-04-11 12:54:23 [INFO] src.master_problem: RMP LP solved — obj=5459.6243, active_cols=31
+2026-04-11 12:54:25 [INFO] src.master_problem: RMP LP solved — obj=5446.3508, active_cols=34
+2026-04-11 12:54:27 [INFO] src.master_problem: RMP LP solved — obj=5441.5963, active_cols=33
+2026-04-11 12:54:29 [INFO] src.master_problem: RMP LP solved — obj=5435.2078, active_cols=33
+2026-04-11 12:54:31 [INFO] src.master_problem: RMP LP solved — obj=5399.6563, active_cols=32
+2026-04-11 12:54:34 [INFO] src.master_problem: RMP LP solved — obj=5389.3475, active_cols=29
+2026-04-11 12:54:37 [INFO] src.master_problem: RMP LP solved — obj=5365.3113, active_cols=32
+2026-04-11 12:54:39 [INFO] src.master_problem: RMP LP solved — obj=5348.3883, active_cols=31
+2026-04-11 12:54:41 [INFO] src.master_problem: RMP LP solved — obj=5326.2218, active_cols=32
+2026-04-11 12:54:44 [INFO] src.master_problem: RMP LP solved — obj=5308.3966, active_cols=32
+2026-04-11 12:54:46 [INFO] __main__: FFCG sample collection: 23/26 problems (88.5%)  samples=3203  eta=319.3s
+2026-04-11 12:54:46 [INFO] src.master_problem: RMP LP solved — obj=6200000.0000, active_cols=0
+2026-04-11 12:54:49 [INFO] src.master_problem: RMP LP solved — obj=3406405.3769, active_cols=4
+2026-04-11 12:54:51 [INFO] src.master_problem: RMP LP solved — obj=1710199.2263, active_cols=7
+2026-04-11 12:54:54 [INFO] src.master_problem: RMP LP solved — obj=316927.2140, active_cols=11
+2026-04-11 12:54:56 [INFO] src.master_problem: RMP LP solved — obj=17713.7800, active_cols=12
+2026-04-11 12:54:58 [INFO] src.master_problem: RMP LP solved — obj=13750.9490, active_cols=11
+2026-04-11 12:55:00 [INFO] src.master_problem: RMP LP solved — obj=11487.5037, active_cols=10
+2026-04-11 12:55:03 [INFO] src.master_problem: RMP LP solved — obj=10867.8144, active_cols=10
+2026-04-11 12:55:05 [INFO] src.master_problem: RMP LP solved — obj=10867.8144, active_cols=10
+2026-04-11 12:55:08 [INFO] src.master_problem: RMP LP solved — obj=10108.5504, active_cols=10
+2026-04-11 12:55:10 [INFO] src.master_problem: RMP LP solved — obj=10076.1367, active_cols=15
+2026-04-11 12:55:12 [INFO] src.master_problem: RMP LP solved — obj=9747.4983, active_cols=20
+2026-04-11 12:55:15 [INFO] src.master_problem: RMP LP solved — obj=9539.4326, active_cols=23
+2026-04-11 12:55:17 [INFO] src.master_problem: RMP LP solved — obj=8942.6677, active_cols=17
+2026-04-11 12:55:20 [INFO] src.master_problem: RMP LP solved — obj=8652.4792, active_cols=22
+2026-04-11 12:55:22 [INFO] src.master_problem: RMP LP solved — obj=8380.4122, active_cols=22
+2026-04-11 12:55:24 [INFO] src.master_problem: RMP LP solved — obj=8173.0035, active_cols=25
+2026-04-11 12:55:27 [INFO] src.master_problem: RMP LP solved — obj=7841.1268, active_cols=22
+2026-04-11 12:55:30 [INFO] src.master_problem: RMP LP solved — obj=7605.2421, active_cols=26
+2026-04-11 12:55:32 [INFO] src.master_problem: RMP LP solved — obj=7493.8861, active_cols=27
+2026-04-11 12:55:34 [INFO] src.master_problem: RMP LP solved — obj=7401.3933, active_cols=29
+2026-04-11 12:55:37 [INFO] src.master_problem: RMP LP solved — obj=7353.3513, active_cols=29
+2026-04-11 12:55:39 [INFO] src.master_problem: RMP LP solved — obj=7290.0299, active_cols=30
+2026-04-11 12:55:41 [INFO] src.master_problem: RMP LP solved — obj=7150.6407, active_cols=30
+2026-04-11 12:55:44 [INFO] src.master_problem: RMP LP solved — obj=7083.3961, active_cols=31
+2026-04-11 12:55:47 [INFO] src.master_problem: RMP LP solved — obj=6964.8129, active_cols=32
+2026-04-11 12:55:49 [INFO] src.master_problem: RMP LP solved — obj=6903.3446, active_cols=32
+2026-04-11 12:55:51 [INFO] src.master_problem: RMP LP solved — obj=6762.7838, active_cols=32
+2026-04-11 12:55:53 [INFO] src.master_problem: RMP LP solved — obj=6669.1549, active_cols=33
+2026-04-11 12:55:56 [INFO] src.master_problem: RMP LP solved — obj=6591.8192, active_cols=35
+2026-04-11 12:55:59 [INFO] src.master_problem: RMP LP solved — obj=6518.6809, active_cols=34
+2026-04-11 12:56:01 [INFO] src.master_problem: RMP LP solved — obj=6473.8447, active_cols=36
+2026-04-11 12:56:03 [INFO] src.master_problem: RMP LP solved — obj=6420.6247, active_cols=36
+2026-04-11 12:56:05 [INFO] src.master_problem: RMP LP solved — obj=6390.1794, active_cols=36
+2026-04-11 12:56:07 [INFO] src.master_problem: RMP LP solved — obj=6338.7380, active_cols=35
+2026-04-11 12:56:10 [INFO] src.master_problem: RMP LP solved — obj=6210.6290, active_cols=37
+2026-04-11 12:56:13 [INFO] src.master_problem: RMP LP solved — obj=6173.2039, active_cols=36
+2026-04-11 12:56:15 [INFO] src.master_problem: RMP LP solved — obj=6077.7464, active_cols=36
+2026-04-11 12:56:17 [INFO] src.master_problem: RMP LP solved — obj=6061.7664, active_cols=39
+2026-04-11 12:56:19 [INFO] src.master_problem: RMP LP solved — obj=6032.7432, active_cols=35
+2026-04-11 12:56:21 [INFO] src.master_problem: RMP LP solved — obj=6024.3603, active_cols=36
+2026-04-11 12:56:24 [INFO] src.master_problem: RMP LP solved — obj=6021.7523, active_cols=38
+2026-04-11 12:56:27 [INFO] src.master_problem: RMP LP solved — obj=6000.9003, active_cols=36
+2026-04-11 12:56:29 [INFO] src.master_problem: RMP LP solved — obj=5990.7386, active_cols=37
+2026-04-11 12:56:31 [INFO] src.master_problem: RMP LP solved — obj=5984.7396, active_cols=41
+2026-04-11 12:56:33 [INFO] src.master_problem: RMP LP solved — obj=5980.1806, active_cols=39
+2026-04-11 12:56:35 [INFO] src.master_problem: RMP LP solved — obj=5970.3676, active_cols=41
+2026-04-11 12:56:38 [INFO] src.master_problem: RMP LP solved — obj=5965.1731, active_cols=44
+2026-04-11 12:56:40 [INFO] src.master_problem: RMP LP solved — obj=5884.0428, active_cols=44
+2026-04-11 12:56:43 [INFO] src.master_problem: RMP LP solved — obj=5839.7738, active_cols=41
+2026-04-11 12:56:45 [INFO] src.master_problem: RMP LP solved — obj=5803.0030, active_cols=39
+2026-04-11 12:56:47 [INFO] src.master_problem: RMP LP solved — obj=5771.3476, active_cols=40
+2026-04-11 12:56:49 [INFO] src.master_problem: RMP LP solved — obj=5717.4156, active_cols=41
+2026-04-11 12:56:52 [INFO] src.master_problem: RMP LP solved — obj=5650.0564, active_cols=42
+2026-04-11 12:56:54 [INFO] src.master_problem: RMP LP solved — obj=5628.4613, active_cols=40
+2026-04-11 12:56:57 [INFO] src.master_problem: RMP LP solved — obj=5626.1374, active_cols=39
+2026-04-11 12:56:59 [INFO] src.master_problem: RMP LP solved — obj=5625.1768, active_cols=41
+2026-04-11 12:57:01 [INFO] src.master_problem: RMP LP solved — obj=5619.7597, active_cols=42
+2026-04-11 12:57:03 [INFO] src.master_problem: RMP LP solved — obj=5610.8856, active_cols=40
+2026-04-11 12:57:06 [INFO] src.master_problem: RMP LP solved — obj=5602.9211, active_cols=42
+2026-04-11 12:57:08 [INFO] src.master_problem: RMP LP solved — obj=5593.1426, active_cols=45
+2026-04-11 12:57:10 [INFO] src.master_problem: RMP LP solved — obj=5568.6006, active_cols=43
+2026-04-11 12:57:12 [INFO] src.master_problem: RMP LP solved — obj=5562.9152, active_cols=44
+2026-04-11 12:57:14 [INFO] src.master_problem: RMP LP solved — obj=5562.3483, active_cols=46
+2026-04-11 12:57:17 [INFO] __main__: FFCG sample collection: 24/26 problems (92.3%)  samples=3346  eta=216.5s
+2026-04-11 12:57:17 [INFO] src.master_problem: RMP LP solved — obj=600000.0000, active_cols=0
+2026-04-11 12:57:19 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:21 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:23 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:25 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:27 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:29 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:31 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:33 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:35 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:38 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:40 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:42 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:44 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:46 [INFO] src.master_problem: RMP LP solved — obj=765.4891, active_cols=1
+2026-04-11 12:57:49 [INFO] __main__: FFCG sample collection: 25/26 problems (96.2%)  samples=3366  eta=105.2s
+2026-04-11 12:57:49 [INFO] src.master_problem: RMP LP solved — obj=600000.0000, active_cols=0
+2026-04-11 12:57:51 [INFO] src.master_problem: RMP LP solved — obj=1367.2542, active_cols=1
+2026-04-11 12:57:53 [INFO] src.master_problem: RMP LP solved — obj=1367.2542, active_cols=1
+2026-04-11 12:57:55 [INFO] src.master_problem: RMP LP solved — obj=1367.2542, active_cols=1
+2026-04-11 12:57:57 [INFO] src.master_problem: RMP LP solved — obj=1367.2542, active_cols=1
+2026-04-11 12:58:00 [INFO] src.master_problem: RMP LP solved — obj=1367.2542, active_cols=1
+2026-04-11 12:58:02 [INFO] __main__: FFCG sample collection: 26/26 problems (100.0%)  samples=3378  eta=0.0s
+2026-04-11 12:58:19 [INFO] src.graph_dqn: Graph-DQN train epoch 1/1000 (0.1%)  loss=4.523168  eta=12074.5s
+2026-04-11 12:58:31 [INFO] src.graph_dqn: Graph-DQN train epoch 2/1000 (0.2%)  loss=0.846747  eta=12021.0s
+2026-04-11 12:58:42 [INFO] src.graph_dqn: Graph-DQN train epoch 3/1000 (0.3%)  loss=0.434170  eta=11766.5s
+2026-04-11 12:58:54 [INFO] src.graph_dqn: Graph-DQN train epoch 4/1000 (0.4%)  loss=0.112032  eta=11823.6s
+2026-04-11 12:59:06 [INFO] src.graph_dqn: Graph-DQN train epoch 5/1000 (0.5%)  loss=0.043155  eta=11832.5s
+2026-04-11 12:59:18 [INFO] src.graph_dqn: Graph-DQN train epoch 6/1000 (0.6%)  loss=0.069678  eta=11849.3s
+2026-04-11 12:59:30 [INFO] src.graph_dqn: Graph-DQN train epoch 7/1000 (0.7%)  loss=0.038932  eta=11861.9s
+2026-04-11 12:59:42 [INFO] src.graph_dqn: Graph-DQN train epoch 8/1000 (0.8%)  loss=0.089820  eta=11774.1s
+2026-04-11 12:59:53 [INFO] src.graph_dqn: Graph-DQN train epoch 9/1000 (0.9%)  loss=0.020263  eta=11715.2s
+2026-04-11 13:00:05 [INFO] src.graph_dqn: Graph-DQN train epoch 10/1000 (1.0%)  loss=0.355857  eta=11742.8s
+2026-04-11 13:00:18 [INFO] src.graph_dqn: Graph-DQN train epoch 11/1000 (1.1%)  loss=0.165315  eta=11750.5s
+2026-04-11 13:00:29 [INFO] src.graph_dqn: Graph-DQN train epoch 12/1000 (1.2%)  loss=0.366522  eta=11736.6s
+2026-04-11 13:00:41 [INFO] src.graph_dqn: Graph-DQN train epoch 13/1000 (1.3%)  loss=0.408500  eta=11672.4s
+2026-04-11 13:00:52 [INFO] src.graph_dqn: Graph-DQN train epoch 14/1000 (1.4%)  loss=0.025949  eta=11651.7s
+2026-04-11 13:01:05 [INFO] src.graph_dqn: Graph-DQN train epoch 15/1000 (1.5%)  loss=0.127072  eta=11680.0s
+2026-04-11 13:01:17 [INFO] src.graph_dqn: Graph-DQN train epoch 16/1000 (1.6%)  loss=0.017139  eta=11700.8s
+2026-04-11 13:01:30 [INFO] src.graph_dqn: Graph-DQN train epoch 17/1000 (1.7%)  loss=0.101741  eta=11721.8s
+2026-04-11 13:01:41 [INFO] src.graph_dqn: Graph-DQN train epoch 18/1000 (1.8%)  loss=0.124943  eta=11693.1s
+2026-04-11 13:01:53 [INFO] src.graph_dqn: Graph-DQN train epoch 19/1000 (1.9%)  loss=0.104541  eta=11657.5s
+2026-04-11 13:02:05 [INFO] src.graph_dqn: Graph-DQN train epoch 20/1000 (2.0%)  loss=0.019371  eta=11663.7s
+2026-04-11 13:02:17 [INFO] src.graph_dqn: Graph-DQN train epoch 21/1000 (2.1%)  loss=0.006155  eta=11661.7s
+2026-04-11 13:02:29 [INFO] src.graph_dqn: Graph-DQN train epoch 22/1000 (2.2%)  loss=0.039666  eta=11660.3s
+2026-04-11 13:02:41 [INFO] src.graph_dqn: Graph-DQN train epoch 23/1000 (2.3%)  loss=0.011193  eta=11653.0s
+2026-04-11 13:02:52 [INFO] src.graph_dqn: Graph-DQN train epoch 24/1000 (2.4%)  loss=0.024071  eta=11615.8s
+2026-04-11 13:03:04 [INFO] src.graph_dqn: Graph-DQN train epoch 25/1000 (2.5%)  loss=0.012388  eta=11600.4s
+2026-04-11 13:03:16 [INFO] src.graph_dqn: Graph-DQN train epoch 26/1000 (2.6%)  loss=0.055601  eta=11584.1s
+2026-04-11 13:03:28 [INFO] src.graph_dqn: Graph-DQN train epoch 27/1000 (2.7%)  loss=0.005699  eta=11581.5s
+2026-04-11 13:03:40 [INFO] src.graph_dqn: Graph-DQN train epoch 28/1000 (2.8%)  loss=0.016473  eta=11575.0s
+2026-04-11 13:03:51 [INFO] src.graph_dqn: Graph-DQN train epoch 29/1000 (2.9%)  loss=0.007340  eta=11535.9s
+2026-04-11 13:04:03 [INFO] src.graph_dqn: Graph-DQN train epoch 30/1000 (3.0%)  loss=0.006106  eta=11520.3s
+2026-04-11 13:04:15 [INFO] src.graph_dqn: Graph-DQN train epoch 31/1000 (3.1%)  loss=0.043959  eta=11510.8s
+2026-04-11 13:04:27 [INFO] src.graph_dqn: Graph-DQN train epoch 32/1000 (3.2%)  loss=0.106386  eta=11503.5s
+2026-04-11 13:04:39 [INFO] src.graph_dqn: Graph-DQN train epoch 33/1000 (3.3%)  loss=0.012139  eta=11495.1s
+2026-04-11 13:04:51 [INFO] src.graph_dqn: Graph-DQN train epoch 34/1000 (3.4%)  loss=0.005220  eta=11477.9s
+2026-04-11 13:05:02 [INFO] src.graph_dqn: Graph-DQN train epoch 35/1000 (3.5%)  loss=0.008084  eta=11452.1s
+2026-04-11 13:05:14 [INFO] src.graph_dqn: Graph-DQN train epoch 36/1000 (3.6%)  loss=0.006577  eta=11440.2s
+2026-04-11 13:05:26 [INFO] src.graph_dqn: Graph-DQN train epoch 37/1000 (3.7%)  loss=0.215813  eta=11428.9s
+2026-04-11 13:05:38 [INFO] src.graph_dqn: Graph-DQN train epoch 38/1000 (3.8%)  loss=0.003214  eta=11415.9s
+2026-04-11 13:05:49 [INFO] src.graph_dqn: Graph-DQN train epoch 39/1000 (3.9%)  loss=0.014940  eta=11396.9s
+2026-04-11 13:06:01 [INFO] src.graph_dqn: Graph-DQN train epoch 40/1000 (4.0%)  loss=0.003353  eta=11371.6s
+2026-04-11 13:06:13 [INFO] src.graph_dqn: Graph-DQN train epoch 41/1000 (4.1%)  loss=0.013717  eta=11361.1s
+2026-04-11 13:06:24 [INFO] src.graph_dqn: Graph-DQN train epoch 42/1000 (4.2%)  loss=0.005688  eta=11350.4s
+2026-04-11 13:06:36 [INFO] src.graph_dqn: Graph-DQN train epoch 43/1000 (4.3%)  loss=0.006302  eta=11342.9s
+2026-04-11 13:06:48 [INFO] src.graph_dqn: Graph-DQN train epoch 44/1000 (4.4%)  loss=0.003118  eta=11334.5s
+2026-04-11 13:07:00 [INFO] src.graph_dqn: Graph-DQN train epoch 45/1000 (4.5%)  loss=0.019221  eta=11311.9s
+2026-04-11 13:07:11 [INFO] src.graph_dqn: Graph-DQN train epoch 46/1000 (4.6%)  loss=0.001692  eta=11286.5s
+2026-04-11 13:07:23 [INFO] src.graph_dqn: Graph-DQN train epoch 47/1000 (4.7%)  loss=0.017067  eta=11275.9s
+2026-04-11 13:07:35 [INFO] src.graph_dqn: Graph-DQN train epoch 48/1000 (4.8%)  loss=0.009567  eta=11266.6s
+2026-04-11 13:07:47 [INFO] src.graph_dqn: Graph-DQN train epoch 49/1000 (4.9%)  loss=0.100385  eta=11255.3s
+2026-04-11 13:07:59 [INFO] src.graph_dqn: Graph-DQN train epoch 50/1000 (5.0%)  loss=0.163913  eta=11244.3s
+2026-04-11 13:08:10 [INFO] src.graph_dqn: Graph-DQN train epoch 51/1000 (5.1%)  loss=1.346644  eta=11219.7s
+2026-04-11 13:08:22 [INFO] src.graph_dqn: Graph-DQN train epoch 52/1000 (5.2%)  loss=0.006787  eta=11206.8s
+2026-04-11 13:08:34 [INFO] src.graph_dqn: Graph-DQN train epoch 53/1000 (5.3%)  loss=0.001438  eta=11198.4s
+2026-04-11 13:08:45 [INFO] src.graph_dqn: Graph-DQN train epoch 54/1000 (5.4%)  loss=0.003523  eta=11187.5s
+2026-04-11 13:08:58 [INFO] src.graph_dqn: Graph-DQN train epoch 55/1000 (5.5%)  loss=0.005278  eta=11179.8s
+2026-04-11 13:09:08 [INFO] src.graph_dqn: Graph-DQN train epoch 56/1000 (5.6%)  loss=0.003210  eta=11151.3s
+2026-04-11 13:09:20 [INFO] src.graph_dqn: Graph-DQN train epoch 57/1000 (5.7%)  loss=0.006170  eta=11134.7s
+2026-04-11 13:09:32 [INFO] src.graph_dqn: Graph-DQN train epoch 58/1000 (5.8%)  loss=0.997276  eta=11125.7s
+2026-04-11 13:09:44 [INFO] src.graph_dqn: Graph-DQN train epoch 59/1000 (5.9%)  loss=0.261816  eta=11114.6s
+2026-04-11 13:09:56 [INFO] src.graph_dqn: Graph-DQN train epoch 60/1000 (6.0%)  loss=0.016945  eta=11104.5s
+2026-04-11 13:10:07 [INFO] src.graph_dqn: Graph-DQN train epoch 61/1000 (6.1%)  loss=0.130877  eta=11082.4s
+2026-04-11 13:10:18 [INFO] src.graph_dqn: Graph-DQN train epoch 62/1000 (6.2%)  loss=0.005305  eta=11064.0s
+2026-04-11 13:10:30 [INFO] src.graph_dqn: Graph-DQN train epoch 63/1000 (6.3%)  loss=0.009692  eta=11052.0s
+2026-04-11 13:10:42 [INFO] src.graph_dqn: Graph-DQN train epoch 64/1000 (6.4%)  loss=0.009316  eta=11040.6s
+2026-04-11 13:10:54 [INFO] src.graph_dqn: Graph-DQN train epoch 65/1000 (6.5%)  loss=0.003023  eta=11029.6s
+2026-04-11 13:11:05 [INFO] src.graph_dqn: Graph-DQN train epoch 66/1000 (6.6%)  loss=0.183260  eta=11010.0s
+2026-04-11 13:11:16 [INFO] src.graph_dqn: Graph-DQN train epoch 67/1000 (6.7%)  loss=0.140072  eta=10992.1s
+2026-04-11 13:11:28 [INFO] src.graph_dqn: Graph-DQN train epoch 68/1000 (6.8%)  loss=0.002884  eta=10980.8s
+2026-04-11 13:11:40 [INFO] src.graph_dqn: Graph-DQN train epoch 69/1000 (6.9%)  loss=0.008350  eta=10969.1s
+2026-04-11 13:11:52 [INFO] src.graph_dqn: Graph-DQN train epoch 70/1000 (7.0%)  loss=0.011766  eta=10958.8s
+2026-04-11 13:12:03 [INFO] src.graph_dqn: Graph-DQN train epoch 71/1000 (7.1%)  loss=0.017463  eta=10945.6s
+2026-04-11 13:12:15 [INFO] src.graph_dqn: Graph-DQN train epoch 72/1000 (7.2%)  loss=0.011333  eta=10926.2s
+2026-04-11 13:12:27 [INFO] src.graph_dqn: Graph-DQN train epoch 73/1000 (7.3%)  loss=0.003109  eta=10917.9s
+2026-04-11 13:12:39 [INFO] src.graph_dqn: Graph-DQN train epoch 74/1000 (7.4%)  loss=0.002505  eta=10909.8s
+2026-04-11 13:12:51 [INFO] src.graph_dqn: Graph-DQN train epoch 75/1000 (7.5%)  loss=0.002164  eta=10901.7s
+2026-04-11 13:13:03 [INFO] src.graph_dqn: Graph-DQN train epoch 76/1000 (7.6%)  loss=0.009926  eta=10893.5s
+2026-04-11 13:13:14 [INFO] src.graph_dqn: Graph-DQN train epoch 77/1000 (7.7%)  loss=0.004857  eta=10873.0s
+2026-04-11 13:13:25 [INFO] src.graph_dqn: Graph-DQN train epoch 78/1000 (7.8%)  loss=0.012789  eta=10858.8s
+2026-04-11 13:13:37 [INFO] src.graph_dqn: Graph-DQN train epoch 79/1000 (7.9%)  loss=0.004420  eta=10849.1s
+2026-04-11 13:13:49 [INFO] src.graph_dqn: Graph-DQN train epoch 80/1000 (8.0%)  loss=0.577808  eta=10839.7s
+2026-04-11 13:14:01 [INFO] src.graph_dqn: Graph-DQN train epoch 81/1000 (8.1%)  loss=0.009405  eta=10831.2s
+2026-04-11 13:14:13 [INFO] src.graph_dqn: Graph-DQN train epoch 82/1000 (8.2%)  loss=0.020951  eta=10816.3s
+2026-04-11 13:14:24 [INFO] src.graph_dqn: Graph-DQN train epoch 83/1000 (8.3%)  loss=0.176920  eta=10799.7s
+2026-04-11 13:14:36 [INFO] src.graph_dqn: Graph-DQN train epoch 84/1000 (8.4%)  loss=0.000780  eta=10791.9s
+2026-04-11 13:14:49 [INFO] src.graph_dqn: Graph-DQN train epoch 85/1000 (8.5%)  loss=0.002634  eta=10783.8s
+2026-04-11 13:15:01 [INFO] src.graph_dqn: Graph-DQN train epoch 86/1000 (8.6%)  loss=0.032874  eta=10780.4s
+2026-04-11 13:15:14 [INFO] src.graph_dqn: Graph-DQN train epoch 87/1000 (8.7%)  loss=0.004660  eta=10776.0s
+2026-04-11 13:15:25 [INFO] src.graph_dqn: Graph-DQN train epoch 88/1000 (8.8%)  loss=0.026568  eta=10760.6s
+2026-04-11 13:15:37 [INFO] src.graph_dqn: Graph-DQN train epoch 89/1000 (8.9%)  loss=0.000713  eta=10748.8s
+2026-04-11 13:15:49 [INFO] src.graph_dqn: Graph-DQN train epoch 90/1000 (9.0%)  loss=0.007460  eta=10739.7s
+2026-04-11 13:16:01 [INFO] src.graph_dqn: Graph-DQN train epoch 91/1000 (9.1%)  loss=0.005708  eta=10728.6s
+2026-04-11 13:16:14 [INFO] src.graph_dqn: Graph-DQN train epoch 92/1000 (9.2%)  loss=0.001212  eta=10725.5s
+2026-04-11 13:16:26 [INFO] src.graph_dqn: Graph-DQN train epoch 93/1000 (9.3%)  loss=0.269448  eta=10723.6s
+2026-04-11 13:16:38 [INFO] src.graph_dqn: Graph-DQN train epoch 94/1000 (9.4%)  loss=1.270157  eta=10714.0s
+2026-04-11 13:16:50 [INFO] src.graph_dqn: Graph-DQN train epoch 95/1000 (9.5%)  loss=0.025117  eta=10702.2s
+2026-04-11 13:17:03 [INFO] src.graph_dqn: Graph-DQN train epoch 96/1000 (9.6%)  loss=0.000701  eta=10697.3s
+2026-04-11 13:17:15 [INFO] src.graph_dqn: Graph-DQN train epoch 97/1000 (9.7%)  loss=0.006809  eta=10691.1s
+2026-04-11 13:17:28 [INFO] src.graph_dqn: Graph-DQN train epoch 98/1000 (9.8%)  loss=0.000630  eta=10686.8s
+2026-04-11 13:17:41 [INFO] src.graph_dqn: Graph-DQN train epoch 99/1000 (9.9%)  loss=0.000626  eta=10681.6s
+2026-04-11 13:17:53 [INFO] src.graph_dqn: Graph-DQN train epoch 100/1000 (10.0%)  loss=7.549082  eta=10672.0s
+2026-04-11 13:17:53 [INFO] __main__: Saved selector checkpoint: dqn_model_ffcg_epoch_100.pt
+2026-04-11 13:18:04 [INFO] src.graph_dqn: Graph-DQN train epoch 101/1000 (10.1%)  loss=2.354144  eta=10659.5s
+2026-04-11 13:18:16 [INFO] src.graph_dqn: Graph-DQN train epoch 102/1000 (10.2%)  loss=0.000670  eta=10649.8s
+2026-04-11 13:18:29 [INFO] src.graph_dqn: Graph-DQN train epoch 103/1000 (10.3%)  loss=0.003277  eta=10640.0s
+2026-04-11 13:18:41 [INFO] src.graph_dqn: Graph-DQN train epoch 104/1000 (10.4%)  loss=0.133159  eta=10630.7s
+2026-04-11 13:18:53 [INFO] src.graph_dqn: Graph-DQN train epoch 105/1000 (10.5%)  loss=0.005438  eta=10620.4s
+2026-04-11 13:19:04 [INFO] src.graph_dqn: Graph-DQN train epoch 106/1000 (10.6%)  loss=0.170537  eta=10605.6s
+2026-04-11 13:19:16 [INFO] src.graph_dqn: Graph-DQN train epoch 107/1000 (10.7%)  loss=0.011750  eta=10590.9s
+2026-04-11 13:19:28 [INFO] src.graph_dqn: Graph-DQN train epoch 108/1000 (10.8%)  loss=0.000902  eta=10582.0s
+2026-04-11 13:19:40 [INFO] src.graph_dqn: Graph-DQN train epoch 109/1000 (10.9%)  loss=0.003662  eta=10572.0s
+2026-04-11 13:19:52 [INFO] src.graph_dqn: Graph-DQN train epoch 110/1000 (11.0%)  loss=0.404658  eta=10561.6s
+2026-04-11 13:20:04 [INFO] src.graph_dqn: Graph-DQN train epoch 111/1000 (11.1%)  loss=0.000639  eta=10552.0s
+2026-04-11 13:20:15 [INFO] src.graph_dqn: Graph-DQN train epoch 112/1000 (11.2%)  loss=0.000633  eta=10534.3s
+2026-04-11 13:20:27 [INFO] src.graph_dqn: Graph-DQN train epoch 113/1000 (11.3%)  loss=0.009885  eta=10522.6s
+2026-04-11 13:20:39 [INFO] src.graph_dqn: Graph-DQN train epoch 114/1000 (11.4%)  loss=0.072550  eta=10512.6s
+2026-04-11 13:20:51 [INFO] src.graph_dqn: Graph-DQN train epoch 115/1000 (11.5%)  loss=0.017406  eta=10501.8s
+2026-04-11 13:21:04 [INFO] src.graph_dqn: Graph-DQN train epoch 116/1000 (11.6%)  loss=0.004810  eta=10493.3s
+2026-04-11 13:21:16 [INFO] src.graph_dqn: Graph-DQN train epoch 117/1000 (11.7%)  loss=0.003463  eta=10481.6s
+2026-04-11 13:21:27 [INFO] src.graph_dqn: Graph-DQN train epoch 118/1000 (11.8%)  loss=0.000669  eta=10467.0s
+2026-04-11 13:21:39 [INFO] src.graph_dqn: Graph-DQN train epoch 119/1000 (11.9%)  loss=0.007638  eta=10457.4s
+2026-04-11 13:21:51 [INFO] src.graph_dqn: Graph-DQN train epoch 120/1000 (12.0%)  loss=0.003916  eta=10446.7s
+2026-04-11 13:22:04 [INFO] src.graph_dqn: Graph-DQN train epoch 121/1000 (12.1%)  loss=0.000742  eta=10437.6s
+2026-04-11 13:22:16 [INFO] src.graph_dqn: Graph-DQN train epoch 122/1000 (12.2%)  loss=0.000629  eta=10427.4s
+2026-04-11 13:22:27 [INFO] src.graph_dqn: Graph-DQN train epoch 123/1000 (12.3%)  loss=0.000627  eta=10414.0s
+2026-04-11 13:22:39 [INFO] src.graph_dqn: Graph-DQN train epoch 124/1000 (12.4%)  loss=0.057641  eta=10398.4s
+2026-04-11 13:22:51 [INFO] src.graph_dqn: Graph-DQN train epoch 125/1000 (12.5%)  loss=0.003460  eta=10388.0s
+2026-04-11 13:23:03 [INFO] src.graph_dqn: Graph-DQN train epoch 126/1000 (12.6%)  loss=0.020724  eta=10378.5s
+2026-04-11 13:23:15 [INFO] src.graph_dqn: Graph-DQN train epoch 127/1000 (12.7%)  loss=0.004413  eta=10367.5s
+2026-04-11 13:23:27 [INFO] src.graph_dqn: Graph-DQN train epoch 128/1000 (12.8%)  loss=0.000664  eta=10357.3s
+2026-04-11 13:23:38 [INFO] src.graph_dqn: Graph-DQN train epoch 129/1000 (12.9%)  loss=0.000626  eta=10341.4s
+2026-04-11 13:23:50 [INFO] src.graph_dqn: Graph-DQN train epoch 130/1000 (13.0%)  loss=0.000631  eta=10328.0s
+2026-04-11 13:24:02 [INFO] src.graph_dqn: Graph-DQN train epoch 131/1000 (13.1%)  loss=0.001457  eta=10317.3s
+2026-04-11 13:24:14 [INFO] src.graph_dqn: Graph-DQN train epoch 132/1000 (13.2%)  loss=0.000623  eta=10306.7s
+2026-04-11 13:24:26 [INFO] src.graph_dqn: Graph-DQN train epoch 133/1000 (13.3%)  loss=0.000617  eta=10296.7s
+2026-04-11 13:24:38 [INFO] src.graph_dqn: Graph-DQN train epoch 134/1000 (13.4%)  loss=0.004889  eta=10284.8s
+2026-04-11 13:24:50 [INFO] src.graph_dqn: Graph-DQN train epoch 135/1000 (13.5%)  loss=0.002343  eta=10270.4s
+2026-04-11 13:25:02 [INFO] src.graph_dqn: Graph-DQN train epoch 136/1000 (13.6%)  loss=0.026037  eta=10260.0s
+2026-04-11 13:25:14 [INFO] src.graph_dqn: Graph-DQN train epoch 137/1000 (13.7%)  loss=0.003612  eta=10249.1s
+2026-04-11 13:25:26 [INFO] src.graph_dqn: Graph-DQN train epoch 138/1000 (13.8%)  loss=0.008271  eta=10240.6s
+2026-04-11 13:25:39 [INFO] src.graph_dqn: Graph-DQN train epoch 139/1000 (13.9%)  loss=0.209730  eta=10233.3s
+2026-04-11 13:25:51 [INFO] src.graph_dqn: Graph-DQN train epoch 140/1000 (14.0%)  loss=0.004323  eta=10223.6s
+2026-04-11 13:26:03 [INFO] src.graph_dqn: Graph-DQN train epoch 141/1000 (14.1%)  loss=0.001993  eta=10210.0s
+2026-04-11 13:26:15 [INFO] src.graph_dqn: Graph-DQN train epoch 142/1000 (14.2%)  loss=0.000710  eta=10199.8s
+2026-04-11 13:26:28 [INFO] src.graph_dqn: Graph-DQN train epoch 143/1000 (14.3%)  loss=0.000702  eta=10192.6s
+2026-04-11 13:26:40 [INFO] src.graph_dqn: Graph-DQN train epoch 144/1000 (14.4%)  loss=0.001885  eta=10184.4s
+2026-04-11 13:26:52 [INFO] src.graph_dqn: Graph-DQN train epoch 145/1000 (14.5%)  loss=0.001568  eta=10175.3s
+2026-04-11 13:27:05 [INFO] src.graph_dqn: Graph-DQN train epoch 146/1000 (14.6%)  loss=0.000660  eta=10166.3s
+2026-04-11 13:27:16 [INFO] src.graph_dqn: Graph-DQN train epoch 147/1000 (14.7%)  loss=0.000672  eta=10152.2s
+2026-04-11 13:27:28 [INFO] src.graph_dqn: Graph-DQN train epoch 148/1000 (14.8%)  loss=0.000720  eta=10139.3s
+2026-04-11 13:27:40 [INFO] src.graph_dqn: Graph-DQN train epoch 149/1000 (14.9%)  loss=0.000669  eta=10128.5s
+2026-04-11 13:27:52 [INFO] src.graph_dqn: Graph-DQN train epoch 150/1000 (15.0%)  loss=0.000710  eta=10116.7s
+2026-04-11 13:28:04 [INFO] src.graph_dqn: Graph-DQN train epoch 151/1000 (15.1%)  loss=0.003882  eta=10105.7s
+2026-04-11 13:28:16 [INFO] src.graph_dqn: Graph-DQN train epoch 152/1000 (15.2%)  loss=3.341369  eta=10092.5s
+2026-04-11 13:28:27 [INFO] src.graph_dqn: Graph-DQN train epoch 153/1000 (15.3%)  loss=0.002972  eta=10077.6s
+2026-04-11 13:28:39 [INFO] src.graph_dqn: Graph-DQN train epoch 154/1000 (15.4%)  loss=0.001550  eta=10066.9s
+2026-04-11 13:28:52 [INFO] src.graph_dqn: Graph-DQN train epoch 155/1000 (15.5%)  loss=0.002754  eta=10057.4s
+2026-04-11 13:29:04 [INFO] src.graph_dqn: Graph-DQN train epoch 156/1000 (15.6%)  loss=0.003913  eta=10049.1s
+2026-04-11 13:29:17 [INFO] src.graph_dqn: Graph-DQN train epoch 157/1000 (15.7%)  loss=0.000649  eta=10041.4s
+2026-04-11 13:29:29 [INFO] src.graph_dqn: Graph-DQN train epoch 158/1000 (15.8%)  loss=0.000631  eta=10032.2s
+2026-04-11 13:29:41 [INFO] src.graph_dqn: Graph-DQN train epoch 159/1000 (15.9%)  loss=0.020743  eta=10021.2s
+2026-04-11 13:29:53 [INFO] src.graph_dqn: Graph-DQN train epoch 160/1000 (16.0%)  loss=0.005247  eta=10009.2s
+2026-04-11 13:30:06 [INFO] src.graph_dqn: Graph-DQN train epoch 161/1000 (16.1%)  loss=0.000634  eta=9999.0s
+2026-04-11 13:30:18 [INFO] src.graph_dqn: Graph-DQN train epoch 162/1000 (16.2%)  loss=0.000681  eta=9989.4s
+2026-04-11 13:30:30 [INFO] src.graph_dqn: Graph-DQN train epoch 163/1000 (16.3%)  loss=0.007323  eta=9979.3s
+2026-04-11 13:30:42 [INFO] src.graph_dqn: Graph-DQN train epoch 164/1000 (16.4%)  loss=0.001040  eta=9968.8s
+2026-04-11 13:30:54 [INFO] src.graph_dqn: Graph-DQN train epoch 165/1000 (16.5%)  loss=0.000629  eta=9953.1s
+2026-04-11 13:31:06 [INFO] src.graph_dqn: Graph-DQN train epoch 166/1000 (16.6%)  loss=0.000765  eta=9941.2s
+2026-04-11 13:31:18 [INFO] src.graph_dqn: Graph-DQN train epoch 167/1000 (16.7%)  loss=0.000625  eta=9929.5s
+2026-04-11 13:31:30 [INFO] src.graph_dqn: Graph-DQN train epoch 168/1000 (16.8%)  loss=0.000642  eta=9921.0s
+2026-04-11 13:31:43 [INFO] src.graph_dqn: Graph-DQN train epoch 169/1000 (16.9%)  loss=0.019108  eta=9912.1s
+2026-04-11 13:31:55 [INFO] src.graph_dqn: Graph-DQN train epoch 170/1000 (17.0%)  loss=0.038968  eta=9903.3s
+2026-04-11 13:32:07 [INFO] src.graph_dqn: Graph-DQN train epoch 171/1000 (17.1%)  loss=0.000642  eta=9891.0s
+2026-04-11 13:32:19 [INFO] src.graph_dqn: Graph-DQN train epoch 172/1000 (17.2%)  loss=0.000630  eta=9877.9s
+2026-04-11 13:32:31 [INFO] src.graph_dqn: Graph-DQN train epoch 173/1000 (17.3%)  loss=0.000624  eta=9868.0s
+2026-04-11 13:32:43 [INFO] src.graph_dqn: Graph-DQN train epoch 174/1000 (17.4%)  loss=0.001692  eta=9856.9s
+2026-04-11 13:32:55 [INFO] src.graph_dqn: Graph-DQN train epoch 175/1000 (17.5%)  loss=0.000649  eta=9845.6s
+2026-04-11 13:33:08 [INFO] src.graph_dqn: Graph-DQN train epoch 176/1000 (17.6%)  loss=0.000615  eta=9836.9s
+2026-04-11 13:33:19 [INFO] src.graph_dqn: Graph-DQN train epoch 177/1000 (17.7%)  loss=0.000621  eta=9822.0s
+2026-04-11 13:33:31 [INFO] src.graph_dqn: Graph-DQN train epoch 178/1000 (17.8%)  loss=0.006415  eta=9809.7s
+2026-04-11 13:33:43 [INFO] src.graph_dqn: Graph-DQN train epoch 179/1000 (17.9%)  loss=0.005767  eta=9799.2s
+2026-04-11 13:33:56 [INFO] src.graph_dqn: Graph-DQN train epoch 180/1000 (18.0%)  loss=0.000843  eta=9788.6s
+2026-04-11 13:34:08 [INFO] src.graph_dqn: Graph-DQN train epoch 181/1000 (18.1%)  loss=0.095417  eta=9778.3s
+2026-04-11 13:34:20 [INFO] src.graph_dqn: Graph-DQN train epoch 182/1000 (18.2%)  loss=0.000625  eta=9767.8s
+2026-04-11 13:34:32 [INFO] src.graph_dqn: Graph-DQN train epoch 183/1000 (18.3%)  loss=0.000622  eta=9753.7s
+2026-04-11 13:34:44 [INFO] src.graph_dqn: Graph-DQN train epoch 184/1000 (18.4%)  loss=0.000623  eta=9742.7s
+2026-04-11 13:34:56 [INFO] src.graph_dqn: Graph-DQN train epoch 185/1000 (18.5%)  loss=0.023758  eta=9731.7s
+2026-04-11 13:35:08 [INFO] src.graph_dqn: Graph-DQN train epoch 186/1000 (18.6%)  loss=0.070332  eta=9721.1s
+2026-04-11 13:35:20 [INFO] src.graph_dqn: Graph-DQN train epoch 187/1000 (18.7%)  loss=0.000837  eta=9710.3s
+2026-04-11 13:35:32 [INFO] src.graph_dqn: Graph-DQN train epoch 188/1000 (18.8%)  loss=0.002718  eta=9699.2s
+2026-04-11 13:35:44 [INFO] src.graph_dqn: Graph-DQN train epoch 189/1000 (18.9%)  loss=3.022938  eta=9685.3s
+2026-04-11 13:35:56 [INFO] src.graph_dqn: Graph-DQN train epoch 190/1000 (19.0%)  loss=0.006683  eta=9674.1s
+2026-04-11 13:36:08 [INFO] src.graph_dqn: Graph-DQN train epoch 191/1000 (19.1%)  loss=0.001727  eta=9663.8s
+2026-04-11 13:36:21 [INFO] src.graph_dqn: Graph-DQN train epoch 192/1000 (19.2%)  loss=0.003499  eta=9653.0s
+2026-04-11 13:36:33 [INFO] src.graph_dqn: Graph-DQN train epoch 193/1000 (19.3%)  loss=0.000622  eta=9642.0s
+2026-04-11 13:36:44 [INFO] src.graph_dqn: Graph-DQN train epoch 194/1000 (19.4%)  loss=0.000625  eta=9628.2s
+2026-04-11 13:36:55 [INFO] src.graph_dqn: Graph-DQN train epoch 195/1000 (19.5%)  loss=0.008756  eta=9612.4s
+2026-04-11 13:37:08 [INFO] src.graph_dqn: Graph-DQN train epoch 196/1000 (19.6%)  loss=0.086705  eta=9602.3s
+2026-04-11 13:37:20 [INFO] src.graph_dqn: Graph-DQN train epoch 197/1000 (19.7%)  loss=0.000633  eta=9592.5s
+2026-04-11 13:37:33 [INFO] src.graph_dqn: Graph-DQN train epoch 198/1000 (19.8%)  loss=0.000654  eta=9583.4s
+2026-04-11 13:37:45 [INFO] src.graph_dqn: Graph-DQN train epoch 199/1000 (19.9%)  loss=0.000630  eta=9573.1s
+2026-04-11 13:37:57 [INFO] src.graph_dqn: Graph-DQN train epoch 200/1000 (20.0%)  loss=0.005832  eta=9560.2s
+2026-04-11 13:37:57 [INFO] __main__: Saved selector checkpoint: dqn_model_ffcg_epoch_200.pt
+2026-04-11 13:38:08 [INFO] src.graph_dqn: Graph-DQN train epoch 201/1000 (20.1%)  loss=0.019734  eta=9546.2s
+2026-04-11 13:38:20 [INFO] src.graph_dqn: Graph-DQN train epoch 202/1000 (20.2%)  loss=0.000645  eta=9534.4s
+2026-04-11 13:38:32 [INFO] src.graph_dqn: Graph-DQN train epoch 203/1000 (20.3%)  loss=0.000654  eta=9522.9s
+2026-04-11 13:38:44 [INFO] src.graph_dqn: Graph-DQN train epoch 204/1000 (20.4%)  loss=0.000648  eta=9510.6s
+2026-04-11 13:38:56 [INFO] src.graph_dqn: Graph-DQN train epoch 205/1000 (20.5%)  loss=0.988957  eta=9498.7s
+2026-04-11 13:39:07 [INFO] src.graph_dqn: Graph-DQN train epoch 206/1000 (20.6%)  loss=0.004906  eta=9483.5s
+2026-04-11 13:39:19 [INFO] src.graph_dqn: Graph-DQN train epoch 207/1000 (20.7%)  loss=0.000630  eta=9470.1s
+2026-04-11 13:39:31 [INFO] src.graph_dqn: Graph-DQN train epoch 208/1000 (20.8%)  loss=0.000621  eta=9458.2s
+2026-04-11 13:39:43 [INFO] src.graph_dqn: Graph-DQN train epoch 209/1000 (20.9%)  loss=0.000631  eta=9447.4s
+2026-04-11 13:39:55 [INFO] src.graph_dqn: Graph-DQN train epoch 210/1000 (21.0%)  loss=0.000746  eta=9436.4s
+2026-04-11 13:40:07 [INFO] src.graph_dqn: Graph-DQN train epoch 211/1000 (21.1%)  loss=0.000628  eta=9423.7s
+2026-04-11 13:40:18 [INFO] src.graph_dqn: Graph-DQN train epoch 212/1000 (21.2%)  loss=8.415834  eta=9409.2s
+2026-04-11 13:40:30 [INFO] src.graph_dqn: Graph-DQN train epoch 213/1000 (21.3%)  loss=0.003253  eta=9397.1s
+2026-04-11 13:40:42 [INFO] src.graph_dqn: Graph-DQN train epoch 214/1000 (21.4%)  loss=0.000645  eta=9385.5s
+2026-04-11 13:40:54 [INFO] src.graph_dqn: Graph-DQN train epoch 215/1000 (21.5%)  loss=0.000639  eta=9373.9s
+2026-04-11 13:41:06 [INFO] src.graph_dqn: Graph-DQN train epoch 216/1000 (21.6%)  loss=0.006374  eta=9362.5s
+2026-04-11 13:41:18 [INFO] src.graph_dqn: Graph-DQN train epoch 217/1000 (21.7%)  loss=0.158547  eta=9348.6s
+2026-04-11 13:41:29 [INFO] src.graph_dqn: Graph-DQN train epoch 218/1000 (21.8%)  loss=0.000524  eta=9335.5s
+2026-04-11 13:41:42 [INFO] src.graph_dqn: Graph-DQN train epoch 219/1000 (21.9%)  loss=0.000628  eta=9324.5s
+2026-04-11 13:41:54 [INFO] src.graph_dqn: Graph-DQN train epoch 220/1000 (22.0%)  loss=0.000626  eta=9313.3s
+2026-04-11 13:42:07 [INFO] src.graph_dqn: Graph-DQN train epoch 221/1000 (22.1%)  loss=0.005758  eta=9304.6s
+2026-04-11 13:42:19 [INFO] src.graph_dqn: Graph-DQN train epoch 222/1000 (22.2%)  loss=0.000608  eta=9294.5s
+2026-04-11 13:42:31 [INFO] src.graph_dqn: Graph-DQN train epoch 223/1000 (22.3%)  loss=0.000607  eta=9282.0s
+2026-04-11 13:42:42 [INFO] src.graph_dqn: Graph-DQN train epoch 224/1000 (22.4%)  loss=0.000617  eta=9268.6s
+2026-04-11 13:42:55 [INFO] src.graph_dqn: Graph-DQN train epoch 225/1000 (22.5%)  loss=2.541342  eta=9258.0s
+2026-04-11 13:43:07 [INFO] src.graph_dqn: Graph-DQN train epoch 226/1000 (22.6%)  loss=0.012035  eta=9247.6s
+2026-04-11 13:43:19 [INFO] src.graph_dqn: Graph-DQN train epoch 227/1000 (22.7%)  loss=0.000623  eta=9237.1s
+2026-04-11 13:43:32 [INFO] src.graph_dqn: Graph-DQN train epoch 228/1000 (22.8%)  loss=0.000601  eta=9227.4s
+2026-04-11 13:43:44 [INFO] src.graph_dqn: Graph-DQN train epoch 229/1000 (22.9%)  loss=0.000612  eta=9216.3s
+2026-04-11 13:43:56 [INFO] src.graph_dqn: Graph-DQN train epoch 230/1000 (23.0%)  loss=0.004461  eta=9204.6s
+2026-04-11 13:44:09 [INFO] src.graph_dqn: Graph-DQN train epoch 231/1000 (23.1%)  loss=0.004473  eta=9195.4s
+2026-04-11 13:44:22 [INFO] src.graph_dqn: Graph-DQN train epoch 232/1000 (23.2%)  loss=0.066533  eta=9186.8s
+2026-04-11 13:44:35 [INFO] src.graph_dqn: Graph-DQN train epoch 233/1000 (23.3%)  loss=0.000582  eta=9177.2s
+2026-04-11 13:44:47 [INFO] src.graph_dqn: Graph-DQN train epoch 234/1000 (23.4%)  loss=0.000588  eta=9167.6s
+2026-04-11 13:45:00 [INFO] src.graph_dqn: Graph-DQN train epoch 235/1000 (23.5%)  loss=0.000579  eta=9157.8s
+2026-04-11 13:45:12 [INFO] src.graph_dqn: Graph-DQN train epoch 236/1000 (23.6%)  loss=0.000620  eta=9146.7s
+2026-04-11 13:45:24 [INFO] src.graph_dqn: Graph-DQN train epoch 237/1000 (23.7%)  loss=0.000592  eta=9134.9s
+2026-04-11 13:45:37 [INFO] src.graph_dqn: Graph-DQN train epoch 238/1000 (23.8%)  loss=0.000605  eta=9124.9s
+2026-04-11 13:45:50 [INFO] src.graph_dqn: Graph-DQN train epoch 239/1000 (23.9%)  loss=0.046232  eta=9115.4s
+2026-04-11 13:46:02 [INFO] src.graph_dqn: Graph-DQN train epoch 240/1000 (24.0%)  loss=0.000620  eta=9105.2s
+2026-04-11 13:46:15 [INFO] src.graph_dqn: Graph-DQN train epoch 241/1000 (24.1%)  loss=0.000645  eta=9096.0s
+2026-04-11 13:46:28 [INFO] src.graph_dqn: Graph-DQN train epoch 242/1000 (24.2%)  loss=0.007455  eta=9086.9s
+2026-04-11 13:46:40 [INFO] src.graph_dqn: Graph-DQN train epoch 243/1000 (24.3%)  loss=0.004534  eta=9075.0s
+2026-04-11 13:46:52 [INFO] src.graph_dqn: Graph-DQN train epoch 244/1000 (24.4%)  loss=0.000609  eta=9064.3s
+2026-04-11 13:47:05 [INFO] src.graph_dqn: Graph-DQN train epoch 245/1000 (24.5%)  loss=0.000796  eta=9055.8s
+2026-04-11 13:47:18 [INFO] src.graph_dqn: Graph-DQN train epoch 246/1000 (24.6%)  loss=0.023198  eta=9046.8s
+2026-04-11 13:47:31 [INFO] src.graph_dqn: Graph-DQN train epoch 247/1000 (24.7%)  loss=2.957296  eta=9038.0s
+2026-04-11 13:47:44 [INFO] src.graph_dqn: Graph-DQN train epoch 248/1000 (24.8%)  loss=0.001208  eta=9028.7s
+2026-04-11 13:47:57 [INFO] src.graph_dqn: Graph-DQN train epoch 249/1000 (24.9%)  loss=0.004044  eta=9019.0s
+2026-04-11 13:48:09 [INFO] src.graph_dqn: Graph-DQN train epoch 250/1000 (25.0%)  loss=0.000611  eta=9007.3s
+2026-04-11 13:48:21 [INFO] src.graph_dqn: Graph-DQN train epoch 251/1000 (25.1%)  loss=0.000616  eta=8995.2s
+2026-04-11 13:48:34 [INFO] src.graph_dqn: Graph-DQN train epoch 252/1000 (25.2%)  loss=0.000601  eta=8985.4s
+2026-04-11 13:48:47 [INFO] src.graph_dqn: Graph-DQN train epoch 253/1000 (25.3%)  loss=0.710927  eta=8975.6s
+2026-04-11 13:49:00 [INFO] src.graph_dqn: Graph-DQN train epoch 254/1000 (25.4%)  loss=0.004177  eta=8965.9s
+2026-04-11 13:49:12 [INFO] src.graph_dqn: Graph-DQN train epoch 255/1000 (25.5%)  loss=0.035300  eta=8956.3s
+2026-04-11 13:49:25 [INFO] src.graph_dqn: Graph-DQN train epoch 256/1000 (25.6%)  loss=0.001091  eta=8945.8s
+2026-04-11 13:49:37 [INFO] src.graph_dqn: Graph-DQN train epoch 257/1000 (25.7%)  loss=0.000621  eta=8934.2s
+2026-04-11 13:49:50 [INFO] src.graph_dqn: Graph-DQN train epoch 258/1000 (25.8%)  loss=0.000606  eta=8923.3s
+2026-04-11 13:50:02 [INFO] src.graph_dqn: Graph-DQN train epoch 259/1000 (25.9%)  loss=0.005994  eta=8913.6s
+2026-04-11 13:50:15 [INFO] src.graph_dqn: Graph-DQN train epoch 260/1000 (26.0%)  loss=6.731989  eta=8903.7s
+2026-04-11 13:50:28 [INFO] src.graph_dqn: Graph-DQN train epoch 261/1000 (26.1%)  loss=0.009010  eta=8893.7s
+2026-04-11 13:50:41 [INFO] src.graph_dqn: Graph-DQN train epoch 262/1000 (26.2%)  loss=0.000608  eta=8884.1s
+2026-04-11 13:50:54 [INFO] src.graph_dqn: Graph-DQN train epoch 263/1000 (26.3%)  loss=0.000601  eta=8874.9s
+2026-04-11 13:51:06 [INFO] src.graph_dqn: Graph-DQN train epoch 264/1000 (26.4%)  loss=0.000603  eta=8863.5s
+2026-04-11 13:51:18 [INFO] src.graph_dqn: Graph-DQN train epoch 265/1000 (26.5%)  loss=0.000609  eta=8851.4s
+2026-04-11 13:51:31 [INFO] src.graph_dqn: Graph-DQN train epoch 266/1000 (26.6%)  loss=0.596642  eta=8841.4s
+2026-04-11 13:51:44 [INFO] src.graph_dqn: Graph-DQN train epoch 267/1000 (26.7%)  loss=0.015047  eta=8831.6s
+2026-04-11 13:51:57 [INFO] src.graph_dqn: Graph-DQN train epoch 268/1000 (26.8%)  loss=0.004656  eta=8821.9s
+2026-04-11 13:52:10 [INFO] src.graph_dqn: Graph-DQN train epoch 269/1000 (26.9%)  loss=0.002577  eta=8812.1s
+2026-04-11 13:52:23 [INFO] src.graph_dqn: Graph-DQN train epoch 270/1000 (27.0%)  loss=0.006474  eta=8802.8s
+2026-04-11 13:52:35 [INFO] src.graph_dqn: Graph-DQN train epoch 271/1000 (27.1%)  loss=0.000624  eta=8791.9s
+2026-04-11 13:52:47 [INFO] src.graph_dqn: Graph-DQN train epoch 272/1000 (27.2%)  loss=0.000619  eta=8780.3s
+2026-04-11 13:53:00 [INFO] src.graph_dqn: Graph-DQN train epoch 273/1000 (27.3%)  loss=0.000597  eta=8769.3s
+2026-04-11 13:53:12 [INFO] src.graph_dqn: Graph-DQN train epoch 274/1000 (27.4%)  loss=0.000585  eta=8758.6s
+2026-04-11 13:53:25 [INFO] src.graph_dqn: Graph-DQN train epoch 275/1000 (27.5%)  loss=0.000618  eta=8747.9s
+2026-04-11 13:53:38 [INFO] src.graph_dqn: Graph-DQN train epoch 276/1000 (27.6%)  loss=0.000586  eta=8737.9s
+2026-04-11 13:53:51 [INFO] src.graph_dqn: Graph-DQN train epoch 277/1000 (27.7%)  loss=0.014766  eta=8727.6s
+2026-04-11 13:54:03 [INFO] src.graph_dqn: Graph-DQN train epoch 278/1000 (27.8%)  loss=0.117151  eta=8715.9s
+2026-04-11 13:54:15 [INFO] src.graph_dqn: Graph-DQN train epoch 279/1000 (27.9%)  loss=0.000589  eta=8703.9s
+2026-04-11 13:54:28 [INFO] src.graph_dqn: Graph-DQN train epoch 280/1000 (28.0%)  loss=0.000611  eta=8693.8s
+2026-04-11 13:54:40 [INFO] src.graph_dqn: Graph-DQN train epoch 281/1000 (28.1%)  loss=0.000573  eta=8683.4s
+2026-04-11 13:54:53 [INFO] src.graph_dqn: Graph-DQN train epoch 282/1000 (28.2%)  loss=0.000570  eta=8673.4s
+2026-04-11 13:55:06 [INFO] src.graph_dqn: Graph-DQN train epoch 283/1000 (28.3%)  loss=0.010362  eta=8663.1s
+2026-04-11 13:55:19 [INFO] src.graph_dqn: Graph-DQN train epoch 284/1000 (28.4%)  loss=0.003773  eta=8652.6s
+2026-04-11 13:55:31 [INFO] src.graph_dqn: Graph-DQN train epoch 285/1000 (28.5%)  loss=0.018561  eta=8640.3s
+2026-04-11 13:55:43 [INFO] src.graph_dqn: Graph-DQN train epoch 286/1000 (28.6%)  loss=0.001344  eta=8628.6s
+2026-04-11 13:55:56 [INFO] src.graph_dqn: Graph-DQN train epoch 287/1000 (28.7%)  loss=0.003265  eta=8617.9s
+2026-04-11 13:56:08 [INFO] src.graph_dqn: Graph-DQN train epoch 288/1000 (28.8%)  loss=0.001061  eta=8607.2s
+2026-04-11 13:56:21 [INFO] src.graph_dqn: Graph-DQN train epoch 289/1000 (28.9%)  loss=0.003233  eta=8595.9s
+2026-04-11 13:56:33 [INFO] src.graph_dqn: Graph-DQN train epoch 290/1000 (29.0%)  loss=5.773055  eta=8584.9s
+2026-04-11 13:56:45 [INFO] src.graph_dqn: Graph-DQN train epoch 291/1000 (29.1%)  loss=0.003938  eta=8572.7s
+2026-04-11 13:56:57 [INFO] src.graph_dqn: Graph-DQN train epoch 292/1000 (29.2%)  loss=0.004511  eta=8559.9s
+2026-04-11 13:57:09 [INFO] src.graph_dqn: Graph-DQN train epoch 293/1000 (29.3%)  loss=0.002435  eta=8547.9s
+2026-04-11 13:57:22 [INFO] src.graph_dqn: Graph-DQN train epoch 294/1000 (29.4%)  loss=0.000641  eta=8536.4s
+2026-04-11 13:57:34 [INFO] src.graph_dqn: Graph-DQN train epoch 295/1000 (29.5%)  loss=0.275712  eta=8524.9s
+2026-04-11 13:57:47 [INFO] src.graph_dqn: Graph-DQN train epoch 296/1000 (29.6%)  loss=0.000609  eta=8513.9s
+2026-04-11 13:57:59 [INFO] src.graph_dqn: Graph-DQN train epoch 297/1000 (29.7%)  loss=0.000608  eta=8503.8s
+2026-04-11 13:58:11 [INFO] src.graph_dqn: Graph-DQN train epoch 298/1000 (29.8%)  loss=0.005885  eta=8490.8s
+2026-04-11 13:58:23 [INFO] src.graph_dqn: Graph-DQN train epoch 299/1000 (29.9%)  loss=0.022583  eta=8478.6s
+2026-04-11 13:58:36 [INFO] src.graph_dqn: Graph-DQN train epoch 300/1000 (30.0%)  loss=0.002615  eta=8467.0s
+2026-04-11 13:58:36 [INFO] __main__: Saved selector checkpoint: dqn_model_ffcg_epoch_300.pt
+2026-04-11 13:58:48 [INFO] src.graph_dqn: Graph-DQN train epoch 301/1000 (30.1%)  loss=0.005831  eta=8455.2s
+2026-04-11 13:59:00 [INFO] src.graph_dqn: Graph-DQN train epoch 302/1000 (30.2%)  loss=0.001345  eta=8443.7s
+2026-04-11 13:59:12 [INFO] src.graph_dqn: Graph-DQN train epoch 303/1000 (30.3%)  loss=0.000626  eta=8430.3s

@@ -1,0 +1,58 @@
+problem:
+  orders_file: "data/orders_3-16-2023.csv"
+  trucks_file: "data/TruckMaster.csv"
+  distance_matrix_file: "data/distance_matrix_metersallabove1_2524.csv"
+  depot_id: "2524"
+  planning_horizon_hours: 24.0
+
+column_generation:
+  max_cg_iterations: 100
+  reduced_cost_tolerance: -1.0e-6
+  initial_routes: "greedy"
+
+branch_and_bound:
+  max_nodes: 500
+  optimality_gap: 0.01
+  node_selection: "best_first"
+  branching_fractional_tolerance: 0.01
+
+pomo:
+  embedding_dim: 128
+  num_encoder_layers: 6
+  num_heads: 8
+  feedforward_dim: 512
+  node_feature_dim: 7
+  num_pomo_starts: 20
+  decode_method: "sampling"
+  temperature: 1.0
+  num_samples_per_start: 1
+
+curriculum:
+  stage_1:
+    customers: 50
+    epochs: 1000
+  stage_2:
+    customers: 100
+    epochs: 1000
+  stage_3:
+    customers: 200
+    epochs: 2000
+
+training:
+  num_epochs: 1000
+  batch_size: 64
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  num_train_instances: 10000
+  num_val_instances: 1000
+  max_customers_per_instance: 50
+  checkpoint_interval: 50
+  pretrained_model: null
+
+solver:
+  seed: 42
+  device: "cuda"
+
+logging:
+  results_dir: "results"
+  log_level: "INFO"

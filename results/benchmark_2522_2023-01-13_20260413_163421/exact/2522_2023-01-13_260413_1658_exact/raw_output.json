@@ -1,0 +1,16 @@
+{
+  "solver_status": "NOT_SOLVED",
+  "total_cost": null,
+  "num_routes": 0,
+  "nodes_explored": 0,
+  "total_columns": 0,
+  "cpu_time_seconds": 310.181,
+  "best_bound": null,
+  "mip_gap_percent": null,
+  "selected_vehicle_count": 0,
+  "distance_matrix_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\distance_matrix_meters2522.csv",
+  "geometry_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\geometry_2522.json",
+  "forbidden_arcs": [],
+  "enforced_arcs": [],
+  "routes": []
+}

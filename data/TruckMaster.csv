@@ -1,0 +1,7 @@
+TruckName,CapacityKg,LengthM,WidthM,HeightM,CapacityCbm,FixedCost,CostPerKm,CostPerHour,AverageSpeedKmH,Count,Note
+AUV,1000,2.44,1.37,1.37,4.579636,10,10,2,30,100,Asian Utility Vehicle
+4w,2000,3.05,1.83,1.83,10.21415,15,12,3,30,100,4 Wheel truck
+6w,7000,5.49,1.83,2.13,21.39947,20,14,5,30,100,6 Wheel truck
+10w,15000,9.75,2.38,2.38,55.2279,25,18,6,30,100,10 Wheel truck
+40ft,28000,12.19,2.38,2.38,69.04904,35,20,9,30,100,40ft Container
+MC,150,0.46,0.46,0.61,0.129076,10,5,1,40,100,Motorcycle

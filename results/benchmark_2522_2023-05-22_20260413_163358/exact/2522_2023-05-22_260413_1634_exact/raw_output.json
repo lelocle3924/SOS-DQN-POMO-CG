@@ -1,0 +1,93 @@
+{
+  "solver_status": "FEASIBLE",
+  "total_cost": 3326.929296666667,
+  "num_routes": 4,
+  "nodes_explored": 0,
+  "total_columns": 0,
+  "cpu_time_seconds": 300.682,
+  "best_bound": 1311.2718767348426,
+  "mip_gap_percent": 60.58612132068336,
+  "selected_vehicle_count": 4,
+  "distance_matrix_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\distance_matrix_meters2522.csv",
+  "geometry_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\geometry_2522.json",
+  "forbidden_arcs": [],
+  "enforced_arcs": [],
+  "routes": [
+    {
+      "route_id": 0,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        15,
+        11,
+        3,
+        12
+      ],
+      "customer_ids": [
+        "70434135",
+        "70245228",
+        "70022681",
+        "70352881"
+      ],
+      "total_cost": 1435.5717266666666,
+      "distance_km": 139.319,
+      "time_hours": 16.190863333333333
+    },
+    {
+      "route_id": 1,
+      "vehicle_type": "4w",
+      "customer_indices": [
+        4,
+        7
+      ],
+      "customer_ids": [
+        "70022760",
+        "70082205"
+      ],
+      "total_cost": 348.80301,
+      "distance_km": 24.572200000000002,
+      "time_hours": 12.97887
+    },
+    {
+      "route_id": 2,
+      "vehicle_type": "4w",
+      "customer_indices": [
+        2,
+        1,
+        5,
+        13,
+        8,
+        9,
+        10
+      ],
+      "customer_ids": [
+        "70022351",
+        "70022295",
+        "70023045",
+        "70360301",
+        "70085373",
+        "70130334",
+        "70131370"
+      ],
+      "total_cost": 788.2475400000001,
+      "distance_km": 60.609100000000005,
+      "time_hours": 15.31278
+    },
+    {
+      "route_id": 3,
+      "vehicle_type": "4w",
+      "customer_indices": [
+        0,
+        6,
+        14
+      ],
+      "customer_ids": [
+        "70022293",
+        "70028192",
+        "70409000"
+      ],
+      "total_cost": 754.30702,
+      "distance_km": 58.9221,
+      "time_hours": 10.747273333333332
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+branch_and_bound:
+  branching_fractional_tolerance: 0.01
+  max_nodes: 500
+  node_selection: best_first
+  optimality_gap: 0.01
+column_generation:
+  initial_routes: greedy
+  max_cg_iterations: 100
+  reduced_cost_tolerance: -1.0e-06
+column_selector:
+  checkpoint: ''
+  hidden_dim: 64
+  max_family_size: 5
+  method: none
+  stop_q_threshold: 0.0
+curriculum:
+  stage_1:
+    customers: 50
+    epochs: 1000
+  stage_2:
+    customers: 100
+    epochs: 1000
+  stage_3:
+    customers: 200
+    epochs: 2000
+dp_solver:
+  beam_width: 25
+  max_total_labels: 100000
+exact:
+  assume_unlimited_vehicles: true
+  max_vehicles_per_type: null
+  time_limit_seconds: 300
+ga_generator:
+  max_route_length: 20
+  mutation_rate: 0.3
+  num_generations: 100
+  population_size: 50
+logging:
+  log_level: INFO
+  results_dir: D:/Uni Material/Code_Odyssey/Code/DQN/260407/results/benchmark_2522_2023-05-17_20260413_160016/exact
+pomo:
+  decode_method: sampling
+  embedding_dim: 128
+  feedforward_dim: 512
+  node_feature_dim: 7
+  num_encoder_layers: 6
+  num_heads: 8
+  num_pomo_starts: 10
+  num_samples_per_start: 1
+  temperature: 1.0
+pricing:
+  dp_fallback_threshold: 0.3
+  max_pomo_strikes: 3
+problem:
+  depot_id: '2522'
+  distance_matrix_file: data/distmatrix_2522/distance_matrix_meters2522.csv
+  orders_file: data/temp_days_2522/2522_2023-05-17.csv
+  planning_horizon_hours: 24.0
+  trucks_file: data/TruckMaster.csv
+solver:
+  device: cpu
+  seed: 42
+training:
+  batch_size: 1
+  checkpoint_interval: 15
+  learning_rate: 0.0001
+  max_customers_per_instance: 50
+  num_epochs: 1000
+  num_train_instances: 10000
+  num_val_instances: 1000
+  pretrained_model: results/train_20260408_093200_stage_1_50cust/pretrained_pomo/model_epoch_120.pt
+  weight_decay: 1.0e-05
+training_data:
+  augment_8fold: true
+  curriculum_stages:
+  - epochs: 2
+    max_customers: 8
+    name: tiny_warmup
+  - epochs: 998
+    max_customers: 80
+    name: main
+  distance_matrix_dirs:
+  - data/distmatrix_2510
+  - data/distmatrix_2522
+  - data/distmatrix_2524
+  distance_matrix_pattern: distance_matrix_meters{depot_id}.csv
+  stage_medium_max_customers: 40
+  stage_sampling_weights:
+    main:
+      large: 0.45
+      small_medium: 0.45
+      tiny: 0.1
+    tiny_warmup:
+      large: 0.0
+      small_medium: 0.0
+      tiny: 1.0
+  stage_tiny_max_customers: 8
+  temp_day_dirs:
+  - data/temp_days_2510
+  - data/temp_days_2522
+  - data/temp_days_2524

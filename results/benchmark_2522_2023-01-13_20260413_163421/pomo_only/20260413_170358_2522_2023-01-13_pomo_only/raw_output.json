@@ -1,0 +1,121 @@
+{
+  "total_cost": 1384.3154066666666,
+  "num_routes": 4,
+  "nodes_explored": 1,
+  "total_columns": 2196,
+  "cpu_time_seconds": 75.03989624977112,
+  "distance_matrix_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\distance_matrix_meters2522.csv",
+  "geometry_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\260407\\data\\distmatrix_2522\\geometry_2522.json",
+  "forbidden_arcs": [],
+  "enforced_arcs": [],
+  "routes": [
+    {
+      "route_id": 0,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        7,
+        13,
+        11,
+        5,
+        9,
+        22,
+        12,
+        29,
+        14
+      ],
+      "customer_ids": [
+        "70034004",
+        "70244565",
+        "70133553",
+        "70031292",
+        "70081032",
+        "70428043",
+        "70155196",
+        "70521405",
+        "70351598"
+      ],
+      "total_cost": 455.2129933333334,
+      "distance_km": 40.8641,
+      "time_hours": 18.285996666666666
+    },
+    {
+      "route_id": 1,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        20,
+        3,
+        23,
+        19,
+        8,
+        2,
+        31,
+        17,
+        30
+      ],
+      "customer_ids": [
+        "70408061",
+        "70019392",
+        "70435202",
+        "70401488",
+        "70043420",
+        "70019391",
+        "70556250",
+        "70398370",
+        "70535019"
+      ],
+      "total_cost": 319.28474,
+      "distance_km": 27.381700000000002,
+      "time_hours": 17.733870000000003
+    },
+    {
+      "route_id": 2,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        27,
+        16,
+        26,
+        4,
+        18,
+        6,
+        1,
+        28,
+        10
+      ],
+      "customer_ids": [
+        "70494786",
+        "70390788",
+        "70494785",
+        "70019549",
+        "70398392",
+        "70031293",
+        "70019384",
+        "70494791",
+        "70130675"
+      ],
+      "total_cost": 337.18944666666664,
+      "distance_km": 29.161899999999996,
+      "time_hours": 17.785223333333334
+    },
+    {
+      "route_id": 3,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        0,
+        15,
+        25,
+        21,
+        24
+      ],
+      "customer_ids": [
+        "70019315",
+        "70373907",
+        "70490240",
+        "70408280",
+        "70464520"
+      ],
+      "total_cost": 272.62822666666665,
+      "distance_km": 23.5484,
+      "time_hours": 13.572113333333332
+    }
+  ]
+}

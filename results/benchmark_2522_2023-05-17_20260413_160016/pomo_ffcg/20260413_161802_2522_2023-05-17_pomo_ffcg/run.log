@@ -1,0 +1,346 @@
+2026-04-13 16:18:02 [INFO] __main__: Run folder : D:/Uni Material/Code_Odyssey/Code/DQN/260407/results/benchmark_2522_2023-05-17_20260413_160016/pomo_ffcg\20260413_161802_2522_2023-05-17_pomo_ffcg
+2026-04-13 16:18:02 [INFO] __main__: Config     : D:\Uni Material\Code_Odyssey\Code\DQN\260407\results\benchmark_2522_2023-05-17_20260413_160016\config_pomo_ffcg.yaml
+2026-04-13 16:18:02 [INFO] __main__: Geometry file detected: D:\Uni Material\Code_Odyssey\Code\DQN\260407\data\distmatrix_2522\geometry_2522.json
+2026-04-13 16:18:02 [INFO] __main__: Problem loaded: 26 customers, 6 vehicle types
+2026-04-13 16:18:02 [INFO] __main__: Greedy warm-start: 15 initial routes.
+2026-04-13 16:18:02 [INFO] __main__: Loaded pretrained model from D:\Uni Material\Code_Odyssey\Code\DQN\260407\results\benchmark_2522_2023-05-17_20260413_160016\pomo_model_epoch_120_state_dict.pt
+2026-04-13 16:18:02 [INFO] src.branch_and_bound: 
+=== B&B node 0  depth=0  LB=-inf  UB=inf ===
+2026-04-13 16:18:02 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:02 [INFO] src.branch_and_bound: CG iter 0: obj=5594.4787  cols=15
+2026-04-13 16:18:03 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:03 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:03 [INFO] src.branch_and_bound: CG iter 1: obj=5594.4787  cols=19
+2026-04-13 16:18:03 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:18:03 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:03 [INFO] src.branch_and_bound: CG iter 2: obj=5594.4787  cols=22
+2026-04-13 16:18:04 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:04 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:04 [INFO] src.branch_and_bound: CG iter 3: obj=5594.4787  cols=27
+2026-04-13 16:18:04 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:18:04 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:04 [INFO] src.branch_and_bound: CG iter 4: obj=5594.4787  cols=30
+2026-04-13 16:18:04 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:04 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:05 [INFO] src.branch_and_bound: CG iter 5: obj=5594.4787  cols=34
+2026-04-13 16:18:05 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:05 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:05 [INFO] src.branch_and_bound: CG iter 6: obj=5594.4787  cols=39
+2026-04-13 16:18:06 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:06 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:06 [INFO] src.branch_and_bound: CG iter 7: obj=5594.4787  cols=41
+2026-04-13 16:18:06 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:06 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:06 [INFO] src.branch_and_bound: CG iter 8: obj=5594.4787  cols=45
+2026-04-13 16:18:07 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:07 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:07 [INFO] src.branch_and_bound: CG iter 9: obj=5594.4787  cols=50
+2026-04-13 16:18:07 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:07 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:07 [INFO] src.branch_and_bound: CG iter 10: obj=5594.4787  cols=55
+2026-04-13 16:18:07 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:07 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:07 [INFO] src.branch_and_bound: CG iter 11: obj=5594.4787  cols=60
+2026-04-13 16:18:08 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:08 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:08 [INFO] src.branch_and_bound: CG iter 12: obj=5594.4787  cols=65
+2026-04-13 16:18:08 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:08 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:08 [INFO] src.branch_and_bound: CG iter 13: obj=5594.4787  cols=70
+2026-04-13 16:18:09 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:09 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:09 [INFO] src.branch_and_bound: CG iter 14: obj=5594.4787  cols=75
+2026-04-13 16:18:09 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:09 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:09 [INFO] src.branch_and_bound: CG iter 15: obj=5594.4787  cols=80
+2026-04-13 16:18:10 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:10 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:10 [INFO] src.branch_and_bound: CG iter 16: obj=5594.4787  cols=84
+2026-04-13 16:18:10 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:10 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:10 [INFO] src.branch_and_bound: CG iter 17: obj=5594.4787  cols=88
+2026-04-13 16:18:11 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:11 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:11 [INFO] src.branch_and_bound: CG iter 18: obj=5594.4787  cols=93
+2026-04-13 16:18:11 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:11 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:11 [INFO] src.branch_and_bound: CG iter 19: obj=5594.4787  cols=95
+2026-04-13 16:18:11 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:11 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:12 [INFO] src.branch_and_bound: CG iter 20: obj=5594.4787  cols=99
+2026-04-13 16:18:12 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:12 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:12 [INFO] src.branch_and_bound: CG iter 21: obj=5594.4787  cols=101
+2026-04-13 16:18:12 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:18:12 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:13 [INFO] src.branch_and_bound: CG iter 22: obj=5594.4787  cols=105
+2026-04-13 16:18:13 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:13 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:13 [INFO] src.branch_and_bound: CG iter 23: obj=5594.4787  cols=107
+2026-04-13 16:18:14 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:14 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:14 [INFO] src.branch_and_bound: CG iter 24: obj=5594.4787  cols=112
+2026-04-13 16:18:14 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:14 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:14 [INFO] src.branch_and_bound: CG iter 25: obj=5594.4787  cols=117
+2026-04-13 16:18:15 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:15 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:15 [INFO] src.branch_and_bound: CG iter 26: obj=5594.4787  cols=118
+2026-04-13 16:18:15 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:15 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:15 [INFO] src.branch_and_bound: CG iter 27: obj=5594.4787  cols=119
+2026-04-13 16:18:16 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 1 / 28).
+2026-04-13 16:18:23 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:18:29 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:18:35 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:18:41 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:18:47 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:18:48 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:48 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:48 [INFO] src.branch_and_bound: CG iter 28: obj=5594.4787  cols=121
+2026-04-13 16:18:49 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:49 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:49 [INFO] src.branch_and_bound: CG iter 29: obj=5594.4787  cols=122
+2026-04-13 16:18:49 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:49 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:49 [INFO] src.branch_and_bound: CG iter 30: obj=5594.4787  cols=123
+2026-04-13 16:18:50 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:50 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:50 [INFO] src.branch_and_bound: CG iter 31: obj=5594.4787  cols=124
+2026-04-13 16:18:51 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:18:51 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:52 [INFO] src.branch_and_bound: CG iter 32: obj=5594.4787  cols=127
+2026-04-13 16:18:52 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:52 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:52 [INFO] src.branch_and_bound: CG iter 33: obj=5594.4787  cols=132
+2026-04-13 16:18:53 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:53 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:53 [INFO] src.branch_and_bound: CG iter 34: obj=5594.4787  cols=134
+2026-04-13 16:18:54 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:54 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:54 [INFO] src.branch_and_bound: CG iter 35: obj=5594.4787  cols=136
+2026-04-13 16:18:54 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:54 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:54 [INFO] src.branch_and_bound: CG iter 36: obj=5594.4787  cols=141
+2026-04-13 16:18:55 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:18:55 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:55 [INFO] src.branch_and_bound: CG iter 37: obj=5594.4787  cols=146
+2026-04-13 16:18:55 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:55 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:55 [INFO] src.branch_and_bound: CG iter 38: obj=5594.4787  cols=148
+2026-04-13 16:18:55 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:55 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:55 [INFO] src.branch_and_bound: CG iter 39: obj=5594.4787  cols=150
+2026-04-13 16:18:57 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:57 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:57 [INFO] src.branch_and_bound: CG iter 40: obj=5594.4787  cols=152
+2026-04-13 16:18:57 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:57 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:57 [INFO] src.branch_and_bound: CG iter 41: obj=5594.4787  cols=154
+2026-04-13 16:18:58 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:18:58 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:58 [INFO] src.branch_and_bound: CG iter 42: obj=5594.4787  cols=156
+2026-04-13 16:18:59 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:18:59 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:18:59 [INFO] src.branch_and_bound: CG iter 43: obj=5594.4787  cols=157
+2026-04-13 16:19:00 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 2 / 44).
+2026-04-13 16:19:07 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:19:13 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:19:19 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:19:25 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:19:31 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:19:31 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:19:31 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:19:31 [INFO] src.branch_and_bound: CG iter 44: obj=5594.4787  cols=160
+2026-04-13 16:19:32 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:19:32 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:19:32 [INFO] src.branch_and_bound: CG iter 45: obj=5594.4787  cols=162
+2026-04-13 16:19:32 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:19:32 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:19:32 [INFO] src.branch_and_bound: CG iter 46: obj=5594.4787  cols=163
+2026-04-13 16:19:33 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:19:33 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:19:33 [INFO] src.branch_and_bound: CG iter 47: obj=5594.4787  cols=165
+2026-04-13 16:19:35 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 3 / 48).
+2026-04-13 16:19:41 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:19:47 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:19:53 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:19:58 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:20:04 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:20:05 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:20:05 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:05 [INFO] src.branch_and_bound: CG iter 48: obj=5594.4787  cols=167
+2026-04-13 16:20:05 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:20:05 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:05 [INFO] src.branch_and_bound: CG iter 49: obj=5594.4787  cols=172
+2026-04-13 16:20:06 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:20:06 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:06 [INFO] src.branch_and_bound: CG iter 50: obj=5594.4787  cols=173
+2026-04-13 16:20:06 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:20:06 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:06 [INFO] src.branch_and_bound: CG iter 51: obj=5594.4787  cols=174
+2026-04-13 16:20:07 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:20:07 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:07 [INFO] src.branch_and_bound: CG iter 52: obj=5594.4787  cols=175
+2026-04-13 16:20:08 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 4 / 53).
+2026-04-13 16:20:15 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:20:21 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:20:26 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:20:32 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:20:38 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:20:39 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:20:39 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:39 [INFO] src.branch_and_bound: CG iter 53: obj=5594.4787  cols=179
+2026-04-13 16:20:39 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:20:39 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:39 [INFO] src.branch_and_bound: CG iter 54: obj=5594.4787  cols=184
+2026-04-13 16:20:40 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:20:40 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:40 [INFO] src.branch_and_bound: CG iter 55: obj=5594.4787  cols=185
+2026-04-13 16:20:41 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:20:41 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:41 [INFO] src.branch_and_bound: CG iter 56: obj=5594.4787  cols=186
+2026-04-13 16:20:42 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:20:42 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:20:42 [INFO] src.branch_and_bound: CG iter 57: obj=5594.4787  cols=189
+2026-04-13 16:20:43 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 5 / 58).
+2026-04-13 16:20:49 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:20:55 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:21:00 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:21:06 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:21:11 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:21:12 [INFO] src.branch_and_bound:   +2 new columns
+2026-04-13 16:21:12 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:21:12 [INFO] src.branch_and_bound: CG iter 58: obj=5594.4787  cols=191
+2026-04-13 16:21:12 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:21:12 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:21:13 [INFO] src.branch_and_bound: CG iter 59: obj=5594.4787  cols=195
+2026-04-13 16:21:13 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:21:13 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:21:13 [INFO] src.branch_and_bound: CG iter 60: obj=5594.4787  cols=196
+2026-04-13 16:21:14 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:21:14 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:21:14 [INFO] src.branch_and_bound: CG iter 61: obj=5594.4787  cols=197
+2026-04-13 16:21:15 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 6 / 62).
+2026-04-13 16:21:22 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:21:27 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:21:32 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:21:38 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:21:44 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:21:44 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:21:44 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:21:44 [INFO] src.branch_and_bound: CG iter 62: obj=5594.4787  cols=200
+2026-04-13 16:21:45 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 7 / 63).
+2026-04-13 16:21:51 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:21:57 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:22:02 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:22:08 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:22:14 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:22:14 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:22:14 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:22:14 [INFO] src.branch_and_bound: CG iter 63: obj=5594.4787  cols=205
+2026-04-13 16:22:15 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 8 / 64).
+2026-04-13 16:22:22 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:22:27 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:22:33 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:22:39 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:22:44 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:22:45 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:22:45 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:22:45 [INFO] src.branch_and_bound: CG iter 64: obj=5594.4787  cols=209
+2026-04-13 16:22:46 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 9 / 65).
+2026-04-13 16:22:52 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:22:58 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:23:03 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:23:09 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:23:15 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:23:15 [INFO] src.branch_and_bound:   +4 new columns
+2026-04-13 16:23:15 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:23:15 [INFO] src.branch_and_bound: CG iter 65: obj=5594.4787  cols=213
+2026-04-13 16:23:16 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 10 / 66).
+2026-04-13 16:23:22 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:23:28 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:23:33 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:23:39 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:23:45 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:23:45 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:23:45 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:23:45 [INFO] src.branch_and_bound: CG iter 66: obj=5594.4787  cols=214
+2026-04-13 16:23:46 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 11 / 67).
+2026-04-13 16:23:53 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:23:58 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:24:04 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:24:09 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:24:15 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:24:15 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:24:15 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:15 [INFO] src.branch_and_bound: CG iter 67: obj=5594.4787  cols=217
+2026-04-13 16:24:16 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:24:16 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:16 [INFO] src.branch_and_bound: CG iter 68: obj=5594.4787  cols=220
+2026-04-13 16:24:17 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:24:17 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:17 [INFO] src.branch_and_bound: CG iter 69: obj=5594.4787  cols=221
+2026-04-13 16:24:18 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 12 / 70).
+2026-04-13 16:24:25 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:24:30 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:24:36 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:24:42 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:24:48 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:24:48 [INFO] src.branch_and_bound:   +3 new columns
+2026-04-13 16:24:48 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:49 [INFO] src.branch_and_bound: CG iter 70: obj=5594.4787  cols=224
+2026-04-13 16:24:49 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:24:49 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:49 [INFO] src.branch_and_bound: CG iter 71: obj=5594.4787  cols=225
+2026-04-13 16:24:50 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:24:51 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:51 [INFO] src.branch_and_bound: CG iter 72: obj=5594.4787  cols=226
+2026-04-13 16:24:51 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:24:51 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:51 [INFO] src.branch_and_bound: CG iter 73: obj=5594.4787  cols=227
+2026-04-13 16:24:52 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:24:52 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:24:52 [INFO] src.branch_and_bound: CG iter 74: obj=5594.4787  cols=228
+2026-04-13 16:24:53 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 13 / 75).
+2026-04-13 16:25:00 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:25:05 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:25:12 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:25:18 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:25:24 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:25:24 [INFO] src.branch_and_bound:   +1 new columns
+2026-04-13 16:25:24 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:25:24 [INFO] src.branch_and_bound: CG iter 75: obj=5594.4787  cols=229
+2026-04-13 16:25:26 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 14 / 76).
+2026-04-13 16:25:31 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:25:36 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:25:42 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:25:47 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:25:53 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:25:53 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:25:53 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:25:53 [INFO] src.branch_and_bound: CG iter 76: obj=5594.4787  cols=234
+2026-04-13 16:25:55 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 15 / 77).
+2026-04-13 16:26:01 [WARNING] src.dp_solver: DP solver hit label limit (100000) for AUV.
+2026-04-13 16:26:08 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 4w.
+2026-04-13 16:26:14 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 6w.
+2026-04-13 16:26:19 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 10w.
+2026-04-13 16:26:25 [WARNING] src.dp_solver: DP solver hit label limit (100000) for 40ft.
+2026-04-13 16:26:25 [INFO] src.branch_and_bound:   +5 new columns
+2026-04-13 16:26:25 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-04-13 16:26:25 [INFO] src.branch_and_bound: CG iter 77: obj=5594.4787  cols=239
+2026-04-13 16:26:26 [INFO] src.branch_and_bound: CG converged after 78 iterations.
+2026-04-13 16:26:26 [INFO] src.branch_and_bound:   ★ new incumbent: cost=5594.4787
+2026-04-13 16:26:26 [INFO] __main__: 
+============================================================
+2026-04-13 16:26:26 [INFO] __main__: SOLUTION SUMMARY
+2026-04-13 16:26:26 [INFO] __main__: ============================================================
+2026-04-13 16:26:26 [INFO] __main__: Total cost          : 5594.4787
+2026-04-13 16:26:26 [INFO] __main__: Number of routes    : 3
+2026-04-13 16:26:26 [INFO] __main__: B&B nodes explored  : 1
+2026-04-13 16:26:26 [INFO] __main__: Total columns       : 239
+2026-04-13 16:26:26 [INFO] __main__: Wall-clock time (s) : 504.25
+2026-04-13 16:26:26 [INFO] __main__:   Route 2 [4w] : ['70017011', '70017337', '70017131', '70417236', '70017222', '70017203', '70017177', '70278581', '70017194', '70017084', '70017148', '70028054', '70249050', '70017116', '70017089', '70127101']  cost=1412.05
+2026-04-13 16:26:26 [INFO] __main__:   Route 3 [4w] : ['70017321', '70017127', '70400118', '70288086', '70017263', '70017102', '70017185', '70017245']  cost=2215.26
+2026-04-13 16:26:26 [INFO] __main__:   Route 4 [4w] : ['70283687', '70017289']  cost=1967.17
+2026-04-13 16:26:26 [INFO] __main__: Results saved to D:/Uni Material/Code_Odyssey/Code/DQN/260407/results/benchmark_2522_2023-05-17_20260413_160016/pomo_ffcg\20260413_161802_2522_2023-05-17_pomo_ffcg

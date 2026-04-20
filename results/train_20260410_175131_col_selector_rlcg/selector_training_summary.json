@@ -1,0 +1,19 @@
+{
+  "method": "rlcg",
+  "candidate_source": "ga",
+  "max_instances": 64,
+  "max_iterations": 64,
+  "epochs": 2000,
+  "checkpoint_interval": 100,
+  "learning_rate": 0.001,
+  "num_samples": 1305,
+  "elapsed_seconds": 11938.491808891296,
+  "train_metrics": {
+    "loss": 0.000980287176320795,
+    "num_samples": 1305
+  },
+  "checkpoint_path": "/content/drive/MyDrive/SOS_0408/results/train_20260410_175131_col_selector_rlcg/pretrained_col_selector/dqn_model_rlcg_epoch_3000.pt",
+  "latest_epoch_checkpoint": "/content/drive/MyDrive/SOS_0408/results/train_20260410_175131_col_selector_rlcg/pretrained_col_selector/dqn_model_rlcg_epoch_3000.pt",
+  "last_epoch": 3000,
+  "run_folder": "/content/drive/MyDrive/SOS_0408/results/train_20260410_175131_col_selector_rlcg"
+}
