@@ -9,12 +9,11 @@ from typing import Tuple
 from pathlib import Path
 
 import torch
-import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.utils import fix_all_seeds
+from src.utils import fix_all_seeds, load_config
 from src.data_loader import ProblemData, load_problem
 from src.column_pool import ColumnPool
 from src.branch_and_bound import branch_and_price
@@ -131,7 +130,8 @@ def load_pomo_model(config: dict) -> Tuple[POMOModel, torch.device]:
     pretrained = config["training"].get("pretrained_model")
     if pretrained and os.path.isfile(pretrained):
         import torch
-        state_dict = torch.load(pretrained, map_location=device, weights_only=True)
+        checkpoint = torch.load(pretrained, map_location=device, weights_only=False)
+        state_dict = checkpoint.get("model_state_dict", checkpoint)
         model.load_state_dict(state_dict)
         logger.info("Loaded pretrained model from %s", pretrained)
     else:
@@ -146,12 +146,11 @@ def load_pomo_model(config: dict) -> Tuple[POMOModel, torch.device]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Branch & Price SD-VRPTW Solver")
-    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--config", default="configs/default_config.py")
     parser.add_argument("--run-name", default="bp_run")
     args = parser.parse_args()
 
-    with open(args.config, encoding="utf-8") as fh:
-        config = yaml.safe_load(fh)
+    config = load_config(args.config)
 
     # First executable line: fix all seeds
     fix_all_seeds(config["solver"]["seed"])

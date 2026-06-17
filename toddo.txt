@@ -1,0 +1,8 @@
+pomo strikes logic is flawedd and harddcoded
+
+episodes ~ max-instances
+
+learning rate 1e-3
+
+sửa lại objective function -> chỉnh mẫu số thành prev objective
+hướng khác là chỉnh lại penalty cho dummy thấp thấp thôi

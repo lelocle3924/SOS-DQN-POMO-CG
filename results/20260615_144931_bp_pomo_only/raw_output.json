@@ -1,0 +1,142 @@
+{
+  "total_cost": 5005.544916665999,
+  "num_routes": 3,
+  "nodes_explored": 18,
+  "total_columns": 1139,
+  "cpu_time_seconds": 1661.5232605934143,
+  "distance_matrix_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\SOS-DQN-POMO-CG\\data\\distmatrix_2522\\distance_matrix_meters2522.csv",
+  "geometry_file": "D:\\Uni Material\\Code_Odyssey\\Code\\DQN\\SOS-DQN-POMO-CG\\data\\distmatrix_2522\\geometry_2522.json",
+  "forbidden_arcs": [
+    [
+      0,
+      1
+    ],
+    [
+      23,
+      17
+    ],
+    [
+      12,
+      7
+    ],
+    [
+      9,
+      22
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      22,
+      12
+    ]
+  ],
+  "enforced_arcs": [
+    [
+      21,
+      22
+    ]
+  ],
+  "routes": [
+    {
+      "route_id": 613,
+      "vehicle_type": "AUV",
+      "customer_indices": [
+        24,
+        23
+      ],
+      "customer_ids": [
+        "70400118",
+        "70288086"
+      ],
+      "total_cost": 863.4603466660001,
+      "distance_km": 83.2132,
+      "time_hours": 10.664173332999999
+    },
+    {
+      "route_id": 733,
+      "vehicle_type": "4w",
+      "customer_indices": [
+        15,
+        22,
+        5,
+        16,
+        25,
+        11,
+        12,
+        6,
+        17,
+        14,
+        3,
+        0
+      ],
+      "customer_ids": [
+        "70017289",
+        "70283687",
+        "70017127",
+        "70017321",
+        "70417236",
+        "70017203",
+        "70017222",
+        "70017131",
+        "70017337",
+        "70017263",
+        "70017102",
+        "70017011"
+      ],
+      "total_cost": 2618.5138899999993,
+      "distance_km": 212.54159999999996,
+      "time_hours": 17.67156333333333
+    },
+    {
+      "route_id": 869,
+      "vehicle_type": "4w",
+      "customer_indices": [
+        17,
+        7,
+        1,
+        10,
+        18,
+        4,
+        13,
+        19,
+        2,
+        9,
+        20,
+        21,
+        8,
+        12,
+        25
+      ],
+      "customer_ids": [
+        "70017337",
+        "70017148",
+        "70017084",
+        "70017194",
+        "70028054",
+        "70017116",
+        "70017245",
+        "70127101",
+        "70017089",
+        "70017185",
+        "70249050",
+        "70278581",
+        "70017177",
+        "70017222",
+        "70417236"
+      ],
+      "total_cost": 1523.57068,
+      "distance_km": 121.37670000000001,
+      "time_hours": 17.350093333333334
+    }
+  ]
+}

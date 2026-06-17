@@ -1,0 +1,519 @@
+Results folder created        : D:\Uni Material\Code_Odyssey\Code\DQN\SOS-DQN-POMO-CG\results\2522_2023-05-17_260615_1857_cg
+Loading problem data...
+Using device: cpu
+Loading POMO model from d:\Uni Material\Code_Odyssey\Code\DQN\SOS-DQN-POMO-CG\results\train_20260421_204908_pomo_training\pretrained_pomo\model_epoch_200.pt...
+Building initial basis with hybrid greedy heuristic...
+Greedy pass left 0 customers unserved, fallback applied.
+Starting Root Node Column Generation...
+
+[Iteration 1] RMP Objective: 5594.48
+[Iteration 1] POMO generated 102 negative RC columns.
+[Iteration 1] Adding Columns:
+  - Vehicle: 4w | RC: -2682.44 | Cost: 944.86 | Route: [0, 15, 18, 8, 2, 11, 21, 22, 9, 12, 26, 7, 0]
+
+[Iteration 2] RMP Objective: 5594.48
+[Iteration 2] POMO generated 111 negative RC columns.
+[Iteration 2] Adding Columns:
+  - Vehicle: 4w | RC: -1912.71 | Cost: 1196.66 | Route: [0, 1, 18, 8, 20, 3, 19, 2, 7, 26, 13, 17, 0]
+
+[Iteration 3] RMP Objective: 5594.48
+[Iteration 3] POMO generated 109 negative RC columns.
+[Iteration 3] Adding Columns:
+  - Vehicle: 4w | RC: -1681.59 | Cost: 1212.39 | Route: [0, 18, 8, 11, 20, 3, 19, 2, 7, 4, 0]
+
+[Iteration 4] RMP Objective: 5594.48
+[Iteration 4] POMO generated 108 negative RC columns.
+[Iteration 4] Adding Columns:
+  - Vehicle: 4w | RC: -1673.87 | Cost: 942.49 | Route: [0, 1, 5, 20, 14, 19, 2, 8, 18, 7, 0]
+
+[Iteration 5] RMP Objective: 5594.48
+[Iteration 5] POMO generated 80 negative RC columns.
+[Iteration 5] Adding Columns:
+  - Vehicle: 4w | RC: -1644.55 | Cost: 1982.75 | Route: [0, 18, 26, 7, 11, 2, 8, 19, 20, 14, 21, 12, 13, 17, 24, 0]
+
+[Iteration 6] RMP Objective: 5594.48
+[Iteration 6] POMO generated 98 negative RC columns.
+[Iteration 6] Adding Columns:
+  - Vehicle: 4w | RC: -1850.08 | Cost: 1709.18 | Route: [0, 3, 14, 19, 11, 8, 18, 13, 26, 7, 12, 17, 6, 25, 0]
+
+[Iteration 7] RMP Objective: 5594.48
+[Iteration 7] POMO generated 61 negative RC columns.
+[Iteration 7] Adding Columns:
+  - Vehicle: 4w | RC: -1409.92 | Cost: 1777.26 | Route: [0, 25, 24, 12, 26, 8, 11, 3, 19, 2, 18, 7, 0]
+
+[Iteration 8] RMP Objective: 5594.48
+[Iteration 8] POMO generated 82 negative RC columns.
+[Iteration 8] Adding Columns:
+  - Vehicle: 4w | RC: -1604.50 | Cost: 1817.31 | Route: [0, 25, 24, 9, 12, 26, 8, 2, 18, 7, 1, 4, 15, 0]
+
+[Iteration 9] RMP Objective: 5594.48
+[Iteration 9] POMO generated 86 negative RC columns.
+[Iteration 9] Adding Columns:
+  - Vehicle: 4w | RC: -1149.69 | Cost: 2240.28 | Route: [0, 24, 25, 17, 13, 18, 8, 11, 3, 10, 5, 2, 9, 12, 0]
+
+[Iteration 10] RMP Objective: 5594.48
+[Iteration 10] POMO generated 109 negative RC columns.
+[Iteration 10] Adding Columns:
+  - Vehicle: 4w | RC: -2063.73 | Cost: 1563.58 | Route: [0, 1, 18, 26, 12, 7, 8, 10, 3, 14, 19, 2, 4, 15, 0]
+
+[Iteration 11] RMP Objective: 5594.48
+[Iteration 11] POMO generated 44 negative RC columns.
+[Iteration 11] Adding Columns:
+  - Vehicle: 4w | RC: -897.85 | Cost: 1872.12 | Route: [0, 18, 7, 11, 2, 8, 3, 14, 20, 19, 21, 9, 22, 24, 0]
+
+[Iteration 12] RMP Objective: 5594.48
+[Iteration 12] POMO generated 107 negative RC columns.
+[Iteration 12] Adding Columns:
+  - Vehicle: 4w | RC: -2051.59 | Cost: 1269.75 | Route: [0, 1, 18, 8, 2, 5, 10, 21, 11, 26, 13, 17, 0]
+
+[Iteration 13] RMP Objective: 5594.48
+[Iteration 13] POMO generated 27 negative RC columns.
+[Iteration 13] Adding Columns:
+  - Vehicle: AUV | RC: -509.09 | Cost: 2809.69 | Route: [0, 16, 25, 24, 12, 18, 7, 8, 21, 20, 0]
+
+[Iteration 14] RMP Objective: 5594.48
+[Iteration 14] POMO generated 40 negative RC columns.
+[Iteration 14] Adding Columns:
+  - Vehicle: 4w | RC: -816.39 | Cost: 3073.54 | Route: [0, 16, 17, 6, 13, 18, 4, 15, 7, 26, 21, 9, 0]
+
+[Iteration 15] RMP Objective: 5594.48
+[Iteration 15] POMO generated 92 negative RC columns.
+[Iteration 15] Adding Columns:
+  - Vehicle: 4w | RC: -2112.40 | Cost: 2388.76 | Route: [0, 23, 6, 13, 26, 18, 8, 21, 2, 7, 4, 15, 1, 0]
+
+[Iteration 16] RMP Objective: 5594.48
+[Iteration 16] POMO generated 90 negative RC columns.
+[Iteration 16] Adding Columns:
+  - Vehicle: 4w | RC: -1578.06 | Cost: 1924.91 | Route: [0, 13, 26, 7, 18, 15, 4, 10, 20, 21, 11, 12, 25, 0]
+
+[Iteration 17] RMP Objective: 5594.48
+[Iteration 17] POMO generated 57 negative RC columns.
+[Iteration 17] Adding Columns:
+  - Vehicle: 4w | RC: -1124.82 | Cost: 2063.44 | Route: [0, 24, 6, 17, 13, 26, 18, 11, 21, 3, 2, 8, 4, 15, 0]
+
+[Iteration 18] RMP Objective: 5594.48
+[Iteration 18] POMO generated 80 negative RC columns.
+[Iteration 18] Adding Columns:
+  - Vehicle: 4w | RC: -1344.58 | Cost: 3136.57 | Route: [0, 16, 23, 6, 17, 4, 1, 21, 3, 14, 20, 0]
+
+[Iteration 19] RMP Objective: 5594.48
+[Iteration 19] POMO generated 51 negative RC columns.
+[Iteration 19] Adding Columns:
+  - Vehicle: 4w | RC: -593.73 | Cost: 2922.24 | Route: [0, 16, 6, 17, 13, 11, 19, 21, 2, 18, 7, 26, 15, 0]
+
+[Iteration 20] RMP Objective: 5594.48
+[Iteration 20] POMO generated 72 negative RC columns.
+[Iteration 20] Adding Columns:
+  - Vehicle: 4w | RC: -1386.82 | Cost: 2832.84 | Route: [0, 23, 25, 24, 6, 17, 26, 21, 19, 2, 8, 15, 0]
+
+[Iteration 21] RMP Objective: 5594.48
+[Iteration 21] POMO generated 60 negative RC columns.
+[Iteration 21] Adding Columns:
+  - Vehicle: 4w | RC: -1104.33 | Cost: 1303.62 | Route: [0, 1, 18, 8, 2, 3, 14, 20, 19, 11, 26, 13, 7, 15, 4, 0]
+
+[Iteration 22] RMP Objective: 5594.48
+[Iteration 22] POMO generated 48 negative RC columns.
+[Iteration 22] Adding Columns:
+  - Vehicle: 4w | RC: -581.15 | Cost: 1894.49 | Route: [0, 25, 24, 6, 17, 12, 26, 7, 8, 19, 3, 5, 2, 18, 1, 0]
+
+[Iteration 23] RMP Objective: 5594.48
+[Iteration 23] POMO generated 25 negative RC columns.
+[Iteration 23] Adding Columns:
+  - Vehicle: 4w | RC: -414.27 | Cost: 1904.31 | Route: [0, 24, 17, 13, 12, 22, 21, 19, 3, 5, 2, 8, 18, 7, 0]
+
+[Iteration 24] RMP Objective: 5594.48
+[Iteration 24] POMO generated 32 negative RC columns.
+[Iteration 24] Adding Columns:
+  - Vehicle: 4w | RC: -517.66 | Cost: 1646.99 | Route: [0, 24, 6, 17, 13, 26, 7, 18, 8, 11, 22, 9, 12, 0]
+
+[Iteration 25] RMP Objective: 5594.48
+[Iteration 25] POMO generated 46 negative RC columns.
+[Iteration 25] Adding Columns:
+  - Vehicle: 4w | RC: -837.73 | Cost: 1699.23 | Route: [0, 10, 14, 20, 5, 2, 8, 18, 13, 26, 22, 9, 12, 17, 0]
+
+[Iteration 26] RMP Objective: 5594.48
+[Iteration 26] POMO generated 21 negative RC columns.
+[Iteration 26] Adding Columns:
+  - Vehicle: 4w | RC: -744.33 | Cost: 1554.96 | Route: [0, 4, 15, 10, 20, 19, 21, 22, 9, 12, 26, 13, 7, 18, 1, 0]
+
+[Iteration 27] RMP Objective: 5594.48
+[Iteration 27] POMO generated 48 negative RC columns.
+[Iteration 27] Adding Columns:
+  - Vehicle: 4w | RC: -916.70 | Cost: 2277.21 | Route: [0, 24, 25, 6, 17, 13, 12, 11, 21, 19, 5, 3, 14, 20, 10, 0]
+
+[Iteration 28] RMP Objective: 5594.48
+[Iteration 28] POMO generated 35 negative RC columns.
+[Iteration 28] Adding Columns:
+  - Vehicle: 4w | RC: -761.42 | Cost: 2039.61 | Route: [0, 24, 25, 17, 13, 26, 7, 2, 11, 22, 9, 12, 18, 4, 1, 0]
+
+[Iteration 29] RMP Objective: 5594.48
+[Iteration 29] POMO generated 78 negative RC columns.
+[Iteration 29] Adding Columns:
+  - Vehicle: 4w | RC: -1741.88 | Cost: 3025.52 | Route: [0, 16, 23, 6, 17, 13, 4, 15, 5, 9, 22, 0]
+
+[Iteration 30] RMP Objective: 5526.08
+[Iteration 30] POMO generated 38 negative RC columns.
+[Iteration 30] Adding Columns:
+  - Vehicle: 4w | RC: -528.62 | Cost: 2951.44 | Route: [0, 16, 25, 24, 22, 8, 18, 1, 7, 0]
+
+[Iteration 31] RMP Objective: 5526.08
+[Iteration 31] POMO generated 54 negative RC columns.
+[Iteration 31] Adding Columns:
+  - Vehicle: 4w | RC: -1154.85 | Cost: 2920.40 | Route: [0, 16, 23, 25, 24, 22, 8, 1, 18, 7, 0]
+
+[Iteration 32] RMP Objective: 5402.94
+[Iteration 32] POMO generated 27 negative RC columns.
+[Iteration 32] Adding Columns:
+  - Vehicle: 4w | RC: -457.96 | Cost: 1533.73 | Route: [0, 2, 8, 11, 21, 19, 5, 10, 3, 20, 14, 22, 9, 12, 26, 18, 0]
+
+[Iteration 33] RMP Objective: 5315.76
+[Iteration 33] POMO generated 25 negative RC columns.
+[Iteration 33] Adding Columns:
+  - Vehicle: 4w | RC: -316.90 | Cost: 1674.76 | Route: [0, 25, 24, 6, 17, 7, 2, 11, 21, 19, 8, 18, 26, 0]
+
+[Iteration 34] RMP Objective: 5304.98
+[Iteration 34] POMO generated 48 negative RC columns.
+[Iteration 34] Adding Columns:
+  - Vehicle: 4w | RC: -787.52 | Cost: 2237.91 | Route: [0, 15, 10, 20, 3, 2, 7, 26, 9, 24, 6, 17, 0]
+
+[Iteration 35] RMP Objective: 5302.34
+[Iteration 35] POMO generated 8 negative RC columns.
+[Iteration 35] Adding Columns:
+  - Vehicle: AUV | RC: -518.90 | Cost: 2206.99 | Route: [0, 16, 25, 6, 7, 18, 8, 21, 0]
+
+[Iteration 36] RMP Objective: 5302.10
+[Iteration 36] POMO generated 50 negative RC columns.
+[Iteration 36] Adding Columns:
+  - Vehicle: 4w | RC: -993.00 | Cost: 1857.08 | Route: [0, 17, 6, 25, 9, 21, 2, 8, 7, 18, 1, 15, 10, 0]
+
+[Iteration 37] RMP Objective: 5278.70
+[Iteration 37] POMO generated 18 negative RC columns.
+[Iteration 37] Adding Columns:
+  - Vehicle: 4w | RC: -205.79 | Cost: 1269.47 | Route: [0, 3, 10, 2, 11, 21, 9, 12, 26, 7, 18, 8, 0]
+
+[Iteration 38] RMP Objective: 5273.42
+[Iteration 38] POMO generated 7 negative RC columns.
+[Iteration 38] Adding Columns:
+  - Vehicle: 4w | RC: -160.99 | Cost: 826.53 | Route: [0, 15, 4, 18, 2, 11, 8, 7, 26, 12, 0]
+
+[Iteration 39] RMP Objective: 5273.42
+[Iteration 39] POMO generated 8 negative RC columns.
+[Iteration 39] Adding Columns:
+  - Vehicle: 4w | RC: -168.86 | Cost: 1440.09 | Route: [0, 25, 24, 6, 13, 26, 7, 2, 8, 18, 0]
+
+[Iteration 40] RMP Objective: 5272.73
+[Iteration 40] POMO generated 40 negative RC columns.
+[Iteration 40] Adding Columns:
+  - Vehicle: 4w | RC: -551.09 | Cost: 2921.72 | Route: [0, 16, 23, 6, 13, 2, 21, 11, 9, 12, 7, 4, 15, 0]
+
+[Iteration 41] RMP Objective: 5253.36
+[Iteration 41] POMO generated 7 negative RC columns.
+[Iteration 41] Adding Columns:
+  - Vehicle: 4w | RC: -165.65 | Cost: 2648.92 | Route: [0, 16, 6, 17, 26, 13, 7, 18, 11, 9, 12, 1, 0]
+
+[Iteration 42] RMP Objective: 5253.36
+[Iteration 42] POMO generated 9 negative RC columns.
+[Iteration 42] Adding Columns:
+  - Vehicle: 4w | RC: -177.14 | Cost: 1114.44 | Route: [0, 25, 6, 17, 26, 7, 18, 2, 11, 0]
+
+[Iteration 43] RMP Objective: 5248.47
+[Iteration 43] POMO generated 3 negative RC columns.
+[Iteration 43] Adding Columns:
+  - Vehicle: 4w | RC: -164.34 | Cost: 1708.69 | Route: [0, 24, 25, 6, 17, 26, 7, 18, 8, 11, 21, 9, 12, 0]
+
+[Iteration 44] RMP Objective: 5247.94
+[Iteration 44] POMO generated 3 negative RC columns.
+[Iteration 44] Adding Columns:
+  - Vehicle: 4w | RC: -161.40 | Cost: 2690.77 | Route: [0, 16, 6, 17, 26, 13, 7, 18, 2, 8, 1, 4, 15, 0]
+
+[Iteration 45] RMP Objective: 5247.94
+[Iteration 45] POMO generated 3 negative RC columns.
+[Iteration 45] Adding Columns:
+  - Vehicle: 4w | RC: -57.35 | Cost: 1696.34 | Route: [0, 8, 2, 11, 21, 19, 5, 3, 10, 14, 20, 9, 26, 13, 17, 0]
+
+[Iteration 46] RMP Objective: 5246.16
+[Iteration 46] POMO generated 12 negative RC columns.
+[Iteration 46] Adding Columns:
+  - Vehicle: 4w | RC: -423.45 | Cost: 2908.12 | Route: [0, 16, 23, 6, 17, 26, 2, 21, 9, 13, 18, 15, 4, 0]
+
+[Iteration 47] RMP Objective: 5176.17
+[Iteration 47] POMO generated 22 negative RC columns.
+[Iteration 47] Adding Columns:
+  - Vehicle: 4w | RC: -427.47 | Cost: 1609.13 | Route: [0, 24, 6, 17, 13, 7, 26, 9, 11, 2, 8, 18, 1, 0]
+
+[Iteration 48] RMP Objective: 5174.42
+[Iteration 48] POMO generated 6 negative RC columns.
+[Iteration 48] Adding Columns:
+  - Vehicle: 4w | RC: -144.16 | Cost: 1384.04 | Route: [0, 25, 24, 9, 11, 2, 8, 7, 18, 1, 0]
+
+[Iteration 49] RMP Objective: 5171.48
+[Iteration 49] POMO generated 26 negative RC columns.
+[Iteration 49] Adding Columns:
+  - Vehicle: 4w | RC: -474.33 | Cost: 1091.87 | Route: [0, 15, 4, 10, 5, 2, 8, 7, 18, 26, 0]
+
+[Iteration 50] RMP Objective: 5163.28
+[Iteration 50] POMO generated 3 negative RC columns.
+[Iteration 50] Adding Columns:
+  - Vehicle: 4w | RC: -132.46 | Cost: 661.03 | Route: [0, 1, 18, 2, 8, 11, 21, 9, 12, 26, 0]
+
+[Iteration 51] RMP Objective: 5155.49
+[Iteration 51] POMO generated 3 negative RC columns.
+[Iteration 51] Adding Columns:
+  - Vehicle: 4w | RC: -334.84 | Cost: 1457.70 | Route: [0, 15, 4, 1, 18, 2, 8, 5, 3, 20, 14, 19, 21, 9, 12, 26, 0]
+
+[Iteration 52] RMP Objective: 5154.68
+[Iteration 52] POMO generated 1 negative RC columns.
+[Iteration 52] Adding Columns:
+  - Vehicle: 4w | RC: -174.47 | Cost: 1692.90 | Route: [0, 4, 15, 18, 8, 11, 2, 5, 10, 3, 14, 19, 21, 9, 12, 26, 0]
+
+[Iteration 53] RMP Objective: 5152.44
+[Iteration 53] POMO generated 4 negative RC columns.
+[Iteration 53] Adding Columns:
+  - Vehicle: 4w | RC: -41.38 | Cost: 805.85 | Route: [0, 15, 4, 1, 7, 18, 2, 11, 8, 0]
+
+[Iteration 54] RMP Objective: 5150.47
+[Iteration 54] POMO generated 6 negative RC columns.
+[Iteration 54] Adding Columns:
+  - Vehicle: 4w | RC: -176.56 | Cost: 633.77 | Route: [0, 1, 7, 26, 12, 9, 11, 2, 8, 0]
+
+[Iteration 55] RMP Objective: 5142.74
+[Iteration 55] POMO generated 3 negative RC columns.
+[Iteration 55] Adding Columns:
+  - Vehicle: 4w | RC: -57.72 | Cost: 2023.38 | Route: [0, 14, 3, 5, 11, 2, 8, 7, 26, 9, 24, 25, 17, 6, 0]
+
+[Iteration 56] RMP Objective: 5142.74
+[Iteration 56] POMO generated 2 negative RC columns.
+[Iteration 56] Adding Columns:
+  - Vehicle: AUV | RC: -100.29 | Cost: 2860.21 | Route: [0, 16, 25, 24, 7, 18, 21, 20, 10, 0]
+
+[Iteration 57] RMP Objective: 5142.74
+[Iteration 57] POMO generated 1 negative RC columns.
+[Iteration 57] Adding Columns:
+  - Vehicle: 4w | RC: -221.31 | Cost: 2202.65 | Route: [0, 20, 14, 3, 5, 10, 2, 11, 7, 12, 9, 24, 6, 17, 0]
+
+[Iteration 58] RMP Objective: 5138.58
+[Iteration 58] POMO generated 2 negative RC columns.
+[Iteration 58] Adding Columns:
+  - Vehicle: 4w | RC: -97.01 | Cost: 1531.85 | Route: [0, 24, 25, 6, 17, 26, 7, 2, 11, 8, 18, 1, 0]
+
+[Iteration 59] RMP Objective: 5137.65
+[Iteration 59] POMO generated 1 negative RC columns.
+[Iteration 59] Adding Columns:
+  - Vehicle: 4w | RC: -72.56 | Cost: 937.20 | Route: [0, 17, 6, 12, 9, 22, 11, 2, 8, 7, 18, 0]
+
+[Iteration 60] RMP Objective: 5137.65
+[Iteration 60] POMO generated 2 negative RC columns.
+[Iteration 60] Adding Columns:
+  - Vehicle: 4w | RC: -16.04 | Cost: 948.50 | Route: [0, 15, 4, 18, 7, 26, 13, 12, 9, 22, 11, 2, 8, 0]
+
+[Iteration 61] RMP Objective: 5137.65
+[Iteration 61] POMO generated 1 negative RC columns.
+[Iteration 61] Adding Columns:
+  - Vehicle: 4w | RC: -42.71 | Cost: 691.43 | Route: [0, 1, 18, 7, 26, 13, 12, 9, 22, 11, 2, 0]
+
+[Iteration 62] RMP Objective: 5137.17
+[Iteration 62] POMO generated 18 negative RC columns.
+[Iteration 62] Adding Columns:
+  - Vehicle: 4w | RC: -343.40 | Cost: 1190.66 | Route: [0, 15, 4, 10, 3, 5, 11, 2, 8, 18, 26, 7, 0]
+
+[Iteration 63] RMP Objective: 5135.53
+[Iteration 63] POMO generated 3 negative RC columns.
+[Iteration 63] Adding Columns:
+  - Vehicle: 4w | RC: -153.33 | Cost: 1916.79 | Route: [0, 23, 6, 17, 13, 7, 18, 2, 11, 0]
+
+[Iteration 64] RMP Objective: 5135.53
+[Iteration 64] POMO generated 7 negative RC columns.
+[Iteration 64] Adding Columns:
+  - Vehicle: 4w | RC: -155.92 | Cost: 1635.25 | Route: [0, 18, 7, 2, 11, 8, 5, 10, 14, 20, 19, 21, 9, 12, 17, 0]
+
+[Iteration 65] RMP Objective: 5135.36
+[Iteration 65] POMO generated 6 negative RC columns.
+[Iteration 65] Adding Columns:
+  - Vehicle: 4w | RC: -166.81 | Cost: 2645.73 | Route: [0, 16, 23, 6, 17, 12, 26, 1, 18, 7, 13, 11, 2, 0]
+
+[Iteration 66] RMP Objective: 5128.23
+[Iteration 66] POMO generated 3 negative RC columns.
+[Iteration 66] Adding Columns:
+  - Vehicle: 4w | RC: -241.14 | Cost: 2611.17 | Route: [0, 16, 23, 6, 17, 13, 7, 1, 18, 11, 9, 26, 0]
+
+[Iteration 67] RMP Objective: 5114.84
+[Iteration 67] POMO generated 2 negative RC columns.
+[Iteration 67] Adding Columns:
+  - Vehicle: 4w | RC: -45.26 | Cost: 2593.02 | Route: [0, 16, 23, 17, 6, 7, 12, 13, 26, 2, 18, 1, 0]
+
+[Iteration 68] RMP Objective: 5114.65
+[Iteration 68] POMO generated 11 negative RC columns.
+[Iteration 68] Adding Columns:
+  - Vehicle: 4w | RC: -189.74 | Cost: 1748.49 | Route: [0, 13, 7, 2, 19, 5, 10, 14, 20, 11, 9, 22, 12, 6, 17, 0]
+
+[Iteration 69] RMP Objective: 5113.01
+[Iteration 69] POMO generated 2 negative RC columns.
+[Iteration 69] Adding Columns:
+  - Vehicle: 4w | RC: -307.62 | Cost: 1654.36 | Route: [0, 4, 15, 10, 3, 14, 20, 11, 2, 8, 18, 7, 12, 9, 22, 0]
+
+[Iteration 70] RMP Objective: 5094.54
+[Iteration 70] POMO generated 17 negative RC columns.
+[Iteration 70] Adding Columns:
+  - Vehicle: 4w | RC: -548.26 | Cost: 2032.49 | Route: [0, 15, 4, 10, 3, 19, 2, 11, 22, 9, 24, 6, 17, 0]
+
+[Iteration 71] RMP Objective: 5094.00
+[Iteration 71] POMO generated 5 negative RC columns.
+[Iteration 71] Adding Columns:
+  - Vehicle: 4w | RC: -444.40 | Cost: 2250.57 | Route: [0, 23, 25, 6, 17, 26, 7, 18, 2, 19, 11, 8, 1, 0]
+
+[Iteration 72] RMP Objective: 5094.00
+[Iteration 72] POMO generated 12 negative RC columns.
+[Iteration 72] Adding Columns:
+  - Vehicle: 4w | RC: -373.16 | Cost: 2867.36 | Route: [0, 16, 23, 17, 26, 12, 22, 9, 19, 2, 15, 4, 0]
+
+[Iteration 73] RMP Objective: 5090.49
+[Iteration 73] POMO generated 20 negative RC columns.
+[Iteration 73] Adding Columns:
+  - Vehicle: 4w | RC: -362.00 | Cost: 1958.68 | Route: [0, 25, 6, 26, 2, 19, 5, 10, 14, 20, 3, 11, 8, 1, 0]
+
+[Iteration 74] RMP Objective: 5088.63
+[Iteration 74] POMO generated 1 negative RC columns.
+[Iteration 74] Adding Columns:
+  - Vehicle: 4w | RC: -81.96 | Cost: 1379.15 | Route: [0, 1, 18, 8, 2, 11, 21, 19, 5, 10, 14, 20, 3, 26, 7, 0]
+
+[Iteration 75] RMP Objective: 5087.08
+[Iteration 75] POMO generated 4 negative RC columns.
+[Iteration 75] Adding Columns:
+  - Vehicle: 4w | RC: -49.95 | Cost: 1500.55 | Route: [0, 15, 4, 18, 8, 2, 11, 19, 5, 3, 14, 20, 21, 22, 9, 12, 26, 0]
+
+[Iteration 76] RMP Objective: 5083.14
+[Iteration 76] POMO generated 1 negative RC columns.
+[Iteration 76] Adding Columns:
+  - Vehicle: 4w | RC: -10.69 | Cost: 1521.54 | Route: [0, 4, 18, 8, 2, 11, 19, 5, 3, 14, 20, 21, 22, 9, 12, 26, 13, 0]
+
+[Iteration 77] RMP Objective: 5083.14
+[Iteration 77] POMO generated 2 negative RC columns.
+[Iteration 77] Adding Columns:
+  - Vehicle: AUV | RC: -66.21 | Cost: 919.33 | Route: [0, 24, 25, 6, 0]
+
+[Iteration 78] RMP Objective: 5077.10
+[Iteration 78] POMO generated 1 negative RC columns.
+[Iteration 78] Adding Columns:
+  - Vehicle: AUV | RC: -62.89 | Cost: 2077.00 | Route: [0, 16, 25, 6, 7, 18, 8, 0]
+
+[Iteration 79] RMP Objective: 5077.10
+POMO failed 3 strikes → DP fallback (call 1 / 79).
+DP solver hit label limit (500000) for 4w.
+DP solver hit label limit (500000) for 6w.
+DP solver hit label limit (500000) for 10w.
+DP solver hit label limit (500000) for 40ft.
+[Iteration 79] POMO generated 35 negative RC columns.
+[Iteration 79] Adding Columns:
+  - Vehicle: AUV | RC: -282.68 | Cost: 2134.12 | Route: [0, 16, 25, 24, 6, 0]
+
+[Iteration 80] RMP Objective: 5077.10
+[Iteration 80] POMO generated 10 negative RC columns.
+[Iteration 80] Adding Columns:
+  - Vehicle: 4w | RC: -169.77 | Cost: 1604.76 | Route: [0, 26, 13, 7, 2, 5, 10, 14, 3, 19, 8, 18, 1, 15, 0]
+
+[Iteration 81] RMP Objective: 5077.10
+[Iteration 81] POMO generated 9 negative RC columns.
+[Iteration 81] Adding Columns:
+  - Vehicle: 4w | RC: -120.38 | Cost: 2234.20 | Route: [0, 24, 25, 6, 17, 13, 26, 7, 2, 5, 14, 3, 10, 19, 0]
+
+[Iteration 82] RMP Objective: 5076.13
+[Iteration 82] POMO generated 14 negative RC columns.
+[Iteration 82] Adding Columns:
+  - Vehicle: 4w | RC: -272.27 | Cost: 2652.28 | Route: [0, 16, 23, 6, 17, 13, 26, 12, 1, 15, 4, 18, 0]
+
+[Iteration 83] RMP Objective: 5052.99
+[Iteration 83] POMO generated 15 negative RC columns.
+[Iteration 83] Adding Columns:
+  - Vehicle: 4w | RC: -312.07 | Cost: 2163.92 | Route: [0, 25, 24, 9, 11, 2, 5, 10, 20, 14, 19, 8, 13, 0]
+
+[Iteration 84] RMP Objective: 5051.37
+[Iteration 84] POMO generated 3 negative RC columns.
+[Iteration 84] Adding Columns:
+  - Vehicle: 4w | RC: -319.66 | Cost: 1382.78 | Route: [0, 15, 4, 10, 5, 2, 11, 21, 9, 22, 12, 13, 26, 7, 18, 1, 0]
+
+[Iteration 85] RMP Objective: 5039.45
+[Iteration 85] POMO generated 17 negative RC columns.
+[Iteration 85] Adding Columns:
+  - Vehicle: 4w | RC: -297.85 | Cost: 1718.43 | Route: [0, 15, 4, 8, 2, 19, 5, 3, 14, 20, 10, 21, 9, 13, 7, 0]
+
+[Iteration 86] RMP Objective: 5015.67
+[Iteration 86] POMO generated 5 negative RC columns.
+[Iteration 86] Adding Columns:
+  - Vehicle: 4w | RC: -136.41 | Cost: 1706.46 | Route: [0, 4, 15, 10, 20, 3, 5, 2, 11, 8, 18, 7, 26, 9, 22, 0]
+
+[Iteration 87] RMP Objective: 5015.67
+[Iteration 87] POMO generated 5 negative RC columns.
+[Iteration 87] Adding Columns:
+  - Vehicle: 4w | RC: -108.91 | Cost: 1769.02 | Route: [0, 7, 2, 11, 8, 5, 3, 20, 14, 19, 21, 9, 12, 17, 6, 25, 0]
+
+[Iteration 88] RMP Objective: 5012.36
+[Iteration 88] POMO generated 3 negative RC columns.
+[Iteration 88] Adding Columns:
+  - Vehicle: 4w | RC: -135.88 | Cost: 2026.66 | Route: [0, 10, 5, 3, 20, 14, 19, 2, 11, 21, 9, 22, 12, 17, 6, 25, 0]
+
+[Iteration 89] RMP Objective: 5007.84
+[Iteration 89] POMO generated 1 negative RC columns.
+[Iteration 89] Adding Columns:
+  - Vehicle: 4w | RC: -0.84 | Cost: 2104.39 | Route: [0, 10, 3, 5, 2, 21, 9, 24, 25, 6, 17, 13, 26, 7, 0]
+
+[Iteration 90] RMP Objective: 5007.83
+[Iteration 90] POMO generated 1 negative RC columns.
+[Iteration 90] Adding Columns:
+  - Vehicle: 4w | RC: -189.16 | Cost: 2500.62 | Route: [0, 23, 25, 24, 9, 11, 2, 8, 26, 7, 18, 13, 0]
+
+[Iteration 91] RMP Objective: 5007.83
+[Iteration 91] POMO generated 2 negative RC columns.
+[Iteration 91] Adding Columns:
+  - Vehicle: 4w | RC: -148.20 | Cost: 2691.92 | Route: [0, 23, 25, 24, 9, 11, 2, 8, 26, 7, 18, 4, 15, 0]
+
+[Iteration 92] RMP Objective: 5007.83
+[Iteration 92] POMO generated 11 negative RC columns.
+[Iteration 92] Adding Columns:
+  - Vehicle: 4w | RC: -342.02 | Cost: 2261.72 | Route: [0, 25, 24, 9, 11, 2, 5, 3, 14, 20, 10, 4, 15, 0]
+
+[Iteration 93] RMP Objective: 4997.42
+[Iteration 93] POMO generated 9 negative RC columns.
+[Iteration 93] Adding Columns:
+  - Vehicle: 4w | RC: -228.27 | Cost: 2167.78 | Route: [0, 24, 25, 6, 17, 26, 7, 8, 2, 21, 9, 22, 19, 14, 20, 0]
+
+[Iteration 94] RMP Objective: 4987.94
+[Iteration 94] POMO generated 8 negative RC columns.
+[Iteration 94] Adding Columns:
+  - Vehicle: 4w | RC: -230.40 | Cost: 2166.47 | Route: [0, 24, 25, 6, 17, 26, 7, 18, 2, 11, 21, 19, 14, 20, 3, 10, 0]
+
+[Iteration 95] RMP Objective: 4971.22
+[Iteration 95] POMO generated 4 negative RC columns.
+[Iteration 95] Adding Columns:
+  - Vehicle: 4w | RC: -60.87 | Cost: 2243.05 | Route: [0, 24, 25, 6, 17, 13, 26, 8, 2, 19, 5, 20, 21, 9, 22, 0]
+
+[Iteration 96] RMP Objective: 4971.22
+[Iteration 96] POMO generated 1 negative RC columns.
+[Iteration 96] Adding Columns:
+  - Vehicle: 4w | RC: -10.61 | Cost: 1956.21 | Route: [0, 26, 2, 8, 5, 19, 20, 11, 21, 9, 24, 6, 17, 0]
+
+[Iteration 97] RMP Objective: 4971.22
+[Iteration 97] POMO generated 1 negative RC columns.
+[Iteration 97] Adding Columns:
+  - Vehicle: 4w | RC: -20.98 | Cost: 925.67 | Route: [0, 1, 8, 2, 19, 5, 21, 11, 9, 22, 12, 13, 26, 0]
+
+[Iteration 98] RMP Objective: 4971.02
+POMO failed 3 strikes → DP fallback (call 2 / 98).
+DP solver hit label limit (500000) for AUV.
+DP solver hit label limit (500000) for 4w.
+DP solver hit label limit (500000) for 6w.
+DP solver hit label limit (500000) for 10w.
+DP solver hit label limit (500000) for 40ft.
+[Iteration 98] POMO generated 4 negative RC columns.
+[Iteration 98] Adding Columns:
+  - Vehicle: AUV | RC: -14.48 | Cost: 904.85 | Route: [0, 25, 24, 6, 0]
+[Iteration 98] No new unique columns added. Terminating.
+
+============================================================
+ROOT NODE INFERENCE COMPLETE
+============================================================
+Final Root Node LP Objective : 4971.0240
+Total CG Iterations          : 98
+Total Columns in Pool        : 112
+Total Execution Time         : 581.62 seconds
+Results folder created        : D:\Uni Material\Code_Odyssey\Code\DQN\SOS-DQN-POMO-CG\results\2522_2023-05-17_260615_1857_cg
+Markdown report saved         : 2522_2023-05-17_260615_1857_cg.md

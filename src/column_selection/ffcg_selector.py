@@ -50,6 +50,28 @@ class FFCGSelector(AbstractColumnSelector):
         selected_routes: List[Route] = []
 
         while remaining_routes and len(selected_routes) < self.max_family_size:
+            # Build hard mask for B&B constraints
+            action_mask = []
+            for route in remaining_routes:
+                valid = True
+                seq = [0] + [c + 1 for c in route.customer_indices] + [0]
+                arcs = set(zip(seq[:-1], seq[1:]))
+                if any(arc in state.forbidden_arcs for arc in arcs):
+                    valid = False
+                else:
+                    for u, v in state.enforced_arcs:
+                        if u in seq[:-1]:
+                            idx = seq.index(u)
+                            if seq[idx+1] != v:
+                                valid = False
+                                break
+                        if v in seq[1:]:
+                            idx = seq.index(v)
+                            if seq[idx-1] != u:
+                                valid = False
+                                break
+                action_mask.append(valid)
+
             graph_state = build_bipartite_graph_state(
                 column_pool=state.column_pool,
                 rmp_result=state.rmp_result,
@@ -63,8 +85,16 @@ class FFCGSelector(AbstractColumnSelector):
                 action_q = q_all[graph_state.action_node_indices]
                 if action_q.numel() == 0:
                     break
-                best_local_index = int(torch.argmax(action_q).item())
-                best_q_value = float(action_q[best_local_index].item())
+                
+                valid_indices = torch.tensor(action_mask, device=self.device, dtype=torch.bool)
+                if not valid_indices.any():
+                    break
+                
+                masked_q = action_q.clone()
+                masked_q[~valid_indices] = -float("inf")
+                
+                best_local_index = int(torch.argmax(masked_q).item())
+                best_q_value = float(masked_q[best_local_index].item())
 
             # Sequential STOP decision.
             if best_q_value <= self.stop_q_threshold:

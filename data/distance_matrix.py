@@ -284,11 +284,11 @@ class DistanceMatrixCalculator:
 
 
 if __name__ == "__main__":
-    ORDER_FILE = "Split_TransportOrder_2510.csv"
+    ORDER_FILE = "Split_TransportOrder_2522.csv"
     DEPOT = ORDER_FILE[-8:-4]
     TRUCK_FILE = "TruckMaster.csv"
     
-    OUTPUT_DIR = "distmatrix_2510"
+    OUTPUT_DIR = "distmatrix_2522"
     DRAW_MAP = True
     EXPORT_GEOMETRY = True
     

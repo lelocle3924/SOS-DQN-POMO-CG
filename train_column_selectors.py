@@ -16,7 +16,7 @@ import numpy as np
 import torch
 import yaml
 
-from run_inference import build_dummy_routes
+from run_inference import build_initial_routes
 from src.column_pool import ColumnPool, Route
 from src.column_selection.ffcg_selector import train_ffcg_selector
 from src.column_selection.rlcg_env import RLCGEnvironment
@@ -41,7 +41,7 @@ from src.master_problem import solve_master_problem
 from src.pomo_model import POMOModel
 from src.pricing_orchestrator import PricingOrchestrator
 from src.run_manager import setup_logging, shadow_copy_config
-from src.utils import fix_all_seeds
+from src.utils import fix_all_seeds, load_config
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -248,7 +248,7 @@ def _collect_rlcg_samples(
 
     for problem_index, problem in enumerate(problems, start=1):
         column_pool = ColumnPool()
-        build_dummy_routes(problem, column_pool)
+        build_initial_routes(problem, column_pool)
         for _ in range(max_iterations):
             rmp_result = solve_master_problem(column_pool, problem)
             if rmp_result.status != "OPTIMAL":
@@ -321,7 +321,7 @@ def _collect_ffcg_samples(
 
     for problem_index, problem in enumerate(problems, start=1):
         column_pool = ColumnPool()
-        build_dummy_routes(problem, column_pool)
+        build_initial_routes(problem, column_pool)
         for _ in range(max_iterations):
             rmp_result = solve_master_problem(column_pool, problem)
             if rmp_result.status != "OPTIMAL":
@@ -720,7 +720,7 @@ def _train_rlcg_dqn(
                     vehicle_duals=vehicle_duals,
                     config=config,
                 ),
-                build_initial_pool=build_dummy_routes,
+                build_initial_pool=build_initial_routes,
                 reduced_cost_tolerance=rc_tol,
                 alpha=rl_cfg["alpha"],
                 max_episode_steps=rl_cfg["max_episode_steps"],
@@ -759,7 +759,18 @@ def _train_rlcg_dqn(
                     done=bool(next_observation.done),
                     next_action_mask=list(next_observation.action_mask),
                 )
-                replay_buffer.add(transition)
+                
+                # Burn-In Phase Logic: Only add to replay buffer if no dummy variables are in basis
+                dummy_in_basis = False
+                if env._current_rmp is not None and env._column_pool is not None:
+                    for idx, weight in enumerate(env._current_rmp.route_weights):
+                        if weight > 1e-6 and env._column_pool.routes[idx].total_cost >= 9000.0:
+                            dummy_in_basis = True
+                            break
+                            
+                if not dummy_in_basis:
+                    replay_buffer.add(transition)
+                    
                 total_collect_steps += 1
                 cumulative_reward += float(reward)
                 episode_step_count += 1
@@ -846,7 +857,7 @@ def _train_rlcg_dqn(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train RLCG or FFCG selector.")
-    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--config", default="configs/default_config.py")
     parser.add_argument("--method", choices=["rlcg", "ffcg"], required=True)
     parser.add_argument(
         "--training-mode",
@@ -904,8 +915,7 @@ def main() -> None:
         effective_training_mode = "imitation"
 
     config_path = str((PROJECT_ROOT / args.config).resolve())
-    with open(config_path, encoding="utf-8") as file_handle:
-        config = yaml.safe_load(file_handle)
+    config = load_config(config_path)
     _apply_config_overrides(config, args.set)
     if args.results_dir.strip():
         config["logging"]["results_dir"] = args.results_dir.strip()

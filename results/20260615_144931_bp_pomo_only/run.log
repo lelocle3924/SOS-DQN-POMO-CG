@@ -1,0 +1,683 @@
+2026-06-15 14:49:31 [INFO] __main__: Run folder : results\20260615_144931_bp_pomo_only
+2026-06-15 14:49:31 [INFO] __main__: Config     : configs/default_config.py
+2026-06-15 14:49:31 [INFO] __main__: Geometry file detected: D:\Uni Material\Code_Odyssey\Code\DQN\SOS-DQN-POMO-CG\data\distmatrix_2522\geometry_2522.json
+2026-06-15 14:49:31 [INFO] __main__: Problem loaded: 26 customers, 6 vehicle types
+2026-06-15 14:49:31 [INFO] __main__: Greedy warm-start: 15 initial routes.
+2026-06-15 14:49:32 [INFO] __main__: Loaded pretrained model from results/train_20260421_204908_pomo_training/pretrained_pomo/model_epoch_200.pt
+2026-06-15 14:49:32 [INFO] src.branch_and_bound: 
+=== B&B node 0  depth=0  LB=-inf  UB=inf ===
+2026-06-15 14:49:32 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:32 [INFO] src.branch_and_bound: CG iter 0: obj=5594.4787  cols=15
+2026-06-15 14:49:33 [INFO] src.branch_and_bound:   +85 new columns
+2026-06-15 14:49:33 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:33 [INFO] src.branch_and_bound: CG iter 1: obj=5594.4787  cols=100
+2026-06-15 14:49:34 [INFO] src.branch_and_bound:   +78 new columns
+2026-06-15 14:49:34 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:34 [INFO] src.branch_and_bound: CG iter 2: obj=5594.4787  cols=178
+2026-06-15 14:49:34 [INFO] src.branch_and_bound:   +37 new columns
+2026-06-15 14:49:34 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:34 [INFO] src.branch_and_bound: CG iter 3: obj=5594.4787  cols=215
+2026-06-15 14:49:35 [INFO] src.branch_and_bound:   +40 new columns
+2026-06-15 14:49:35 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:35 [INFO] src.branch_and_bound: CG iter 4: obj=5594.4787  cols=255
+2026-06-15 14:49:35 [INFO] src.branch_and_bound:   +40 new columns
+2026-06-15 14:49:35 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:36 [INFO] src.branch_and_bound: CG iter 5: obj=5594.4787  cols=295
+2026-06-15 14:49:36 [INFO] src.branch_and_bound:   +35 new columns
+2026-06-15 14:49:36 [INFO] src.master_problem: RMP LP solved — obj=5594.4787, active_cols=3
+2026-06-15 14:49:36 [INFO] src.branch_and_bound: CG iter 6: obj=5594.4787  cols=330
+2026-06-15 14:49:37 [INFO] src.branch_and_bound:   +32 new columns
+2026-06-15 14:49:37 [INFO] src.master_problem: RMP LP solved — obj=5354.3066, active_cols=19
+2026-06-15 14:49:37 [INFO] src.branch_and_bound: CG iter 7: obj=5354.3066  cols=362
+2026-06-15 14:49:37 [INFO] src.branch_and_bound:   +11 new columns
+2026-06-15 14:49:37 [INFO] src.master_problem: RMP LP solved — obj=5240.1841, active_cols=16
+2026-06-15 14:49:37 [INFO] src.branch_and_bound: CG iter 8: obj=5240.1841  cols=373
+2026-06-15 14:49:38 [INFO] src.branch_and_bound:   +19 new columns
+2026-06-15 14:49:38 [INFO] src.master_problem: RMP LP solved — obj=5219.8826, active_cols=17
+2026-06-15 14:49:38 [INFO] src.branch_and_bound: CG iter 9: obj=5219.8826  cols=392
+2026-06-15 14:49:38 [INFO] src.branch_and_bound:   +17 new columns
+2026-06-15 14:49:38 [INFO] src.master_problem: RMP LP solved — obj=5179.4957, active_cols=15
+2026-06-15 14:49:38 [INFO] src.branch_and_bound: CG iter 10: obj=5179.4957  cols=409
+2026-06-15 14:49:39 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:39 [INFO] src.master_problem: RMP LP solved — obj=5169.5390, active_cols=15
+2026-06-15 14:49:39 [INFO] src.branch_and_bound: CG iter 11: obj=5169.5390  cols=412
+2026-06-15 14:49:39 [INFO] src.branch_and_bound:   +8 new columns
+2026-06-15 14:49:39 [INFO] src.master_problem: RMP LP solved — obj=5152.5194, active_cols=12
+2026-06-15 14:49:39 [INFO] src.branch_and_bound: CG iter 12: obj=5152.5194  cols=420
+2026-06-15 14:49:40 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:40 [INFO] src.master_problem: RMP LP solved — obj=5152.5194, active_cols=12
+2026-06-15 14:49:40 [INFO] src.branch_and_bound: CG iter 13: obj=5152.5194  cols=423
+2026-06-15 14:49:40 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:40 [INFO] src.master_problem: RMP LP solved — obj=5141.9791, active_cols=14
+2026-06-15 14:49:40 [INFO] src.branch_and_bound: CG iter 14: obj=5141.9791  cols=426
+2026-06-15 14:49:41 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 14:49:41 [INFO] src.master_problem: RMP LP solved — obj=5134.5472, active_cols=11
+2026-06-15 14:49:41 [INFO] src.branch_and_bound: CG iter 15: obj=5134.5472  cols=431
+2026-06-15 14:49:41 [INFO] src.branch_and_bound:   +12 new columns
+2026-06-15 14:49:41 [INFO] src.master_problem: RMP LP solved — obj=5134.5472, active_cols=11
+2026-06-15 14:49:42 [INFO] src.branch_and_bound: CG iter 16: obj=5134.5472  cols=443
+2026-06-15 14:49:42 [INFO] src.branch_and_bound:   +7 new columns
+2026-06-15 14:49:42 [INFO] src.master_problem: RMP LP solved — obj=5134.4385, active_cols=16
+2026-06-15 14:49:42 [INFO] src.branch_and_bound: CG iter 17: obj=5134.4385  cols=450
+2026-06-15 14:49:43 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:43 [INFO] src.master_problem: RMP LP solved — obj=5132.2706, active_cols=15
+2026-06-15 14:49:43 [INFO] src.branch_and_bound: CG iter 18: obj=5132.2706  cols=453
+2026-06-15 14:49:43 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:43 [INFO] src.master_problem: RMP LP solved — obj=5132.1350, active_cols=14
+2026-06-15 14:49:43 [INFO] src.branch_and_bound: CG iter 19: obj=5132.1350  cols=456
+2026-06-15 14:49:44 [INFO] src.branch_and_bound:   +11 new columns
+2026-06-15 14:49:44 [INFO] src.master_problem: RMP LP solved — obj=5126.1941, active_cols=16
+2026-06-15 14:49:44 [INFO] src.branch_and_bound: CG iter 20: obj=5126.1941  cols=467
+2026-06-15 14:49:44 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:49:44 [INFO] src.master_problem: RMP LP solved — obj=5124.6610, active_cols=17
+2026-06-15 14:49:44 [INFO] src.branch_and_bound: CG iter 21: obj=5124.6610  cols=468
+2026-06-15 14:49:45 [INFO] src.branch_and_bound: CG converged after 22 iterations.
+2026-06-15 14:49:45 [INFO] src.branch_and_bound:   branching on arc (12,0)  flow=0.5109
+2026-06-15 14:49:45 [INFO] src.branch_and_bound: 
+=== B&B node 1  depth=1  LB=5124.6610  UB=inf ===
+2026-06-15 14:49:45 [INFO] src.master_problem: RMP LP solved — obj=5149.8965, active_cols=17
+2026-06-15 14:49:45 [INFO] src.branch_and_bound: CG iter 0: obj=5149.8965  cols=468
+2026-06-15 14:49:45 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:49:45 [INFO] src.master_problem: RMP LP solved — obj=5149.8965, active_cols=17
+2026-06-15 14:49:45 [INFO] src.branch_and_bound: CG iter 1: obj=5149.8965  cols=469
+2026-06-15 14:49:46 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:49:46 [INFO] src.master_problem: RMP LP solved — obj=5149.5363, active_cols=18
+2026-06-15 14:49:46 [INFO] src.branch_and_bound: CG iter 2: obj=5149.5363  cols=471
+2026-06-15 14:49:46 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:49:46 [INFO] src.master_problem: RMP LP solved — obj=5149.5363, active_cols=18
+2026-06-15 14:49:46 [INFO] src.branch_and_bound: CG iter 3: obj=5149.5363  cols=472
+2026-06-15 14:49:47 [INFO] src.branch_and_bound: CG converged after 4 iterations.
+2026-06-15 14:49:47 [INFO] src.branch_and_bound:   branching on arc (24,25)  flow=0.4825
+2026-06-15 14:49:47 [INFO] src.branch_and_bound: 
+=== B&B node 2  depth=1  LB=5124.6610  UB=inf ===
+2026-06-15 14:49:47 [INFO] src.master_problem: RMP LP solved — obj=2600000.0000, active_cols=0
+2026-06-15 14:49:47 [INFO] src.branch_and_bound: CG iter 0: obj=2600000.0000  cols=472
+2026-06-15 14:49:48 [INFO] src.branch_and_bound:   +92 new columns
+2026-06-15 14:49:48 [INFO] src.master_problem: RMP LP solved — obj=2600000.0000, active_cols=0
+2026-06-15 14:49:48 [INFO] src.branch_and_bound: CG iter 1: obj=2600000.0000  cols=564
+2026-06-15 14:49:48 [INFO] src.branch_and_bound: CG converged after 2 iterations.
+2026-06-15 14:49:48 [INFO] src.branch_and_bound:   ★ new incumbent: cost=2600000.0000
+2026-06-15 14:49:48 [INFO] src.branch_and_bound: 
+=== B&B node 3  depth=2  LB=5149.5363  UB=2600000.0000 ===
+2026-06-15 14:49:48 [INFO] src.master_problem: RMP LP solved — obj=5210.7764, active_cols=22
+2026-06-15 14:49:48 [INFO] src.branch_and_bound: CG iter 0: obj=5210.7764  cols=564
+2026-06-15 14:49:49 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:49 [INFO] src.master_problem: RMP LP solved — obj=5206.1761, active_cols=21
+2026-06-15 14:49:49 [INFO] src.branch_and_bound: CG iter 1: obj=5206.1761  cols=567
+2026-06-15 14:49:49 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:49:49 [INFO] src.master_problem: RMP LP solved — obj=5205.9347, active_cols=19
+2026-06-15 14:49:49 [INFO] src.branch_and_bound: CG iter 2: obj=5205.9347  cols=571
+2026-06-15 14:49:50 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:49:50 [INFO] src.master_problem: RMP LP solved — obj=5198.6374, active_cols=22
+2026-06-15 14:49:50 [INFO] src.branch_and_bound: CG iter 3: obj=5198.6374  cols=573
+2026-06-15 14:49:50 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:49:50 [INFO] src.master_problem: RMP LP solved — obj=5197.5896, active_cols=23
+2026-06-15 14:49:50 [INFO] src.branch_and_bound: CG iter 4: obj=5197.5896  cols=577
+2026-06-15 14:49:51 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:51 [INFO] src.master_problem: RMP LP solved — obj=5193.8063, active_cols=23
+2026-06-15 14:49:51 [INFO] src.branch_and_bound: CG iter 5: obj=5193.8063  cols=580
+2026-06-15 14:49:51 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:51 [INFO] src.master_problem: RMP LP solved — obj=5193.2707, active_cols=24
+2026-06-15 14:49:51 [INFO] src.branch_and_bound: CG iter 6: obj=5193.2707  cols=583
+2026-06-15 14:49:52 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:52 [INFO] src.master_problem: RMP LP solved — obj=5192.4347, active_cols=24
+2026-06-15 14:49:52 [INFO] src.branch_and_bound: CG iter 7: obj=5192.4347  cols=586
+2026-06-15 14:49:52 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:49:53 [INFO] src.master_problem: RMP LP solved — obj=5191.8070, active_cols=23
+2026-06-15 14:49:53 [INFO] src.branch_and_bound: CG iter 8: obj=5191.8070  cols=589
+2026-06-15 14:49:53 [INFO] src.branch_and_bound: CG converged after 9 iterations.
+2026-06-15 14:49:53 [INFO] src.branch_and_bound:   branching on arc (12,7)  flow=0.4857
+2026-06-15 14:49:53 [INFO] src.branch_and_bound: 
+=== B&B node 4  depth=2  LB=5149.5363  UB=2600000.0000 ===
+2026-06-15 14:49:53 [INFO] src.master_problem: RMP LP solved — obj=5177.0371, active_cols=15
+2026-06-15 14:49:53 [INFO] src.branch_and_bound: CG iter 0: obj=5177.0371  cols=589
+2026-06-15 14:49:54 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:49:54 [INFO] src.master_problem: RMP LP solved — obj=5177.0371, active_cols=15
+2026-06-15 14:49:54 [INFO] src.branch_and_bound: CG iter 1: obj=5177.0371  cols=593
+2026-06-15 14:49:54 [INFO] src.branch_and_bound: CG converged after 2 iterations.
+2026-06-15 14:49:54 [INFO] src.branch_and_bound:   branching on arc (9,24)  flow=0.5000
+2026-06-15 14:49:54 [INFO] src.branch_and_bound: 
+=== B&B node 7  depth=3  LB=5177.0371  UB=2600000.0000 ===
+2026-06-15 14:49:54 [INFO] src.master_problem: RMP LP solved — obj=5251.5626, active_cols=9
+2026-06-15 14:49:54 [INFO] src.branch_and_bound: CG iter 0: obj=5251.5626  cols=593
+2026-06-15 14:49:55 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 14:49:55 [INFO] src.master_problem: RMP LP solved — obj=5251.5626, active_cols=9
+2026-06-15 14:49:55 [INFO] src.branch_and_bound: CG iter 1: obj=5251.5626  cols=599
+2026-06-15 14:49:55 [INFO] src.branch_and_bound: CG converged after 2 iterations.
+2026-06-15 14:49:55 [INFO] src.branch_and_bound:   branching on arc (0,6)  flow=0.6000
+2026-06-15 14:49:56 [INFO] src.branch_and_bound: 
+=== B&B node 8  depth=3  LB=5177.0371  UB=2600000.0000 ===
+2026-06-15 14:49:56 [INFO] src.master_problem: RMP LP solved — obj=5345.5463, active_cols=14
+2026-06-15 14:49:56 [INFO] src.branch_and_bound: CG iter 0: obj=5345.5463  cols=599
+2026-06-15 14:49:56 [INFO] src.branch_and_bound:   +14 new columns
+2026-06-15 14:49:56 [INFO] src.master_problem: RMP LP solved — obj=5330.3475, active_cols=9
+2026-06-15 14:49:56 [INFO] src.branch_and_bound: CG iter 1: obj=5330.3475  cols=613
+2026-06-15 14:49:57 [INFO] src.branch_and_bound:   +24 new columns
+2026-06-15 14:49:57 [INFO] src.master_problem: RMP LP solved — obj=5320.5827, active_cols=12
+2026-06-15 14:49:57 [INFO] src.branch_and_bound: CG iter 2: obj=5320.5827  cols=637
+2026-06-15 14:49:57 [INFO] src.branch_and_bound:   +12 new columns
+2026-06-15 14:49:58 [INFO] src.master_problem: RMP LP solved — obj=5297.8735, active_cols=16
+2026-06-15 14:49:58 [INFO] src.branch_and_bound: CG iter 3: obj=5297.8735  cols=649
+2026-06-15 14:49:58 [INFO] src.branch_and_bound:   +17 new columns
+2026-06-15 14:49:58 [INFO] src.master_problem: RMP LP solved — obj=5297.8735, active_cols=16
+2026-06-15 14:49:58 [INFO] src.branch_and_bound: CG iter 4: obj=5297.8735  cols=666
+2026-06-15 14:49:59 [INFO] src.branch_and_bound: CG converged after 5 iterations.
+2026-06-15 14:49:59 [INFO] src.branch_and_bound:   branching on arc (17,0)  flow=0.4921
+2026-06-15 14:49:59 [INFO] src.branch_and_bound: 
+=== B&B node 5  depth=3  LB=5191.8070  UB=2600000.0000 ===
+2026-06-15 14:49:59 [INFO] src.master_problem: RMP LP solved — obj=5177.9665, active_cols=21
+2026-06-15 14:49:59 [INFO] src.branch_and_bound: CG iter 0: obj=5177.9665  cols=666
+2026-06-15 14:49:59 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:49:59 [INFO] src.master_problem: RMP LP solved — obj=5172.8086, active_cols=22
+2026-06-15 14:49:59 [INFO] src.branch_and_bound: CG iter 1: obj=5172.8086  cols=668
+2026-06-15 14:50:00 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:00 [INFO] src.master_problem: RMP LP solved — obj=5172.2360, active_cols=22
+2026-06-15 14:50:00 [INFO] src.branch_and_bound: CG iter 2: obj=5172.2360  cols=669
+2026-06-15 14:50:00 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:00 [INFO] src.master_problem: RMP LP solved — obj=5170.9194, active_cols=21
+2026-06-15 14:50:00 [INFO] src.branch_and_bound: CG iter 3: obj=5170.9194  cols=670
+2026-06-15 14:50:01 [INFO] src.branch_and_bound: CG converged after 4 iterations.
+2026-06-15 14:50:01 [INFO] src.branch_and_bound:   branching on arc (23,17)  flow=0.5035
+2026-06-15 14:50:01 [INFO] src.branch_and_bound: 
+=== B&B node 13  depth=4  LB=5170.9194  UB=2600000.0000 ===
+2026-06-15 14:50:01 [INFO] src.master_problem: RMP LP solved — obj=5264.2382, active_cols=22
+2026-06-15 14:50:01 [INFO] src.branch_and_bound: CG iter 0: obj=5264.2382  cols=670
+2026-06-15 14:50:02 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:02 [INFO] src.master_problem: RMP LP solved — obj=5260.1999, active_cols=22
+2026-06-15 14:50:02 [INFO] src.branch_and_bound: CG iter 1: obj=5260.1999  cols=674
+2026-06-15 14:50:02 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 14:50:02 [INFO] src.master_problem: RMP LP solved — obj=5239.3585, active_cols=19
+2026-06-15 14:50:02 [INFO] src.branch_and_bound: CG iter 2: obj=5239.3585  cols=680
+2026-06-15 14:50:03 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:03 [INFO] src.master_problem: RMP LP solved — obj=5188.0897, active_cols=14
+2026-06-15 14:50:03 [INFO] src.branch_and_bound: CG iter 3: obj=5188.0897  cols=684
+2026-06-15 14:50:03 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:03 [INFO] src.master_problem: RMP LP solved — obj=5178.4922, active_cols=18
+2026-06-15 14:50:03 [INFO] src.branch_and_bound: CG iter 4: obj=5178.4922  cols=686
+2026-06-15 14:50:04 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:04 [INFO] src.master_problem: RMP LP solved — obj=5178.4922, active_cols=18
+2026-06-15 14:50:04 [INFO] src.branch_and_bound: CG iter 5: obj=5178.4922  cols=687
+2026-06-15 14:50:04 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:04 [INFO] src.master_problem: RMP LP solved — obj=5171.3378, active_cols=19
+2026-06-15 14:50:04 [INFO] src.branch_and_bound: CG iter 6: obj=5171.3378  cols=688
+2026-06-15 14:50:05 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:05 [INFO] src.master_problem: RMP LP solved — obj=5163.1544, active_cols=17
+2026-06-15 14:50:05 [INFO] src.branch_and_bound: CG iter 7: obj=5163.1544  cols=690
+2026-06-15 14:50:05 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:05 [INFO] src.master_problem: RMP LP solved — obj=5157.5424, active_cols=16
+2026-06-15 14:50:06 [INFO] src.branch_and_bound: CG iter 8: obj=5157.5424  cols=692
+2026-06-15 14:50:06 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:06 [INFO] src.master_problem: RMP LP solved — obj=5107.9606, active_cols=11
+2026-06-15 14:50:06 [INFO] src.branch_and_bound: CG iter 9: obj=5107.9606  cols=695
+2026-06-15 14:50:07 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:07 [INFO] src.master_problem: RMP LP solved — obj=5107.9606, active_cols=11
+2026-06-15 14:50:07 [INFO] src.branch_and_bound: CG iter 10: obj=5107.9606  cols=697
+2026-06-15 14:50:07 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 14:50:07 [INFO] src.master_problem: RMP LP solved — obj=5107.1847, active_cols=18
+2026-06-15 14:50:07 [INFO] src.branch_and_bound: CG iter 11: obj=5107.1847  cols=702
+2026-06-15 14:50:08 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:08 [INFO] src.master_problem: RMP LP solved — obj=5105.7648, active_cols=18
+2026-06-15 14:50:08 [INFO] src.branch_and_bound: CG iter 12: obj=5105.7648  cols=704
+2026-06-15 14:50:08 [INFO] src.branch_and_bound: CG converged after 13 iterations.
+2026-06-15 14:50:08 [INFO] src.branch_and_bound:   branching on arc (22,12)  flow=0.5000
+2026-06-15 14:50:08 [INFO] src.branch_and_bound: 
+=== B&B node 15  depth=5  LB=5105.7648  UB=2600000.0000 ===
+2026-06-15 14:50:08 [INFO] src.master_problem: RMP LP solved — obj=5144.5147, active_cols=10
+2026-06-15 14:50:08 [INFO] src.branch_and_bound: CG iter 0: obj=5144.5147  cols=704
+2026-06-15 14:50:09 [INFO] src.branch_and_bound:   +12 new columns
+2026-06-15 14:50:09 [INFO] src.master_problem: RMP LP solved — obj=5114.8640, active_cols=16
+2026-06-15 14:50:09 [INFO] src.branch_and_bound: CG iter 1: obj=5114.8640  cols=716
+2026-06-15 14:50:09 [INFO] src.branch_and_bound:   +7 new columns
+2026-06-15 14:50:09 [INFO] src.master_problem: RMP LP solved — obj=5111.1546, active_cols=19
+2026-06-15 14:50:10 [INFO] src.branch_and_bound: CG iter 2: obj=5111.1546  cols=723
+2026-06-15 14:50:10 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:10 [INFO] src.master_problem: RMP LP solved — obj=5110.1714, active_cols=20
+2026-06-15 14:50:10 [INFO] src.branch_and_bound: CG iter 3: obj=5110.1714  cols=725
+2026-06-15 14:50:10 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:11 [INFO] src.master_problem: RMP LP solved — obj=5109.1853, active_cols=20
+2026-06-15 14:50:11 [INFO] src.branch_and_bound: CG iter 4: obj=5109.1853  cols=728
+2026-06-15 14:50:11 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:11 [INFO] src.master_problem: RMP LP solved — obj=5108.8014, active_cols=21
+2026-06-15 14:50:11 [INFO] src.branch_and_bound: CG iter 5: obj=5108.8014  cols=732
+2026-06-15 14:50:12 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:12 [INFO] src.master_problem: RMP LP solved — obj=5038.4768, active_cols=19
+2026-06-15 14:50:12 [INFO] src.branch_and_bound: CG iter 6: obj=5038.4768  cols=734
+2026-06-15 14:50:12 [INFO] src.branch_and_bound:   +9 new columns
+2026-06-15 14:50:12 [INFO] src.master_problem: RMP LP solved — obj=5032.7339, active_cols=14
+2026-06-15 14:50:12 [INFO] src.branch_and_bound: CG iter 7: obj=5032.7339  cols=743
+2026-06-15 14:50:13 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:13 [INFO] src.master_problem: RMP LP solved — obj=5032.7339, active_cols=14
+2026-06-15 14:50:13 [INFO] src.branch_and_bound: CG iter 8: obj=5032.7339  cols=747
+2026-06-15 14:50:13 [INFO] src.branch_and_bound:   +8 new columns
+2026-06-15 14:50:13 [INFO] src.master_problem: RMP LP solved — obj=5022.3166, active_cols=21
+2026-06-15 14:50:14 [INFO] src.branch_and_bound: CG iter 9: obj=5022.3166  cols=755
+2026-06-15 14:50:14 [INFO] src.branch_and_bound:   +9 new columns
+2026-06-15 14:50:14 [INFO] src.master_problem: RMP LP solved — obj=5019.8161, active_cols=21
+2026-06-15 14:50:14 [INFO] src.branch_and_bound: CG iter 10: obj=5019.8161  cols=764
+2026-06-15 14:50:15 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:15 [INFO] src.master_problem: RMP LP solved — obj=5014.7588, active_cols=19
+2026-06-15 14:50:15 [INFO] src.branch_and_bound: CG iter 11: obj=5014.7588  cols=766
+2026-06-15 14:50:15 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:15 [INFO] src.master_problem: RMP LP solved — obj=4980.7862, active_cols=8
+2026-06-15 14:50:15 [INFO] src.branch_and_bound: CG iter 12: obj=4980.7862  cols=767
+2026-06-15 14:50:16 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 14:50:16 [INFO] src.master_problem: RMP LP solved — obj=4971.7008, active_cols=8
+2026-06-15 14:50:16 [INFO] src.branch_and_bound: CG iter 13: obj=4971.7008  cols=772
+2026-06-15 14:50:16 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:16 [INFO] src.master_problem: RMP LP solved — obj=4965.1041, active_cols=11
+2026-06-15 14:50:16 [INFO] src.branch_and_bound: CG iter 14: obj=4965.1041  cols=776
+2026-06-15 14:50:17 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:17 [INFO] src.master_problem: RMP LP solved — obj=4964.6326, active_cols=8
+2026-06-15 14:50:17 [INFO] src.branch_and_bound: CG iter 15: obj=4964.6326  cols=779
+2026-06-15 14:50:17 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:17 [INFO] src.master_problem: RMP LP solved — obj=4964.6326, active_cols=8
+2026-06-15 14:50:18 [INFO] src.branch_and_bound: CG iter 16: obj=4964.6326  cols=782
+2026-06-15 14:50:18 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:18 [INFO] src.master_problem: RMP LP solved — obj=4964.6326, active_cols=8
+2026-06-15 14:50:18 [INFO] src.branch_and_bound: CG iter 17: obj=4964.6326  cols=784
+2026-06-15 14:50:19 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:19 [INFO] src.master_problem: RMP LP solved — obj=4956.4796, active_cols=12
+2026-06-15 14:50:19 [INFO] src.branch_and_bound: CG iter 18: obj=4956.4796  cols=787
+2026-06-15 14:50:19 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:19 [INFO] src.master_problem: RMP LP solved — obj=4955.3532, active_cols=12
+2026-06-15 14:50:19 [INFO] src.branch_and_bound: CG iter 19: obj=4955.3532  cols=789
+2026-06-15 14:50:20 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:20 [INFO] src.master_problem: RMP LP solved — obj=4955.3532, active_cols=12
+2026-06-15 14:50:20 [INFO] src.branch_and_bound: CG iter 20: obj=4955.3532  cols=791
+2026-06-15 14:50:20 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 14:50:20 [INFO] src.master_problem: RMP LP solved — obj=4955.3532, active_cols=12
+2026-06-15 14:50:20 [INFO] src.branch_and_bound: CG iter 21: obj=4955.3532  cols=796
+2026-06-15 14:50:21 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 14:50:21 [INFO] src.master_problem: RMP LP solved — obj=4954.4040, active_cols=13
+2026-06-15 14:50:21 [INFO] src.branch_and_bound: CG iter 22: obj=4954.4040  cols=802
+2026-06-15 14:50:21 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:21 [INFO] src.master_problem: RMP LP solved — obj=4947.1574, active_cols=10
+2026-06-15 14:50:22 [INFO] src.branch_and_bound: CG iter 23: obj=4947.1574  cols=805
+2026-06-15 14:50:22 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:22 [INFO] src.master_problem: RMP LP solved — obj=4946.7123, active_cols=12
+2026-06-15 14:50:22 [INFO] src.branch_and_bound: CG iter 24: obj=4946.7123  cols=806
+2026-06-15 14:50:23 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:50:23 [INFO] src.master_problem: RMP LP solved — obj=4945.7314, active_cols=14
+2026-06-15 14:50:23 [INFO] src.branch_and_bound: CG iter 25: obj=4945.7314  cols=808
+2026-06-15 14:50:23 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:50:23 [INFO] src.master_problem: RMP LP solved — obj=4945.3840, active_cols=14
+2026-06-15 14:50:23 [INFO] src.branch_and_bound: CG iter 26: obj=4945.3840  cols=812
+2026-06-15 14:50:24 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 14:50:24 [INFO] src.master_problem: RMP LP solved — obj=4935.6735, active_cols=14
+2026-06-15 14:50:24 [INFO] src.branch_and_bound: CG iter 27: obj=4935.6735  cols=815
+2026-06-15 14:50:25 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:50:25 [INFO] src.master_problem: RMP LP solved — obj=4935.6735, active_cols=14
+2026-06-15 14:50:25 [INFO] src.branch_and_bound: CG iter 28: obj=4935.6735  cols=816
+2026-06-15 14:50:26 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 1 / 92).
+2026-06-15 14:50:56 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 14:51:23 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 14:51:49 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 14:52:17 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 14:52:44 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 14:52:44 [INFO] src.branch_and_bound:   +16 new columns
+2026-06-15 14:52:44 [INFO] src.master_problem: RMP LP solved — obj=4934.5736, active_cols=17
+2026-06-15 14:52:44 [INFO] src.branch_and_bound: CG iter 29: obj=4934.5736  cols=832
+2026-06-15 14:52:46 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 2 / 93).
+2026-06-15 14:53:17 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 14:53:43 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 14:54:09 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 14:54:36 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 14:55:03 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 14:55:04 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:55:04 [INFO] src.master_problem: RMP LP solved — obj=4934.5736, active_cols=17
+2026-06-15 14:55:04 [INFO] src.branch_and_bound: CG iter 30: obj=4934.5736  cols=833
+2026-06-15 14:55:04 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:55:04 [INFO] src.master_problem: RMP LP solved — obj=4932.3639, active_cols=19
+2026-06-15 14:55:04 [INFO] src.branch_and_bound: CG iter 31: obj=4932.3639  cols=834
+2026-06-15 14:55:05 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:55:05 [INFO] src.master_problem: RMP LP solved — obj=4930.4855, active_cols=17
+2026-06-15 14:55:05 [INFO] src.branch_and_bound: CG iter 32: obj=4930.4855  cols=838
+2026-06-15 14:55:06 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 3 / 96).
+2026-06-15 14:55:37 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 14:56:03 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 14:56:30 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 14:56:57 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 14:57:23 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 14:57:24 [INFO] src.branch_and_bound: CG converged after 33 iterations.
+2026-06-15 14:57:24 [INFO] src.branch_and_bound:   branching on arc (9,22)  flow=0.5052
+2026-06-15 14:57:24 [INFO] src.branch_and_bound: 
+=== B&B node 17  depth=6  LB=4930.4855  UB=2600000.0000 ===
+2026-06-15 14:57:24 [INFO] src.master_problem: RMP LP solved — obj=5025.8143, active_cols=17
+2026-06-15 14:57:24 [INFO] src.branch_and_bound: CG iter 0: obj=5025.8143  cols=838
+2026-06-15 14:57:25 [INFO] src.branch_and_bound:   +11 new columns
+2026-06-15 14:57:25 [INFO] src.master_problem: RMP LP solved — obj=4993.4787, active_cols=13
+2026-06-15 14:57:25 [INFO] src.branch_and_bound: CG iter 1: obj=4993.4787  cols=849
+2026-06-15 14:57:25 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 14:57:25 [INFO] src.master_problem: RMP LP solved — obj=4979.7438, active_cols=16
+2026-06-15 14:57:25 [INFO] src.branch_and_bound: CG iter 2: obj=4979.7438  cols=853
+2026-06-15 14:57:27 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 4 / 99).
+2026-06-15 14:57:58 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 14:58:25 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 14:58:51 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 14:59:18 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 14:59:45 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 14:59:45 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:59:45 [INFO] src.master_problem: RMP LP solved — obj=4979.6892, active_cols=19
+2026-06-15 14:59:46 [INFO] src.branch_and_bound: CG iter 3: obj=4979.6892  cols=854
+2026-06-15 14:59:47 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 14:59:47 [INFO] src.master_problem: RMP LP solved — obj=4973.7293, active_cols=17
+2026-06-15 14:59:47 [INFO] src.branch_and_bound: CG iter 4: obj=4973.7293  cols=855
+2026-06-15 14:59:47 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 14:59:47 [INFO] src.master_problem: RMP LP solved — obj=4967.1406, active_cols=18
+2026-06-15 14:59:47 [INFO] src.branch_and_bound: CG iter 5: obj=4967.1406  cols=857
+2026-06-15 14:59:49 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 5 / 102).
+2026-06-15 15:00:19 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 15:00:46 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:01:13 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:01:40 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:02:07 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:02:08 [INFO] src.branch_and_bound: CG converged after 6 iterations.
+2026-06-15 15:02:08 [INFO] src.branch_and_bound:   branching on arc (5,10)  flow=0.4516
+2026-06-15 15:02:08 [INFO] src.branch_and_bound: 
+=== B&B node 18  depth=6  LB=4930.4855  UB=2600000.0000 ===
+2026-06-15 15:02:08 [INFO] src.master_problem: RMP LP solved — obj=5016.3787, active_cols=11
+2026-06-15 15:02:08 [INFO] src.branch_and_bound: CG iter 0: obj=5016.3787  cols=857
+2026-06-15 15:02:08 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 15:02:08 [INFO] src.master_problem: RMP LP solved — obj=5016.3787, active_cols=11
+2026-06-15 15:02:08 [INFO] src.branch_and_bound: CG iter 1: obj=5016.3787  cols=863
+2026-06-15 15:02:09 [INFO] src.branch_and_bound: CG converged after 2 iterations.
+2026-06-15 15:02:09 [INFO] src.branch_and_bound:   branching on arc (3,14)  flow=0.5000
+2026-06-15 15:02:09 [INFO] src.branch_and_bound: 
+=== B&B node 19  depth=7  LB=4967.1406  UB=2600000.0000 ===
+2026-06-15 15:02:09 [INFO] src.master_problem: RMP LP solved — obj=5005.3811, active_cols=17
+2026-06-15 15:02:09 [INFO] src.branch_and_bound: CG iter 0: obj=5005.3811  cols=863
+2026-06-15 15:02:09 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:02:09 [INFO] src.master_problem: RMP LP solved — obj=5002.1195, active_cols=16
+2026-06-15 15:02:09 [INFO] src.branch_and_bound: CG iter 1: obj=5002.1195  cols=866
+2026-06-15 15:02:10 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:02:10 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:10 [INFO] src.branch_and_bound: CG iter 2: obj=4974.7976  cols=870
+2026-06-15 15:02:11 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:02:11 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:11 [INFO] src.branch_and_bound: CG iter 3: obj=4974.7976  cols=873
+2026-06-15 15:02:11 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 15:02:11 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:11 [INFO] src.branch_and_bound: CG iter 4: obj=4974.7976  cols=879
+2026-06-15 15:02:12 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:02:12 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:12 [INFO] src.branch_and_bound: CG iter 5: obj=4974.7976  cols=883
+2026-06-15 15:02:12 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:02:12 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:13 [INFO] src.branch_and_bound: CG iter 6: obj=4974.7976  cols=884
+2026-06-15 15:02:13 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:02:13 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:13 [INFO] src.branch_and_bound: CG iter 7: obj=4974.7976  cols=886
+2026-06-15 15:02:15 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:02:15 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:02:15 [INFO] src.branch_and_bound: CG iter 8: obj=4974.7976  cols=887
+2026-06-15 15:02:16 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 6 / 113).
+2026-06-15 15:02:47 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 15:03:14 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:03:41 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:04:07 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:04:35 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:04:35 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:35 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:04:35 [INFO] src.branch_and_bound: CG iter 9: obj=4974.7976  cols=888
+2026-06-15 15:04:37 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:37 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:04:37 [INFO] src.branch_and_bound: CG iter 10: obj=4974.7976  cols=889
+2026-06-15 15:04:37 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:04:38 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:04:38 [INFO] src.branch_and_bound: CG iter 11: obj=4974.7976  cols=891
+2026-06-15 15:04:38 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:04:38 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:04:38 [INFO] src.branch_and_bound: CG iter 12: obj=4974.7976  cols=893
+2026-06-15 15:04:39 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:39 [INFO] src.master_problem: RMP LP solved — obj=4974.7976, active_cols=7
+2026-06-15 15:04:39 [INFO] src.branch_and_bound: CG iter 13: obj=4974.7976  cols=894
+2026-06-15 15:04:39 [INFO] src.branch_and_bound: CG converged after 14 iterations.
+2026-06-15 15:04:39 [INFO] src.branch_and_bound:   branching on arc (0,1)  flow=0.5000
+2026-06-15 15:04:39 [INFO] src.branch_and_bound: 
+=== B&B node 20  depth=7  LB=4967.1406  UB=2600000.0000 ===
+2026-06-15 15:04:39 [INFO] src.master_problem: RMP LP solved — obj=5024.7126, active_cols=14
+2026-06-15 15:04:40 [INFO] src.branch_and_bound: CG iter 0: obj=5024.7126  cols=894
+2026-06-15 15:04:40 [INFO] src.branch_and_bound:   +10 new columns
+2026-06-15 15:04:40 [INFO] src.master_problem: RMP LP solved — obj=5024.7126, active_cols=14
+2026-06-15 15:04:40 [INFO] src.branch_and_bound: CG iter 1: obj=5024.7126  cols=904
+2026-06-15 15:04:41 [INFO] src.branch_and_bound:   +14 new columns
+2026-06-15 15:04:41 [INFO] src.master_problem: RMP LP solved — obj=5024.7126, active_cols=14
+2026-06-15 15:04:41 [INFO] src.branch_and_bound: CG iter 2: obj=5024.7126  cols=918
+2026-06-15 15:04:41 [INFO] src.branch_and_bound: CG converged after 3 iterations.
+2026-06-15 15:04:41 [INFO] src.branch_and_bound:   branching on arc (26,12)  flow=0.5000
+2026-06-15 15:04:41 [INFO] src.branch_and_bound: 
+=== B&B node 24  depth=8  LB=4974.7976  UB=2600000.0000 ===
+2026-06-15 15:04:41 [INFO] src.master_problem: RMP LP solved — obj=404058.7482, active_cols=7
+2026-06-15 15:04:42 [INFO] src.branch_and_bound: CG iter 0: obj=404058.7482  cols=918
+2026-06-15 15:04:42 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:04:42 [INFO] src.master_problem: RMP LP solved — obj=205131.0133, active_cols=3
+2026-06-15 15:04:42 [INFO] src.branch_and_bound: CG iter 1: obj=205131.0133  cols=922
+2026-06-15 15:04:43 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:04:43 [INFO] src.master_problem: RMP LP solved — obj=107776.1428, active_cols=8
+2026-06-15 15:04:44 [INFO] src.branch_and_bound: CG iter 2: obj=107776.1428  cols=925
+2026-06-15 15:04:45 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:45 [INFO] src.master_problem: RMP LP solved — obj=107668.1688, active_cols=8
+2026-06-15 15:04:45 [INFO] src.branch_and_bound: CG iter 3: obj=107668.1688  cols=926
+2026-06-15 15:04:46 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:04:46 [INFO] src.master_problem: RMP LP solved — obj=107619.6255, active_cols=9
+2026-06-15 15:04:46 [INFO] src.branch_and_bound: CG iter 4: obj=107619.6255  cols=930
+2026-06-15 15:04:48 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 15:04:48 [INFO] src.master_problem: RMP LP solved — obj=9083.8207, active_cols=9
+2026-06-15 15:04:48 [INFO] src.branch_and_bound: CG iter 5: obj=9083.8207  cols=935
+2026-06-15 15:04:48 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:04:48 [INFO] src.master_problem: RMP LP solved — obj=8423.7907, active_cols=5
+2026-06-15 15:04:48 [INFO] src.branch_and_bound: CG iter 6: obj=8423.7907  cols=938
+2026-06-15 15:04:50 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:50 [INFO] src.master_problem: RMP LP solved — obj=8423.7907, active_cols=5
+2026-06-15 15:04:50 [INFO] src.branch_and_bound: CG iter 7: obj=8423.7907  cols=939
+2026-06-15 15:04:51 [INFO] src.branch_and_bound:   +8 new columns
+2026-06-15 15:04:51 [INFO] src.master_problem: RMP LP solved — obj=8341.9844, active_cols=8
+2026-06-15 15:04:51 [INFO] src.branch_and_bound: CG iter 8: obj=8341.9844  cols=947
+2026-06-15 15:04:52 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:04:52 [INFO] src.master_problem: RMP LP solved — obj=6967.6786, active_cols=10
+2026-06-15 15:04:52 [INFO] src.branch_and_bound: CG iter 9: obj=6967.6786  cols=951
+2026-06-15 15:04:53 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:53 [INFO] src.master_problem: RMP LP solved — obj=6922.3070, active_cols=9
+2026-06-15 15:04:53 [INFO] src.branch_and_bound: CG iter 10: obj=6922.3070  cols=952
+2026-06-15 15:04:54 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:54 [INFO] src.master_problem: RMP LP solved — obj=6920.2237, active_cols=12
+2026-06-15 15:04:54 [INFO] src.branch_and_bound: CG iter 11: obj=6920.2237  cols=953
+2026-06-15 15:04:55 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:55 [INFO] src.master_problem: RMP LP solved — obj=6920.2237, active_cols=12
+2026-06-15 15:04:55 [INFO] src.branch_and_bound: CG iter 12: obj=6920.2237  cols=954
+2026-06-15 15:04:56 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:04:56 [INFO] src.master_problem: RMP LP solved — obj=6920.2237, active_cols=12
+2026-06-15 15:04:56 [INFO] src.branch_and_bound: CG iter 13: obj=6920.2237  cols=958
+2026-06-15 15:04:57 [INFO] src.branch_and_bound:   +7 new columns
+2026-06-15 15:04:57 [INFO] src.master_problem: RMP LP solved — obj=6717.8445, active_cols=8
+2026-06-15 15:04:57 [INFO] src.branch_and_bound: CG iter 14: obj=6717.8445  cols=965
+2026-06-15 15:04:58 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:04:58 [INFO] src.master_problem: RMP LP solved — obj=6717.8445, active_cols=8
+2026-06-15 15:04:58 [INFO] src.branch_and_bound: CG iter 15: obj=6717.8445  cols=966
+2026-06-15 15:04:59 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 7 / 137).
+2026-06-15 15:05:27 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:05:54 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:06:22 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:06:49 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:06:49 [INFO] src.branch_and_bound:   +50 new columns
+2026-06-15 15:06:50 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:50 [INFO] src.branch_and_bound: CG iter 16: obj=5643.6631  cols=1016
+2026-06-15 15:06:50 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:06:50 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:50 [INFO] src.branch_and_bound: CG iter 17: obj=5643.6631  cols=1017
+2026-06-15 15:06:51 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:06:51 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:51 [INFO] src.branch_and_bound: CG iter 18: obj=5643.6631  cols=1019
+2026-06-15 15:06:51 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:06:51 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:51 [INFO] src.branch_and_bound: CG iter 19: obj=5643.6631  cols=1021
+2026-06-15 15:06:52 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:06:52 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:52 [INFO] src.branch_and_bound: CG iter 20: obj=5643.6631  cols=1024
+2026-06-15 15:06:53 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:06:53 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:53 [INFO] src.branch_and_bound: CG iter 21: obj=5643.6631  cols=1026
+2026-06-15 15:06:54 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:06:54 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:55 [INFO] src.branch_and_bound: CG iter 22: obj=5643.6631  cols=1027
+2026-06-15 15:06:56 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:06:56 [INFO] src.master_problem: RMP LP solved — obj=5643.6631, active_cols=8
+2026-06-15 15:06:56 [INFO] src.branch_and_bound: CG iter 23: obj=5643.6631  cols=1028
+2026-06-15 15:06:56 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:06:56 [INFO] src.master_problem: RMP LP solved — obj=5637.9113, active_cols=17
+2026-06-15 15:06:56 [INFO] src.branch_and_bound: CG iter 24: obj=5637.9113  cols=1029
+2026-06-15 15:06:57 [INFO] src.branch_and_bound:   +8 new columns
+2026-06-15 15:06:57 [INFO] src.master_problem: RMP LP solved — obj=5611.7282, active_cols=16
+2026-06-15 15:06:57 [INFO] src.branch_and_bound: CG iter 25: obj=5611.7282  cols=1037
+2026-06-15 15:06:58 [INFO] src.branch_and_bound:   +5 new columns
+2026-06-15 15:06:58 [INFO] src.master_problem: RMP LP solved — obj=5609.9221, active_cols=15
+2026-06-15 15:06:58 [INFO] src.branch_and_bound: CG iter 26: obj=5609.9221  cols=1042
+2026-06-15 15:06:59 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:06:59 [INFO] src.master_problem: RMP LP solved — obj=5609.9221, active_cols=15
+2026-06-15 15:06:59 [INFO] src.branch_and_bound: CG iter 27: obj=5609.9221  cols=1043
+2026-06-15 15:07:00 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:00 [INFO] src.master_problem: RMP LP solved — obj=5609.9221, active_cols=15
+2026-06-15 15:07:00 [INFO] src.branch_and_bound: CG iter 28: obj=5609.9221  cols=1044
+2026-06-15 15:07:01 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:07:01 [INFO] src.master_problem: RMP LP solved — obj=5609.7337, active_cols=18
+2026-06-15 15:07:01 [INFO] src.branch_and_bound: CG iter 29: obj=5609.7337  cols=1046
+2026-06-15 15:07:02 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:07:02 [INFO] src.master_problem: RMP LP solved — obj=5601.6591, active_cols=17
+2026-06-15 15:07:02 [INFO] src.branch_and_bound: CG iter 30: obj=5601.6591  cols=1049
+2026-06-15 15:07:03 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:03 [INFO] src.master_problem: RMP LP solved — obj=5598.5678, active_cols=18
+2026-06-15 15:07:03 [INFO] src.branch_and_bound: CG iter 31: obj=5598.5678  cols=1050
+2026-06-15 15:07:04 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:04 [INFO] src.master_problem: RMP LP solved — obj=5598.5678, active_cols=18
+2026-06-15 15:07:04 [INFO] src.branch_and_bound: CG iter 32: obj=5598.5678  cols=1051
+2026-06-15 15:07:05 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:07:05 [INFO] src.master_problem: RMP LP solved — obj=5594.5271, active_cols=18
+2026-06-15 15:07:05 [INFO] src.branch_and_bound: CG iter 33: obj=5594.5271  cols=1054
+2026-06-15 15:07:06 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:07:06 [INFO] src.master_problem: RMP LP solved — obj=5587.3530, active_cols=16
+2026-06-15 15:07:06 [INFO] src.branch_and_bound: CG iter 34: obj=5587.3530  cols=1057
+2026-06-15 15:07:07 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:07 [INFO] src.master_problem: RMP LP solved — obj=5584.6890, active_cols=18
+2026-06-15 15:07:07 [INFO] src.branch_and_bound: CG iter 35: obj=5584.6890  cols=1058
+2026-06-15 15:07:08 [INFO] src.branch_and_bound:   +4 new columns
+2026-06-15 15:07:08 [INFO] src.master_problem: RMP LP solved — obj=5526.7439, active_cols=21
+2026-06-15 15:07:08 [INFO] src.branch_and_bound: CG iter 36: obj=5526.7439  cols=1062
+2026-06-15 15:07:09 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:09 [INFO] src.master_problem: RMP LP solved — obj=5525.9303, active_cols=20
+2026-06-15 15:07:09 [INFO] src.branch_and_bound: CG iter 37: obj=5525.9303  cols=1063
+2026-06-15 15:07:10 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:10 [INFO] src.master_problem: RMP LP solved — obj=5524.2355, active_cols=19
+2026-06-15 15:07:10 [INFO] src.branch_and_bound: CG iter 38: obj=5524.2355  cols=1064
+2026-06-15 15:07:11 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:07:11 [INFO] src.master_problem: RMP LP solved — obj=5524.1607, active_cols=21
+2026-06-15 15:07:11 [INFO] src.branch_and_bound: CG iter 39: obj=5524.1607  cols=1065
+2026-06-15 15:07:12 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 8 / 161).
+2026-06-15 15:07:39 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:08:06 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:08:33 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:09:01 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:09:02 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:09:02 [INFO] src.master_problem: RMP LP solved — obj=5520.6326, active_cols=20
+2026-06-15 15:09:02 [INFO] src.branch_and_bound: CG iter 40: obj=5520.6326  cols=1067
+2026-06-15 15:09:03 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 9 / 162).
+2026-06-15 15:09:30 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:09:57 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:10:24 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:10:52 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:10:52 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:10:53 [INFO] src.master_problem: RMP LP solved — obj=5519.4014, active_cols=20
+2026-06-15 15:10:53 [INFO] src.branch_and_bound: CG iter 41: obj=5519.4014  cols=1068
+2026-06-15 15:10:53 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:10:53 [INFO] src.master_problem: RMP LP solved — obj=5515.4391, active_cols=21
+2026-06-15 15:10:54 [INFO] src.branch_and_bound: CG iter 42: obj=5515.4391  cols=1069
+2026-06-15 15:10:55 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:10:55 [INFO] src.master_problem: RMP LP solved — obj=5514.8888, active_cols=21
+2026-06-15 15:10:55 [INFO] src.branch_and_bound: CG iter 43: obj=5514.8888  cols=1070
+2026-06-15 15:10:56 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:10:56 [INFO] src.master_problem: RMP LP solved — obj=5475.0495, active_cols=15
+2026-06-15 15:10:56 [INFO] src.branch_and_bound: CG iter 44: obj=5475.0495  cols=1073
+2026-06-15 15:10:57 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:10:57 [INFO] src.master_problem: RMP LP solved — obj=5471.9561, active_cols=15
+2026-06-15 15:10:57 [INFO] src.branch_and_bound: CG iter 45: obj=5471.9561  cols=1075
+2026-06-15 15:10:59 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 10 / 167).
+2026-06-15 15:11:26 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:11:53 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:12:20 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:12:48 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:12:49 [INFO] src.branch_and_bound:   +10 new columns
+2026-06-15 15:12:49 [INFO] src.master_problem: RMP LP solved — obj=5461.2741, active_cols=16
+2026-06-15 15:12:49 [INFO] src.branch_and_bound: CG iter 46: obj=5461.2741  cols=1085
+2026-06-15 15:12:50 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:12:50 [INFO] src.master_problem: RMP LP solved — obj=5459.1197, active_cols=20
+2026-06-15 15:12:50 [INFO] src.branch_and_bound: CG iter 47: obj=5459.1197  cols=1086
+2026-06-15 15:12:52 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 11 / 169).
+2026-06-15 15:13:19 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:13:47 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:14:15 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:14:43 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:14:43 [INFO] src.branch_and_bound: CG converged after 48 iterations.
+2026-06-15 15:14:43 [INFO] src.branch_and_bound:   branching on arc (4,18)  flow=0.5038
+2026-06-15 15:14:44 [INFO] src.branch_and_bound: 
+=== B&B node 23  depth=8  LB=4974.7976  UB=2600000.0000 ===
+2026-06-15 15:14:44 [INFO] src.master_problem: RMP LP solved — obj=5005.5449, active_cols=3
+2026-06-15 15:14:44 [INFO] src.branch_and_bound: CG iter 0: obj=5005.5449  cols=1086
+2026-06-15 15:14:44 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:14:44 [INFO] src.master_problem: RMP LP solved — obj=5004.3377, active_cols=18
+2026-06-15 15:14:44 [INFO] src.branch_and_bound: CG iter 1: obj=5004.3377  cols=1089
+2026-06-15 15:14:45 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:14:45 [INFO] src.master_problem: RMP LP solved — obj=5004.3377, active_cols=18
+2026-06-15 15:14:45 [INFO] src.branch_and_bound: CG iter 2: obj=5004.3377  cols=1091
+2026-06-15 15:14:45 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:14:45 [INFO] src.master_problem: RMP LP solved — obj=5001.6074, active_cols=9
+2026-06-15 15:14:46 [INFO] src.branch_and_bound: CG iter 3: obj=5001.6074  cols=1094
+2026-06-15 15:14:46 [INFO] src.branch_and_bound:   +6 new columns
+2026-06-15 15:14:46 [INFO] src.master_problem: RMP LP solved — obj=4995.1969, active_cols=16
+2026-06-15 15:14:46 [INFO] src.branch_and_bound: CG iter 4: obj=4995.1969  cols=1100
+2026-06-15 15:14:47 [INFO] src.branch_and_bound:   +3 new columns
+2026-06-15 15:14:47 [INFO] src.master_problem: RMP LP solved — obj=4995.1969, active_cols=16
+2026-06-15 15:14:47 [INFO] src.branch_and_bound: CG iter 5: obj=4995.1969  cols=1103
+2026-06-15 15:14:47 [INFO] src.branch_and_bound:   +1 new columns
+2026-06-15 15:14:47 [INFO] src.master_problem: RMP LP solved — obj=4993.2388, active_cols=18
+2026-06-15 15:14:48 [INFO] src.branch_and_bound: CG iter 6: obj=4993.2388  cols=1104
+2026-06-15 15:14:49 [WARNING] src.pricing_orchestrator: POMO failed 3 strikes → DP fallback (call 12 / 176).
+2026-06-15 15:15:20 [WARNING] src.dp_solver: DP solver hit label limit (500000) for AUV.
+2026-06-15 15:15:47 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 4w.
+2026-06-15 15:16:14 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 6w.
+2026-06-15 15:16:42 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 10w.
+2026-06-15 15:17:09 [WARNING] src.dp_solver: DP solver hit label limit (500000) for 40ft.
+2026-06-15 15:17:10 [INFO] src.branch_and_bound: CG converged after 7 iterations.
+2026-06-15 15:17:10 [INFO] src.branch_and_bound:   branching on arc (21,22)  flow=0.4667
+2026-06-15 15:17:10 [INFO] src.branch_and_bound: 
+=== B&B node 29  depth=9  LB=4993.2388  UB=2600000.0000 ===
+2026-06-15 15:17:10 [INFO] src.master_problem: RMP LP solved — obj=5048.2518, active_cols=19
+2026-06-15 15:17:10 [INFO] src.branch_and_bound: CG iter 0: obj=5048.2518  cols=1104
+2026-06-15 15:17:11 [INFO] src.branch_and_bound:   +2 new columns
+2026-06-15 15:17:11 [INFO] src.master_problem: RMP LP solved — obj=5048.2518, active_cols=19
+2026-06-15 15:17:11 [INFO] src.branch_and_bound: CG iter 1: obj=5048.2518  cols=1106
+2026-06-15 15:17:11 [INFO] src.branch_and_bound: CG converged after 2 iterations.
+2026-06-15 15:17:11 [INFO] src.branch_and_bound:   branching on arc (10,8)  flow=0.4828
+2026-06-15 15:17:11 [INFO] src.branch_and_bound: 
+=== B&B node 30  depth=9  LB=4993.2388  UB=2600000.0000 ===
+2026-06-15 15:17:11 [INFO] src.master_problem: RMP LP solved — obj=5005.5449, active_cols=3
+2026-06-15 15:17:11 [INFO] src.branch_and_bound: CG iter 0: obj=5005.5449  cols=1106
+2026-06-15 15:17:12 [INFO] src.branch_and_bound:   +12 new columns
+2026-06-15 15:17:12 [INFO] src.master_problem: RMP LP solved — obj=5005.5449, active_cols=3
+2026-06-15 15:17:12 [INFO] src.branch_and_bound: CG iter 1: obj=5005.5449  cols=1118
+2026-06-15 15:17:12 [INFO] src.branch_and_bound:   +21 new columns
+2026-06-15 15:17:12 [INFO] src.master_problem: RMP LP solved — obj=5005.5449, active_cols=3
+2026-06-15 15:17:13 [INFO] src.branch_and_bound: CG iter 2: obj=5005.5449  cols=1139
+2026-06-15 15:17:13 [INFO] src.branch_and_bound: CG converged after 3 iterations.
+2026-06-15 15:17:13 [INFO] src.branch_and_bound:   ★ new incumbent: cost=5005.5449
+2026-06-15 15:17:13 [INFO] __main__: 
+============================================================
+2026-06-15 15:17:13 [INFO] __main__: SOLUTION SUMMARY
+2026-06-15 15:17:13 [INFO] __main__: ============================================================
+2026-06-15 15:17:13 [INFO] __main__: Total cost          : 5005.5449
+2026-06-15 15:17:13 [INFO] __main__: Number of routes    : 3
+2026-06-15 15:17:13 [INFO] __main__: B&B nodes explored  : 18
+2026-06-15 15:17:13 [INFO] __main__: Total columns       : 1139
+2026-06-15 15:17:13 [INFO] __main__: Wall-clock time (s) : 1661.52
+2026-06-15 15:17:13 [INFO] __main__:   Route 613 [AUV] : ['70400118', '70288086']  cost=863.46
+2026-06-15 15:17:13 [INFO] __main__:   Route 733 [4w] : ['70017289', '70283687', '70017127', '70017321', '70417236', '70017203', '70017222', '70017131', '70017337', '70017263', '70017102', '70017011']  cost=2618.51
+2026-06-15 15:17:13 [INFO] __main__:   Route 869 [4w] : ['70017337', '70017148', '70017084', '70017194', '70028054', '70017116', '70017245', '70127101', '70017089', '70017185', '70249050', '70278581', '70017177', '70017222', '70417236']  cost=1523.57
+2026-06-15 15:17:13 [INFO] __main__: Results saved to results\20260615_144931_bp_pomo_only

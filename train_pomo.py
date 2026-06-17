@@ -13,12 +13,11 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import torch
-import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.utils import fix_all_seeds
+from src.utils import fix_all_seeds, load_config
 from src.data_loader import (
     build_training_manifest,
     load_problem,
@@ -171,7 +170,7 @@ def _validate(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="POMO Pre-training")
-    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--config", default="configs/default_config.py")
     parser.add_argument("--resume-from", type=str, default=None, help="Path to checkpoint .pt file to resume from")
     parser.add_argument("--resume-dir", type=str, default=None, help="Path to a previous run folder to resume from")
     parser.add_argument("--num-customers", type=int, default=None, help="Override max_customers_per_instance")
@@ -194,8 +193,7 @@ def main() -> None:
     args = parser.parse_args()
 
     config_path = os.path.join(PROJECT_ROOT, args.config)
-    with open(config_path, encoding="utf-8") as fh:
-        config = yaml.safe_load(fh)
+    config = load_config(config_path)
 
     if args.num_customers is not None:
         if args.num_customers <= 0:

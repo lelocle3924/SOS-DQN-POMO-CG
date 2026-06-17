@@ -100,7 +100,7 @@ class RLCGEnvironment:
 
         observation = self._refresh_observation()
         next_objective = float(observation.info.get("objective_value", previous_objective))
-        scaled_improvement = self._alpha * (previous_objective - next_objective) / self._objective_initial
+        scaled_improvement = self._alpha * (previous_objective - next_objective) / previous_objective #self._objective_initial
         reward = float(scaled_improvement - 1.0)
         return observation, reward
 

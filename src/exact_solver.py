@@ -103,12 +103,16 @@ def solve_exact_sdvrptw(
     time_limit_seconds: int = 120,
     assume_unlimited_vehicles: bool = True,
     max_vehicles_per_type: Optional[int] = None,
+    solver_name: str = "SCIP",
+    verbose: bool = False,
 ) -> ExactSolveResult:
     """Solve heterogeneous SD-VRPTW exactly with MIP."""
-    solver = pywraplp.Solver.CreateSolver("SCIP")
+    solver = pywraplp.Solver.CreateSolver(solver_name)
     if solver is None:
-        raise RuntimeError("Could not create SCIP solver.")
+        raise RuntimeError(f"Could not create {solver_name} solver.")
     solver.SetTimeLimit(int(time_limit_seconds * 1000))
+    if verbose:
+        solver.EnableOutput()
 
     num_customers = problem.num_customers
     num_nodes = num_customers + 1

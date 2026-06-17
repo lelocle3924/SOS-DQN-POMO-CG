@@ -35,40 +35,51 @@ pip install -r requirements.txt
 
 ## 1) Base Configuration
 
-Main config file: `configs/default_config.yaml`
+Main config file: `configs/default_config.py`
 
 Recommended CPU-safe baseline:
 
-```yaml
-solver:
-  device: "cpu"
-  seed: 42
+```python
+config = {
+    "solver": {
+        "device": "cpu",
+        "seed": 42,
+    },
 
-training:
-  batch_size: 1
+    "training": {
+        "batch_size": 1,
+        # ... other training fields
+    },
 
-pomo:
-  num_pomo_starts: 10
+    "pomo": {
+        "num_pomo_starts": 10,
+        # ... other pomo fields
+    },
 
-column_selector:
-  method: "none"      # one of: none, rlcg, ffcg
-  checkpoint: ""      # fill later when using a trained selector
-  hidden_dim: 64
-  max_family_size: 5
-  stop_q_threshold: 0.0
+    "column_selector": {
+        "method": "none",      # one of: none, rlcg, ffcg
+        "checkpoint": "",      # fill later when using a trained selector
+        "hidden_dim": 64,
+        "max_family_size": 5,
+        "stop_q_threshold": 0.0,
+    },
 
-rlcg_training:
-  alpha: 1.0
-  gamma: 0.99
-  epsilon_start: 1.0
-  epsilon_end: 0.05
-  epsilon_decay_steps: 1000
-  replay_capacity: 5000
-  min_replay_size: 128
-  batch_size: 32
-  train_steps_per_collect: 10
-  target_update_interval: 50
-  max_episode_steps: 8
+    "rlcg_training": {
+        "alpha": 1.0,
+        "gamma": 0.99,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_steps": 1000,
+        "replay_capacity": 5000,
+        "min_replay_size": 128,
+        "batch_size": 32,
+        "train_steps_per_collect": 10,
+        "target_update_interval": 50,
+        "max_episode_steps": 8,
+        "gradient_clip_norm": 1.0,
+    },
+    # ... other config components
+}
 ```
 
 ---
@@ -78,20 +89,20 @@ rlcg_training:
 Script to run: `train_pomo.py`
 
 ```powershell
-python train_pomo.py --config configs/default_config.yaml --run-name "pomo_mixed_depots"
+python train_pomo.py --config configs/default_config.py --run-name "pomo_mixed_depots"
 ```
 
 Enable TensorBoard logging:
 
 ```powershell
-python train_pomo.py --config configs/default_config.yaml --run-name "pomo_tb" --tensorboard
+python train_pomo.py --config configs/default_config.py --run-name "pomo_tb" --tensorboard
 ```
 
 Enable Weights & Biases logging (optional):
 
 ```powershell
 python train_pomo.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --run-name "pomo_wandb" `
   --wandb `
   --wandb-project "pomo-cg" `
@@ -102,7 +113,7 @@ Useful overrides:
 
 ```powershell
 python train_pomo.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --run-name "pomo_quick" `
   --num-epochs 20 `
   --num-customers 40 `
@@ -124,7 +135,7 @@ Script to run: `run_inference.py`
 
 ```powershell
 python run_inference.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --checkpoint "D:\...\results\train_...\pretrained_pomo\final_model.pt" `
   --max-iterations 30 `
   --verbose
@@ -134,7 +145,7 @@ Add only the most negative reduced-cost column each iteration:
 
 ```powershell
 python run_inference.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --checkpoint "D:\...\results\train_...\pretrained_pomo\final_model.pt" `
   --add-most-negative
 ```
@@ -143,15 +154,18 @@ python run_inference.py `
 
 Set in config:
 
-```yaml
-column_selector:
-  method: "none"
+```python
+# configs/default_config.py
+    "column_selector": {
+        "method": "none",
+        # ...
+    }
 ```
 
 Script to run: `main.py`
 
 ```powershell
-python main.py --config configs/default_config.yaml --run-name "bp_pomo_only"
+python main.py --config configs/default_config.py --run-name "bp_pomo_only"
 ```
 
 ---
@@ -175,7 +189,7 @@ Training mode can be:
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method rlcg `
   --training-mode dqn `
   --candidate-source pomo `
@@ -189,7 +203,7 @@ python train_column_selectors.py `
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method rlcg `
   --training-mode imitation `
   --candidate-source pomo `
@@ -202,11 +216,11 @@ python train_column_selectors.py `
 
 ### 4.3 Extensive config overrides from CLI (Colab-friendly)
 
-Use `--set key.path=value` repeatedly to avoid editing/uploading `yaml` for each run:
+Use `--set key.path=value` repeatedly to avoid editing/uploading config for each run:
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method rlcg `
   --training-mode dqn `
   --candidate-source pomo `
@@ -229,7 +243,7 @@ python train_column_selectors.py `
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method rlcg `
   --training-mode dqn `
   --candidate-source dp `
@@ -253,7 +267,7 @@ Use the same script with `--method ffcg`.
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method ffcg `
   --candidate-source pomo `
   --max-instances 8 `
@@ -267,7 +281,7 @@ python train_column_selectors.py `
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method ffcg `
   --candidate-source ga `
   --max-instances 8 `
@@ -280,7 +294,7 @@ python train_column_selectors.py `
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method ffcg `
   --candidate-source dp `
   --max-instances 8 `
@@ -292,7 +306,7 @@ python train_column_selectors.py `
 ### 5.4 Continue training a selector (resume)
 
 You can continue training from an existing selector checkpoint using `--resume-from`.
-Selector checkpoints are now saved each epoch with POMO-style numbering:
+Selector checkpoints are saved each epoch with POMO-style numbering:
 
 - `pretrained_col_selector/dqn_model_rlcg_epoch_<N>.pt`
 - `pretrained_col_selector/dqn_model_ffcg_epoch_<N>.pt`
@@ -303,7 +317,7 @@ Resume RLCG example:
 
 ```powershell
 python train_column_selectors.py \
-  --config configs/default_config.yaml \
+  --config configs/default_config.py \
   --method rlcg \
   --candidate-source ga \
   --max-instances 8 \
@@ -318,7 +332,7 @@ Resume FFCG example:
 
 ```powershell
 python train_column_selectors.py `
-  --config configs/default_config.yaml `
+  --config configs/default_config.py `
   --method ffcg `
   --candidate-source pomo `
   --max-instances 8 `
@@ -333,7 +347,7 @@ Resume in the same existing run folder:
 
 ```powershell
 python train_column_selectors.py \
-  --config configs/default_config.yaml \
+  --config configs/default_config.py \
   --method rlcg \
   --candidate-source ga \
   --epochs 10 \
@@ -347,31 +361,38 @@ Notes:
 - `--resume-dir <existing_run_folder>` resumes in the same folder (POMO-style), continues epoch numbering, and appends `training_metrics.csv`.
 - Without `--resume-dir`, training creates a new run folder (`train_YYYYMMDD_HHMMSS_col_selector_<method>`).
 - Epoch checkpoints are always saved under that run folder in `pretrained_col_selector`.
-- `training_metrics.csv` now logs one row per epoch, so you can directly plot DQN learning curves.
+- `training_metrics.csv` logs one row per epoch, so you can directly plot DQN learning curves.
 - `--output` is optional and saves an additional checkpoint copy (usually the latest epoch).
 
 ---
 
 ## 6) Use Pretrained POMO-CG + Pretrained RLCG/FFCG Together
 
-Edit `configs/default_config.yaml`:
+Edit `configs/default_config.py`:
 
-```yaml
-training:
-  pretrained_model: "D:/.../pretrained_pomo/final_model.pt"
+```python
+config = {
+    # ...
+    "training": {
+        # ...
+        "pretrained_model": "D:/.../pretrained_pomo/final_model.pt",
+    },
 
-column_selector:
-  method: "rlcg"  # or "ffcg"
-  checkpoint: "D:/.../results/train_.../pretrained_col_selector/dqn_model_rlcg_epoch_20.pt"  # or ffcg checkpoint
-  hidden_dim: 64
-  max_family_size: 5
-  stop_q_threshold: 0.0
+    "column_selector": {
+        "method": "rlcg",  # or "ffcg"
+        "checkpoint": "D:/.../results/train_.../pretrained_col_selector/dqn_model_rlcg_epoch_20.pt",  # or ffcg checkpoint
+        "hidden_dim": 64,
+        "max_family_size": 5,
+        "stop_q_threshold": 0.0,
+    },
+    # ...
+}
 ```
 
 Then run:
 
 ```powershell
-python main.py --config configs/default_config.yaml --run-name "bp_pomo_plus_selector"
+python main.py --config configs/default_config.py --run-name "bp_pomo_plus_selector"
 ```
 
 ---
@@ -404,30 +425,33 @@ Track:
 Train POMO:
 
 ```powershell
-python train_pomo.py --config configs/default_config.yaml --run-name "pomo_mixed_depots"
+python train_pomo.py --config configs/default_config.py --run-name "pomo_mixed_depots"
 ```
 
 Test POMO root CG:
 
 ```powershell
-python run_inference.py --config configs/default_config.yaml --checkpoint "D:\...\final_model.pt" --verbose
+python run_inference.py --config configs/default_config.py --checkpoint "D:\...\final_model.pt" --verbose
 ```
 
 Train RLCG:
 
 ```powershell
-python train_column_selectors.py --config configs/default_config.yaml --method rlcg --training-mode dqn --candidate-source pomo
+python train_column_selectors.py --config configs/default_config.py --method rlcg --training-mode dqn --candidate-source pomo
 ```
 
 Train FFCG:
 
 ```powershell
-python train_column_selectors.py --config configs/default_config.yaml --method ffcg --candidate-source pomo
+python train_column_selectors.py --config configs/default_config.py --method ffcg --candidate-source pomo
 ```
 
 Run full B&P with pretrained models:
 
 ```powershell
-python main.py --config configs/default_config.yaml --run-name "bp_final"
+python main.py --config configs/default_config.py --run-name "bp_final"
 ```
 
+### 4.3 Extensive config overrides from CLI (Colab-friendly)
+
+Use `--set key.path=value` repeatedly to avoid editing/uploading config for each run:

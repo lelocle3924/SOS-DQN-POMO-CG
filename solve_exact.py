@@ -12,12 +12,11 @@ import shutil
 import sys
 from typing import Dict, Optional
 
-import yaml
-
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.data_loader import ProblemData, load_problem
+from src.utils import load_config
 from src.exact_solver import ExactSolveResult, solve_exact_sdvrptw
 
 
@@ -32,8 +31,7 @@ class RunContext:
 
 
 def _load_config(config_path: Path) -> Dict:
-    with open(config_path, encoding="utf-8") as config_file:
-        return yaml.safe_load(config_file)
+    return load_config(config_path)
 
 
 def _resolve_path(project_root: Path, configured_path: str) -> Path:
@@ -132,17 +130,28 @@ def _write_raw_output(
 
 
 def _copy_config(config_path: Path, results_dir: Path) -> None:
-    shutil.copy2(config_path, results_dir / "default_config.yaml")
+    shutil.copy2(config_path, results_dir / config_path.name)
 
 
 def _parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run exact SD-VRPTW solver")
-    parser.add_argument("--config", default="configs/default_config.yaml", help="Path to config YAML")
+    parser.add_argument("--config", default="configs/default_config.py", help="Path to config Python file")
     parser.add_argument(
         "--time-limit-seconds",
         type=int,
         default=None,
         help="Override exact.time_limit_seconds from config",
+    )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Enable verbose output from the solver",
+    )
+    parser.add_argument(
+        "--solver-name",
+        type=str,
+        default="SCIP",
+        help="Override the solver backend to use (e.g., SCIP, GUROBI, CP-SAT)",
     )
     return parser.parse_args()
 
@@ -158,6 +167,11 @@ def main() -> None:
     max_vehicles_per_type = exact_config.get("max_vehicles_per_type", None)
     if max_vehicles_per_type is not None:
         max_vehicles_per_type = int(max_vehicles_per_type)
+
+    configured_solver_name = exact_config.get("solver_name", "SCIP")
+    solver_name = args.solver_name if args.solver_name is not None else configured_solver_name
+    configured_verbose = bool(exact_config.get("verbose", False))
+    verbose = args.verbose or configured_verbose
 
     orders_file_path = _resolve_path(PROJECT_ROOT, config["problem"]["orders_file"])
     trucks_file_path = _resolve_path(PROJECT_ROOT, config["problem"]["trucks_file"])
@@ -182,6 +196,8 @@ def main() -> None:
         time_limit_seconds=time_limit_seconds,
         assume_unlimited_vehicles=assume_unlimited_vehicles,
         max_vehicles_per_type=max_vehicles_per_type,
+        solver_name=solver_name,
+        verbose=verbose,
     )
 
     _write_markdown_report(run_context, exact_result)

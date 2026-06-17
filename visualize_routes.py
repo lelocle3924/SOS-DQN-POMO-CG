@@ -29,6 +29,8 @@ import polyline as pl
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.utils import load_config
+
 logger = logging.getLogger(__name__)
 
 # ======================================================================
@@ -148,10 +150,7 @@ def _load_all(
     solution_path: str, config_path: str,
 ) -> Tuple[dict, dict, pd.DataFrame, np.ndarray, np.ndarray]:
     """Return (solution_dict, config_dict, orders_df, depot_coord, customer_coords)."""
-    import yaml
-
-    with open(config_path, encoding="utf-8") as fh:
-        config = yaml.safe_load(fh)
+    config = load_config(config_path)
     with open(solution_path, encoding="utf-8") as fh:
         solution = json.load(fh)
 
@@ -465,7 +464,7 @@ def main() -> None:
 
     parser = argparse.ArgumentParser(description="Visualise SD-VRPTW routes")
     parser.add_argument("--solution", required=True, help="raw_output.json path")
-    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--config", default="configs/default_config.py")
     parser.add_argument(
         "--geometry",
         default=None,

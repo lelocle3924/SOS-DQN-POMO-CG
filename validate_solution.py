@@ -19,12 +19,11 @@ import os
 import sys
 from pathlib import Path
 
-import yaml
-
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.data_loader import load_problem
+from src.utils import load_config
 from src.column_pool import ColumnPool
 from src.master_problem import solve_master_problem
 
@@ -37,8 +36,7 @@ def validate_solution(solution_path: str, config_path: str) -> bool:
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
 
-    with open(config_path, encoding="utf-8") as fh:
-        config = yaml.safe_load(fh)
+    config = load_config(config_path)
 
     with open(solution_path, encoding="utf-8") as fh:
         solution = json.load(fh)
@@ -238,7 +236,7 @@ def validate_solution(solution_path: str, config_path: str) -> bool:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Validate SD-VRPTW solution")
     parser.add_argument("--solution", required=True, help="raw_output.json path")
-    parser.add_argument("--config", default="configs/default_config.yaml")
+    parser.add_argument("--config", default="configs/default_config.py")
     args = parser.parse_args()
     ok = validate_solution(args.solution, args.config)
     sys.exit(0 if ok else 1)

@@ -13,12 +13,11 @@ from datetime import datetime
 from pathlib import Path
 
 import torch
-import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.utils import fix_all_seeds
+from src.utils import fix_all_seeds, load_config
 from src.data_loader import load_problem, ProblemData
 from src.column_pool import ColumnPool
 from src.master_problem import solve_master_problem
@@ -72,10 +71,81 @@ def setup_inference_logging(verbose: bool):
     
     return logger
 
-def build_dummy_routes(problem: ProblemData, column_pool: ColumnPool):
-    """Create one dedicated vehicle per customer with a high artificial cost to guarantee initial feasibility."""
-    for c in range(problem.num_customers):
-        # Find first allowed vehicle type
+def build_initial_routes(problem: ProblemData, column_pool: ColumnPool) -> int:
+    """Hybrid greedy + single-customer fallback for RMP initialization."""
+    global_unserved = set(range(problem.num_customers))
+
+    # Primary Pass: Greedy Nearest-Neighbour
+    for v_idx, vtype in enumerate(problem.vehicle_types):
+        capacity = problem.vehicle_capacity[vtype]
+        fixed_cost = problem.vehicle_fixed_cost[vtype]
+        cost_per_km = problem.vehicle_cost_per_km[vtype]
+        cost_per_hour = problem.vehicle_cost_per_hour[vtype]
+        tt_mat = problem.travel_time_matrices[vtype]
+        dist_km_mat = problem.distance_matrix_meters / 1000.0
+
+        accessible = [
+            c for c in range(problem.num_customers)
+            if problem.site_dependency[c, v_idx]
+        ]
+        unserved_for_vtype = set(accessible)
+
+        while unserved_for_vtype:
+            route_customers = []
+            cur_node = 0
+            rem_cap = capacity
+            cur_time = problem.depot_tw_start
+            total_dist = 0.0
+
+            while True:
+                best, best_arr = None, float("inf")
+                for c in unserved_for_vtype:
+                    node = c + 1
+                    arr = cur_time + tt_mat[cur_node, node]
+                    if problem.demands[c] > rem_cap:
+                        continue
+                    if arr > problem.tw_end[c]:
+                        continue
+                    svc_start = max(arr, problem.tw_start[c])
+                    depart = svc_start + problem.service_times[c]
+                    if depart + tt_mat[node, 0] > problem.depot_tw_end:
+                        continue
+                    if arr < best_arr:
+                        best_arr = arr
+                        best = c
+
+                if best is None:
+                    break
+
+                node = best + 1
+                total_dist += dist_km_mat[cur_node, node]
+                arr = cur_time + tt_mat[cur_node, node]
+                cur_time = max(arr, problem.tw_start[best]) + problem.service_times[best]
+                rem_cap -= problem.demands[best]
+                cur_node = node
+                route_customers.append(best)
+                unserved_for_vtype.discard(best)
+                global_unserved.discard(best)
+
+            if not route_customers:
+                break
+
+            total_dist += dist_km_mat[cur_node, 0]
+            total_time = cur_time - problem.depot_tw_start + tt_mat[cur_node, 0]
+            total_cost = fixed_cost + cost_per_km * total_dist + cost_per_hour * total_time
+
+            column_pool.add_route(
+                vehicle_type=vtype,
+                customer_indices=route_customers,
+                total_cost=total_cost,
+                total_distance_km=total_dist,
+                total_time_hours=total_time,
+            )
+
+    unserved_count = len(global_unserved)
+    
+    # Secondary Pass: Feasibility Fallback for unserved customers
+    for c in global_unserved:
         allowed_v_idx = -1
         for v_idx in range(len(problem.vehicle_types)):
             if problem.site_dependency[c, v_idx]:
@@ -87,7 +157,6 @@ def build_dummy_routes(problem: ProblemData, column_pool: ColumnPool):
             
         vtype = problem.vehicle_types[allowed_v_idx]
         
-        # Calculate basic metrics
         tt_mat = problem.travel_time_matrices[vtype]
         dk_mat = problem.distance_matrix_meters / 1000.0
         
@@ -100,8 +169,7 @@ def build_dummy_routes(problem: ProblemData, column_pool: ColumnPool):
         return_time = cur_time + tt_mat[node, 0]
         time_h = return_time - problem.depot_tw_start
         
-        # High artificial cost to ensure these are replaced
-        artificial_cost = 100000.0
+        artificial_cost = 10000.0
         
         column_pool.add_route(
             vehicle_type=vtype,
@@ -110,6 +178,8 @@ def build_dummy_routes(problem: ProblemData, column_pool: ColumnPool):
             total_distance_km=dist_km,
             total_time_hours=time_h,
         )
+        
+    return unserved_count
 
 
 def resolve_configured_path(project_root: Path, configured_path: str) -> Path:
@@ -156,7 +226,7 @@ def write_cg_markdown_report(
 
 def main():
     parser = argparse.ArgumentParser(description="Root Node Inference with POMO")
-    parser.add_argument("--config", default="configs/default_config.yaml", help="Path to config file")
+    parser.add_argument("--config", default="configs/default_config.py", help="Path to config file")
     parser.add_argument("--checkpoint", required=True, help="Path to the .pt model checkpoint")
     parser.add_argument("--verbose", action="store_true", help="Enable detailed DEBUG logging")
     parser.add_argument("--max-iterations", type=int, default=100, help="Override max CG iterations")
@@ -165,8 +235,7 @@ def main():
     args = parser.parse_args()
     
     config_path = resolve_configured_path(PROJECT_ROOT, args.config)
-    with open(config_path, encoding="utf-8") as fh:
-        config = yaml.safe_load(fh)
+    config = load_config(config_path)
 
     orders_file_path = resolve_configured_path(PROJECT_ROOT, config["problem"]["orders_file"])
     trucks_file_path = resolve_configured_path(PROJECT_ROOT, config["problem"]["trucks_file"])
@@ -210,8 +279,9 @@ def main():
     orchestrator = PricingOrchestrator(model, device, config)
     
     column_pool = ColumnPool()
-    logger.info("Building initial dummy basis...")
-    build_dummy_routes(problem, column_pool)
+    logger.info("Building initial basis with hybrid greedy heuristic...")
+    unserved_count = build_initial_routes(problem, column_pool)
+    logger.info(f"Greedy pass left {unserved_count} customers unserved, fallback applied.")
     
     logger.info("Starting Root Node Column Generation...\n")
     start_time = time.time()
@@ -295,7 +365,7 @@ def main():
     logger.info(f"Total Columns in Pool        : {column_pool.num_routes}")
     logger.info(f"Total Execution Time         : {elapsed:.2f} seconds")
 
-    shutil.copy2(config_path, results_dir / "default_config.yaml")
+    shutil.copy2(config_path, results_dir / config_path.name)
     report_path = write_cg_markdown_report(
         results_dir=results_dir,
         orders_file_path=orders_file_path,

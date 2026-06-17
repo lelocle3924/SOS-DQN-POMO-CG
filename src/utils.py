@@ -1,6 +1,9 @@
-"""Utility functions: seed fixing, time parsing, normalization."""
+"""Utility functions: seed fixing, time parsing, normalization, config loading."""
 
 import random
+import importlib.util
+from pathlib import Path
+from typing import Dict, Any
 import numpy as np
 import torch
 
@@ -39,3 +42,23 @@ def normalize_coordinates(coords: np.ndarray) -> np.ndarray:
     range_vals = max_vals - min_vals
     range_vals[range_vals == 0] = 1.0
     return (coords - min_vals) / range_vals
+
+
+def load_config(config_path: str | Path) -> Dict[str, Any]:
+    """Load configuration dictionary from a Python file path."""
+    path = Path(config_path).resolve()
+    if not path.exists():
+        raise FileNotFoundError(f"Configuration file not found: {path}")
+
+    # Use importlib to dynamically load the Python config file
+    spec = importlib.util.spec_from_file_location("dynamic_config", str(path))
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not load spec for config file: {path}")
+
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+
+    if not hasattr(module, "config"):
+        raise AttributeError(f"Configuration file {path} must define a 'config' dictionary.")
+
+    return module.config
